@@ -150,38 +150,7 @@ const App = () => (
           </Div>
 
       <Div flex={1}>
-        <Div>
-          <Div centered>
-            <Text uppercase>the fox flew over the pen with weary eyes</Text>
-          </Div>
-        </Div>
-
-        <Div>
-          <Div>
-            <Text>
-              Amidst the crowd, rulers marched vigorously with stained heavy
-              feet, shining with pride nonetheless. No one would have been
-              better prepared for the distress that it would entail. Remember
-              the song! A woman yelled from one side of the street. On the
-              other, a group of kids heard the call, but only one understood
-              what it meant. Dancers in white flailed their bandanas in the
-              swift air of spring. Ding ding dong, dinga, ding ding dong!
-            </Text>
-          </Div>
-        </Div>
-
-        <Div>
-          <Div>
-            <Text>
-              Monkeys drove around carpool lanes, watching apples turn brown.
-              Pushed through fast moving dust particles, singing fairies.
-              Lyrical bombs caught her smiling again, until the love was gone.
-              All the alls, none the nones. Barter the golden monuments for
-              drinks and proteins ★
-            </Text>
-          </Div>
-        </Div>
-
+        
         <Div>
           <Div>
             <Div>
