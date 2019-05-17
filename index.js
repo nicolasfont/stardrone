@@ -126,7 +126,17 @@ const App = () => (
 <Div centered>
             <Text uppercase>the fox flew over the pen with weary eyes</Text>
           </Div>
-
+<Div>
+            <Text>
+              Amidst the crowd, rulers marched vigorously with stained heavy
+              feet, shining with pride nonetheless. No one would have been
+              better prepared for the distress that it would entail. Remember
+              the song! A woman yelled from one side of the street. On the
+              other, a group of kids heard the call, but only one understood
+              what it meant. Dancers in white flailed their bandanas in the
+              swift air of spring. Ding ding dong, dinga, ding ding dong!
+            </Text>
+          </Div>
 
       <Div flex={1}>
         <Div>
