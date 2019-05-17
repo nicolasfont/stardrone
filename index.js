@@ -78,7 +78,7 @@ const ColoringTextarea = ({ children, ...otherProps }) => {
 const Body = ({ children }) => {
   const { color } = useColor();
   const [firstColor] = useState(color);
-  document.body.style.backgroundColor = 'linear-gradient(red,orange)';// color;
+  document.body.style.background = 'linear-gradient(red,orange)';// color;
   if (color !== firstColor) {
     document.body.style.transition = "background-color 1000ms, color 1000ms";
   }
