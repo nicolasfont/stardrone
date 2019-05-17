@@ -138,6 +138,15 @@ const App = () => (
               swift air of spring. Ding ding dong, dinga, ding ding dong!
             </Text>
           </Div>
+<Div>
+            <Text>
+              Monkeys drove around carpool lanes, watching apples turn brown.
+              Pushed through fast moving dust particles, singing fairies.
+              Lyrical bombs caught her smiling again, until the love was gone.
+              All the alls, none the nones. Barter the golden monuments for
+              drinks and proteins ★
+            </Text>
+          </Div>
 
       <Div flex={1}>
         <Div>
