@@ -31,7 +31,7 @@ const Div = ({ noBorder, centered, children, flex, style }) => {
     <div
       style={{
         alignItems: centered && "center",
-        background: colored ? color : "white",
+        background: colored ? undefined : "white",
         border: !noBorder && "solid 4px",
         borderColor: !noBorder && "black",
         borderRadius: 4,
