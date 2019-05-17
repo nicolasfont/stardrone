@@ -11,7 +11,7 @@ const ColorProvider = ({ children }) => {
   const saturation = `${80}%`;
   const lightness = `${60}%`;
   //const color = `hsl(${hue}, ${saturation}, ${lightness})`;
-  const color = 'linear-gradient(hsl(200, 50%, 50%),orange)';
+  const color = 'linear-gradient(hsl(),orange)';
   return (
     <ColorContext.Provider value={{ base, setBase, color }}>
       {children}
