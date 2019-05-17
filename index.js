@@ -123,6 +123,10 @@ const App = () => (
       <稿タ />
 
       <ColoringTextarea />
+<Div centered>
+            <Text uppercase>the fox flew over the pen with weary eyes</Text>
+          </Div>
+
 
       <Div flex={1}>
         <Div>
