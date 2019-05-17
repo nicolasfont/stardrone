@@ -10,7 +10,9 @@ const ColorProvider = ({ children }) => {
   const hue = parseInt(hash(seed + base), 16) % 360;
   const saturation = `${80}%`;
   const lightness = `${60}%`;
-  const color = `linear-gradient(hsl(${hue}, ${saturation}, ${lightness}),hsl(${(hue + 40) % 360}, ${saturation}, ${lightness}))`;
+  const color = `linear-gradient(hsl(${hue}, ${saturation}, ${lightness}),hsl(${(hue +
+    40) %
+    360}, ${saturation}, ${lightness}))`;
   return (
     <ColorContext.Provider value={{ base, setBase, color }}>
       {children}
