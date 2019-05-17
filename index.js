@@ -94,7 +94,7 @@ const Body = ({ children }) => {
 const 稿タ = () => {
   const { color } = useColor();
   return (
-    <Div noBorder style={{ background: undefined, color: "white" }}>
+    <Div noBorder style={{ color: "white" }}>
       <Text small>
         稿タテモ同稚ゆばラぴ辞57日イ日能でぞあめ奈67応ヤキニロ戦聞けくぞに働助速高テホ本街性構く。居きゅご害覧図ウネノケ条体れル環62各実5索シヘチ稿電ンぞえ面月イタヘハ携祐定メ今無実トエ整挙ぶじべぎ勤三めのッ。産ぞんトぼ用見係スぞ市医きふクゆ井徳キ団発ょぎり場陸義ヱコオモ首児びなイ参約ほをまぶ告生ッ幸限でっル必子ぎ治推可リヨキツ円必へのクき面講ミホ覧一モナハ州和退冤冶ずづれ。
       </Text>
