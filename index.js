@@ -8,7 +8,7 @@ const ColorProvider = ({ children }) => {
   const [base, setBase] = useState("");
   const seed = "0";
   const hue = parseInt(hash(seed + base), 16) % 360;
-  const hue2 = (hue + 60) % 360;
+  const hue2 = (hue + 72) % 360;
   const saturation = `${80}%`;
   const lightness = `${60}%`;
   const color = `linear-gradient(hsl(${hue}, ${saturation}, ${lightness}),hsl(${hue2}, ${saturation}, ${lightness}))`;
