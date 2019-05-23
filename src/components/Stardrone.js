@@ -3,7 +3,7 @@ import Div from "./Div";
 import { Link as BaseLink } from "react-router-dom";
 
 const Link = ({ children, ...props }) => (
-  <BaseLink style={{ textDecoration: "none" }} {...props}>
+  <BaseLink style={{ textDecoration: "none", fontFamily: "Amsterdam" }} {...props}>
     {children}
   </BaseLink>
 );
