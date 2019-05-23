@@ -3,8 +3,9 @@ import { render } from "react-dom";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Stardrone from "./components/Stardrone";
 import Space from "./components/Space";
+import Div from './components/Div';
 
-const Div = ({ children, row }) => (
+const Div2 = ({ children, row }) => (
   <div
     style={{
       display: "flex",
