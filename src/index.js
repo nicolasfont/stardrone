@@ -4,7 +4,6 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Stardrone from "./components/Stardrone";
 import Space from "./components/Space";
 
-
 const Div = ({ children, row }) =>
   <div style={{
     display: "flex",
