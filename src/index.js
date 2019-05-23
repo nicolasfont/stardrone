@@ -1,6 +1,7 @@
 import hash from "object-hash";
 import React, { createContext, useContext, useState } from "react";
 import { render } from "react-dom";
+import ExperimentInSpace from './components/ExperimentInSpace';
 
 const ColorContext = createContext();
 
@@ -115,58 +116,5 @@ const Text = ({ children, uppercase, small, style }) => (
     {children}
   </span>
 );
-
-const ExperimentInSpace = () =>
-  <ColorProvider>
-    <Body>
-      <稿タ />
-
-      <ColoringTextarea />
-      <Div centered>
-        <Text uppercase>the fox flew over the pen with weary eyes</Text>
-      </Div>
-
-      <Div>
-        <Text>
-          Amidst the crowd, rulers marched vigorously with stained heavy feet,
-          shining with pride nonetheless. No one would have been better prepared
-          for the distress that it would entail. Remember the song! A woman
-          yelled from one side of the street. On the other, a group of kids
-          heard the call, but only one understood what it meant. Dancers in
-          white flailed their bandanas in the swift air of spring. Ding ding
-          dong, dinga, ding ding dong!
-        </Text>
-      </Div>
-
-      <Div>
-        <Text>
-          Monkeys drove around carpool lanes, watching apples turn brown. Pushed
-          through fast moving dust particles, singing fairies. Lyrical bombs
-          caught her smiling again, until the love was gone. All the alls, none
-          the nones. Barter the golden monuments for drinks and proteins ★
-        </Text>
-      </Div>
-
-      <Div flex={1}>
-        <Div>
-          <Div>
-            <Div>
-              <Div>
-                <Div />
-              </Div>
-            </Div>
-          </Div>
-        </Div>
-
-        <Div centered flex={1}>
-          <Text>experiment in space</Text>
-        </Div>
-      </Div>
-
-      <Div centered>
-        <Text style={{ paddingTop: 2 }}>😍👽🤖💀🎧🖤🎹🎸🎨🎭🚀🏴💭🌵🌴☀️</Text>
-      </Div>
-    </Body>
-  </ColorProvider>;
 
 render(<ExperimentInSpace />, document.getElementById("app"));
