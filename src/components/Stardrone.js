@@ -11,13 +11,13 @@ const Link = ({ children, ...props }) => (
 export default () => (
   <Div>
     <Div>
-      <Link to="space">Space</Link>
+      <Link to="music">Music</Link>
     </Div>
     <Div>
       <Link to="colors">Colors</Link>
     </Div>
     <Div>
-      <Link to="music">Music</Link>
+      <Link to="space">Space</Link>
     </Div>
   </Div>
 );
