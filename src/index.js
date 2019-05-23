@@ -12,11 +12,9 @@ render(
   <Router>
     <Body margin={0}>
       <Div row style={{ position: "absolute" }}>
-        <Div>
-          <Link to="/">
-            <img src={image} width={40} height={40} />
-          </Link>
-        </Div>
+        <Link to="/">
+          <img src={image} width={40} height={40} />
+        </Link>
       </Div>
       <Div centered flex={1}>
         <Route path="/" exact component={Stardrone} />
