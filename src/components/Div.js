@@ -1,7 +1,7 @@
 import React from 'react';
 
 export default ({ centered, children, row, style }) => (
-  console.log(centered) || 
+  console.log(centered) ||
   <div
     style={{
       alignItems: centered && "center",

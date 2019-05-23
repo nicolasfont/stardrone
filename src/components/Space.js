@@ -27,6 +27,7 @@ const Div = ({ noBorder, children, flex, style, ...otherProps }) => {
   const { color } = useColor();
   const count = useContext(DivContext) || 0;
   const colored = count % 2 === 0;
+  console.table(otherProps);
   return (
     <BaseDiv
       style={{
