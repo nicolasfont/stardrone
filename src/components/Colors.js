@@ -6,7 +6,6 @@ export default () =>
   <Div row>
       <Motion defaultStyle={{ x: 0 }} style={{ x: spring(20) }}>
         {({ x }) =>
-          <span>{x}</span>
           <Div style={{ backgroundColor: "red", height: x, width: x }}></Div>
         }
       </Motion>
