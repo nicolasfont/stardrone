@@ -12,7 +12,7 @@ import webfont from 'webfont';
 const Fonts = () => {
   useEffect(() => {
     webfont.load({
-      files: "src/fonts/billy-argel_amsterdam",
+      files: "src/fonts/**/*.ttf",
       fontName: "Amsterdam"
     });
   }, []);
