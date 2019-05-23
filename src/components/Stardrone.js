@@ -12,6 +12,7 @@ export default () => (
     </Div>
     <Div>
       <Link to="colors">Colors</Link>
+      <Link to="colors2">Colors2</Link>
     </Div>
   </Div>
 );
