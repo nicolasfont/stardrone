@@ -36,7 +36,6 @@ const Div = ({ noBorder, centered, children, flex, style }) => {
         borderColor: !noBorder && "black",
         borderRadius: 4,
         color: colored ? "white" : "black",
-        display: "flex",
         flexDirection: "column",
         flex,
         justifyContent: centered && "center",
