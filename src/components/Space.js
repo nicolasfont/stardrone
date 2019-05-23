@@ -33,7 +33,6 @@ const Div = ({ noBorder, children, style, ...otherProps }) => {
         background: colored ? color : "white",
         border: !noBorder && "solid 4px",
         borderColor: !noBorder && "black",
-        borderRadius: 4,
         color: colored ? "white" : "black",
         transition: "background-color 1000ms, color 1000ms",
         ...style
