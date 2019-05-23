@@ -116,7 +116,7 @@ const Text = ({ children, uppercase, small, style }) => (
   </span>
 );
 
-export default () =>
+export default () => (
   <ColorProvider>
     <Body>
       <稿タ />
@@ -167,4 +167,5 @@ export default () =>
         <Text style={{ paddingTop: 2 }}>😍👽🤖💀🎧🖤🎹🎸🎨🎭🚀🏴💭🌵🌴☀️</Text>
       </Div>
     </Body>
-  </ColorProvider>;
+  </ColorProvider>
+);
