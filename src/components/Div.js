@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default ({ children, row, style }) => (
+export default ({ centered, children, row, style }) => (
   <div
     style={{
       display: "flex",
