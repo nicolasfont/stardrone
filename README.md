@@ -1,4 +1,4 @@
-# stardrone
+# Stardrone
 A playground for experiments.
 
 # Why so many small commits?
