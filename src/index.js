@@ -2,7 +2,7 @@ import React from "react";
 import { render } from "react-dom";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Stardrone from "./components/Stardrone";
-import Space from './components/Space';
+import Space from "./components/Space";
 
 render(
   <Router>
