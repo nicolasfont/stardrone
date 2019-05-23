@@ -1,6 +1,9 @@
 import React from "react";
 import Div from "./Div";
-import { Link } from "react-router-dom";
+import { Link as BaseLink } from "react-router-dom";
+
+const Link = BaseLink;
+
 
 export default () => (
   <Div>
