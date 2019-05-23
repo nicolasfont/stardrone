@@ -8,7 +8,7 @@ const Link = ({ children }) =>
 export default () => (
   <Div>
     <Div>
-      <Link to="space">Space</Link>
+      <Link to="/space">Space</Link>
     </Div>
     <Div>
       <Link to="colors">Colors</Link>
