@@ -10,6 +10,6 @@ const Div = ({ children }) =>
 export default () => (
   <Div>
     <Div>Stardrone</Div>
-    <Link to="space">Space</Link>
+    <Div><Link to="space">Space</Link></Div>
   </Div>
 );
