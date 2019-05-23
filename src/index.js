@@ -10,7 +10,6 @@ render(
   <Router>
     <Div row style={{position: "absolute"}}>
       <Div><Link to="/"><img src={image} width={40} height={40}/></Link></Div>
-      <Div><Link to="space">Space</Link></Div>
     </Div>
     <Div>
       <Route path="/" exact component={Stardrone} />
