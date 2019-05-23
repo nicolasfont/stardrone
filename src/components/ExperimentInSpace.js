@@ -1,6 +1,5 @@
 import hash from "object-hash";
-import React, { createContext, useContext, useState } from "react";
-import { render } from "react-dom";
+import React, { createContext, useContext, useEffect, useState } from "react";
 
 const ColorContext = createContext();
 
@@ -79,11 +78,21 @@ const ColoringTextarea = ({ children, ...otherProps }) => {
 const Body = ({ children }) => {
   const { color } = useColor();
   const [firstColor] = useState(color);
-  document.body.style.background = color;
-  if (color !== firstColor) {
-    document.body.style.transition = "background-color 1000ms, color 1000ms";
-  }
-  document.body.style.margin = 0;
+
+  useEffect(() => {
+    document.body.style.background = color;
+    if (color !== firstColor) {
+      document.body.style.transition = "background-color 1000ms, color 1000ms";
+    }
+    document.body.style.margin = 0;
+
+    return () => {
+      document.body.style.background = null;
+      document.body.style.transition = null;
+      document.body.style.margin = null;
+    };
+  }, [color]);
+
   return (
     <Div noBorder flex={1} style={{ maxWidth: 760, margin: "auto" }}>
       {children}
