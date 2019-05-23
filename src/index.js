@@ -1,7 +1,6 @@
 import React from "react";
 import { render } from "react-dom";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import { AnimatedSwitch } from 'react-router-transition';
 import Stardrone from "./components/Stardrone";
 import Body from "./components/Body";
 import Colors from "./components/Colors";
@@ -19,15 +18,9 @@ render(
           </Link>
         </Div>
         <Div centered flex={1}>
-          <AnimatedSwitch
-            atEnter={{ opacity: 0 }}
-            atLeave={{ opacity: 0 }}
-            atActive={{ opacity: 1 }}
-          >
-            <Route path="/" exact component={Stardrone} />
-            <Route path="/space" exact component={Space} />
-            <Route path="/colors" exact component={Colors} />
-          </AnimatedSwitch>
+          <Route path="/" exact component={Stardrone} />
+          <Route path="/space" exact component={Space} />
+          <Route path="/colors" exact component={Colors} />
         </Div>
       </Div>
     </Body>
