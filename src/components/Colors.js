@@ -3,6 +3,7 @@ import Div from "./Div";
 
 export default () =>
   <Div>
+    <Div>Red</Div>
     <Div>Blue</Div>
-    Colors
+    <Div>Green</Div>
   </Div>;
