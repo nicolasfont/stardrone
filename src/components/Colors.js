@@ -1,5 +1,4 @@
-import React from 'react';
-import Div from './Div';
+import React from "react";
+import Div from "./Div";
 
-export default () =>
-  <Div>Colors</Div>;
+export default () => <Div>Colors</Div>;

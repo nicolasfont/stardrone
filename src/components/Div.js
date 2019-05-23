@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 export default ({ centered, children, flex, row, style }) => (
   <div
