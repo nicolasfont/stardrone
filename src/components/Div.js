@@ -4,6 +4,7 @@ export default ({ centered, children, flex, row, style }) => (
   <div
     style={{
       alignItems: centered && "center",
+      borderRadius: 4,
       display: "flex",
       flex,
       flexDirection: row ? "row" : "column",
