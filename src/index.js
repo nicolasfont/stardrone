@@ -9,7 +9,7 @@ import image from "./images/12524041_10153845708099354_6990004252861025374_n.jpg
 render(
   <Router>
     <Div row>
-      <Div><Link to="/">/</Link></Div>
+      <Div><Link to="/">/<img src={image} width={40} height={40}/></Link></Div>
       <Div><Link to="space">Space</Link></Div>
     </Div>
     <Div>
