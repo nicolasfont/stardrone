@@ -7,6 +7,7 @@ import Colors from "./components/Colors";
 import Div from "./components/Div";
 import Space from "./components/Space";
 import image from "./images/12524041_10153845708099354_6990004252861025374_n.jpg";
+import "./fonts/billy-argel_amsterdam/Amsterdam Personal Use.ttf";
 
 render(
   <Router>
