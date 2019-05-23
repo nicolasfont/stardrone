@@ -3,7 +3,7 @@ import Div from "./Div";
 
 export default () =>
   <Div row>
-    <Div style={{ backgroundColor: "red" }}>Red</Div>
+    <Div style={{ backgroundColor: "red" }}></Div>
     <Div>Blue</Div>
     <Div>Green</Div>
   </Div>;
