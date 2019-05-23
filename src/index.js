@@ -20,8 +20,6 @@ render(
         </Div>
         <Div centered flex={1}>
           <AnimatedSwitch
-            atEnter={{ opacity: 0 }}
-            atLeave={{ opacity: 0 }}
             atActive={{ opacity: 1 }}
           >
             <Route path="/" exact component={Stardrone} />
