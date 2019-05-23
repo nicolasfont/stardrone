@@ -8,7 +8,7 @@ import Space from './components/Space';
 render(
   <Router>
     <Route path="/" exact component={Stardrone} />
-    <Route path="/space" exact component={ExperimentInSpace} />
+    <Route path="/space" exact component={Space} />
   </Router>,
   document.getElementById("app")
 );
