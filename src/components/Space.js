@@ -36,8 +36,6 @@ const Div = ({ noBorder, centered, children, flex, style }) => {
         borderRadius: 4,
         color: colored ? "white" : "black",
         flex,
-        justifyContent: centered && "center",
-        textAlign: centered && "center",
         transition: "background-color 1000ms, color 1000ms",
         ...style
       }}
