@@ -15,10 +15,15 @@ const Div = ({ children }) =>
 
 render(
   <Div>
-  <Router>
-    <Route path="/" exact component={Stardrone} />
-    <Route path="/space" exact component={Space} />
-  </Router>
+    <Div>
+      
+    </Div>
+    <Div>
+      <Router>
+        <Route path="/" exact component={Stardrone} />
+        <Route path="/space" exact component={Space} />
+      </Router>
+    </Div>
   </Div>,
   document.getElementById("app")
 );
