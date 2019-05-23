@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { render } from "react-dom";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Stardrone from "./components/Stardrone";
@@ -10,7 +10,11 @@ import image from "./images/12524041_10153845708099354_6990004252861025374_n.jpg
 import webfont from 'webfont';
 
 const Fonts = () => {
-
+  useEffect(() => {
+    webfont.load({
+      
+    });
+  }, []);
 };
 
 render(
