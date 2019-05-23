@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Div = ({ children }) =>
   <div style={{
-    flexDirection: "row"
+    flexDirection: "column",
     margin: 4,
     padding: 4,
   }}>{children}</div>;
