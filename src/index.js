@@ -3,4 +3,4 @@ import { render } from "react-dom";
 import ExperimentInSpace from './components/ExperimentInSpace';
 import Stardrone from './components/Stardrone';
 
-render(<Stardrone />, document.getElementById("app"));
+render(<ExperimentInSpace />, document.getElementById("app"));
