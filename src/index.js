@@ -8,7 +8,7 @@ import Div from './components/Div';
 render(
   <Router>
     <Div>
-      <Div row>
+      <Div>
         <Div row><Link to="/">/</Link></Div>
         <Div row><Link to="space">Space</Link></Div>
       </Div>
