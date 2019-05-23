@@ -12,7 +12,7 @@ import webfont from 'webfont';
 const Fonts = () => {
   useEffect(() => {
     webfont.load({
-      files: ["src/fonts/billy-argel_amsterdam"],
+      files: "src/fonts/billy-argel_amsterdam",
       fontName: "Amsterdam"
     });
   }, []);
@@ -21,7 +21,7 @@ const Fonts = () => {
 
 render(
   <Router>
-    
+
     <Body margin={0}>
       <Div flex={1}>
         <Div style={{ position: "absolute" }}>
