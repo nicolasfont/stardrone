@@ -7,17 +7,6 @@ import Colors from "./components/Colors";
 import Div from "./components/Div";
 import Space from "./components/Space";
 import image from "./images/12524041_10153845708099354_6990004252861025374_n.jpg";
-import webfont from 'webfont';
-
-const Fonts = () => {
-  useEffect(() => {
-    webfont({
-      files: "src/fonts/**/*.ttf",
-      fontName: "Amsterdam"
-    });
-  }, []);
-  return null;
-};
 
 render(
   <Router>
