@@ -8,9 +8,9 @@ import Div from './components/Div';
 render(
   <Router>
     <Div>
-      <Div>
-        <Div row><Link to="/">/</Link></Div>
-        <Div row><Link to="space">Space</Link></Div>
+      <Div row>
+        <Div><Link to="/">/</Link></Div>
+        <Div><Link to="space">Space</Link></Div>
       </Div>
       <Div>
         <Route path="/" exact component={Stardrone} />
