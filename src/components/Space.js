@@ -23,7 +23,7 @@ const useColor = () => useContext(ColorContext);
 
 const DivContext = createContext();
 
-const Div = ({ noBorder, centered, children, flex, style }) => {
+const Div = ({ noBorder, centered, children, flex, style, ...otherProps }) => {
   const { color } = useColor();
   const count = useContext(DivContext) || 0;
   const colored = count % 2 === 0;
@@ -37,7 +37,8 @@ const Div = ({ noBorder, centered, children, flex, style }) => {
         color: colored ? "white" : "black",
         flex,
         transition: "background-color 1000ms, color 1000ms",
-        ...style
+        ...style,
+        ...otherProps
       }}
     >
       <DivContext.Provider value={count + 1}>{children}</DivContext.Provider>
