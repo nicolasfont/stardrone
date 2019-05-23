@@ -7,7 +7,7 @@ export default () =>
       <Motion defaultStyle={{ height: 0, width: 0 }} style={{ height: spring(30), width: spring(30) }}>
         {({ height, width }) =>
           <>
-            <Div style={{ backgroundColor: "red", height, width }}></Div>
+            <Div style={{ backgroundColor: "red", borderRadius: "50%", height, width }}></Div>
             <Div style={{ backgroundColor: "purple", height, width  }}></Div>
             <Div style={{ backgroundColor: "blue", height, width  }}></Div>
             <Div style={{ backgroundColor: "lightblue", height, width  }}></Div>
