@@ -1,5 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default () => (
-  <div>Stardrone</div>
+  <div>
+    <div>Stardrone</div>
+    <Link to="space">Space</Link>
+  </div>
 );
