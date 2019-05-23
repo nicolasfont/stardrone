@@ -17,7 +17,7 @@ render(
       <Div flex={1}>
         <Div style={{ position: "absolute" }}>
           <Link to="/">
-            <img src={image} width={40} height={40} />
+            <img src={image} width={40} height={40} style={{ borderRadius: 4 }} />
           </Link>
         </Div>
         <Div centered flex={1}>
