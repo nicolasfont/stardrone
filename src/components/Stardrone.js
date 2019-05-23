@@ -9,11 +9,11 @@ const Link = ({ children, ...props }) => (
 );
 
 export default () => (
-  <Div centered flex={1}>
-    <Div flex={1}>
+  <Div>
+    <Div>
       <Link to="space">Space</Link>
     </Div>
-    <Div flex={1}>
+    <Div>
       <Link to="colors">Colors</Link>
     </Div>
   </Div>
