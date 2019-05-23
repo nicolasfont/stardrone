@@ -4,7 +4,7 @@ import { Motion, spring } from 'react-motion';
 
 export default () =>
   <Div row>
-      <Motion defaultStyle={{ x: 0 }} style={{ x: spring(20) }}>
+      <Motion defaultStyle={{ x: 0 }} style={{ x: spring(30) }}>
         {({ x }) =>
           <Div style={{ backgroundColor: "red", height: x, width: x }}></Div>
         }
