@@ -8,7 +8,7 @@ const Div = ({ children }) =>
   }}>{children}</div>;
 
 export default () => (
-  <Div column>
+  <Div row>
     <Div>Stardrone</Div>
     <Div><Link to="space">Space</Link></Div>
   </Div>
