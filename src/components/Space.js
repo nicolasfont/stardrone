@@ -39,8 +39,6 @@ const Div = ({ noBorder, centered, children, flex, style }) => {
         flexDirection: "column",
         flex,
         justifyContent: centered && "center",
-        margin: 4,
-        padding: 4,
         textAlign: centered && "center",
         transition: "background-color 1000ms, color 1000ms",
         ...style
