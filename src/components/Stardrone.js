@@ -9,7 +9,7 @@ const Link = ({ children, ...props }) => (
 );
 
 export default () => (
-  <Div>
+  <Div row>
     <Div>
       <Link to="music">Music</Link>
     </Div>
