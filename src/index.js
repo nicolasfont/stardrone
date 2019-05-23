@@ -12,7 +12,7 @@ render(
     <Div row style={{position: "absolute"}}>
       <Div><Link to="/"><img src={image} width={40} height={40}/></Link></Div>
     </Div>
-    <Div centered flex={1}>
+    <Div flex={1}>
       <Route path="/" exact component={Stardrone} />
       <Route path="/space" exact component={Space} />
       <Route path="/colors" exact component={Colors} />
