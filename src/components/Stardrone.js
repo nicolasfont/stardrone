@@ -8,8 +8,8 @@ const Div = ({ children }) =>
   }}>{children}</div>;
 
 export default () => (
-  <div>
-    <div>Stardrone</div>
+  <Div>
+    <Div>Stardrone</Div>
     <Link to="space">Space</Link>
-  </div>
+  </Div>
 );
