@@ -3,8 +3,9 @@ import { Link } from "react-router-dom";
 
 const Div = ({ children }) =>
   <div style={{
+    flexDirection: "row"
+    margin: 4,
     padding: 4,
-    margin: 4
   }}>{children}</div>;
 
 export default () => (
