@@ -116,7 +116,7 @@ const Text = ({ children, uppercase, small, style }) => (
   </span>
 );
 
-const App = () => (
+const ExperimentInSpace = () =>
   <ColorProvider>
     <Body>
       <稿タ />
@@ -167,7 +167,6 @@ const App = () => (
         <Text style={{ paddingTop: 2 }}>😍👽🤖💀🎧🖤🎹🎸🎨🎭🚀🏴💭🌵🌴☀️</Text>
       </Div>
     </Body>
-  </ColorProvider>
-);
+  </ColorProvider>;
 
-render(<App />, document.getElementById("app"));
+render(<ExperimentInSpace />, document.getElementById("app"));
