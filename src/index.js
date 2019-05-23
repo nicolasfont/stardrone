@@ -7,16 +7,14 @@ import Div from './components/Div';
 
 render(
   <Router>
-
-      <Div row>
-        <Div><Link to="/">/</Link></Div>
-        <Div><Link to="space">Space</Link></Div>
-      </Div>
-      <Div>
-        <Route path="/" exact component={Stardrone} />
-        <Route path="/space" exact component={Space} />
-      </Div>
-
+    <Div row>
+      <Div><Link to="/">/</Link></Div>
+      <Div><Link to="space">Space</Link></Div>
+    </Div>
+    <Div>
+      <Route path="/" exact component={Stardrone} />
+      <Route path="/space" exact component={Space} />
+    </Div>
   </Router>,
   document.getElementById("app")
 );
