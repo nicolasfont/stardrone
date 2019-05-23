@@ -6,8 +6,10 @@ export default ({ centered, children, row, style }) => (
       alignItems: centered && "center",
       display: "flex",
       flexDirection: row ? "row" : "column",
+      justifyContent: centered && "center",
       margin: 4,
       padding: 4,
+      textAlign: centered && "center",
       ...style
     }}
   >
