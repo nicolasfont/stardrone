@@ -1,5 +1,6 @@
 import React from "react";
 import Div from "./Div";
+import { Motion, spring } from 'react-motion';
 
 export default () =>
   <Div row>
