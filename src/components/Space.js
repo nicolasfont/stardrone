@@ -23,7 +23,7 @@ const useColor = () => useContext(ColorContext);
 
 const DivContext = createContext();
 
-const Div = ({ noBorder, centered, children, flex, style, ...otherProps }) => {
+const Div = ({ noBorder, children, flex, style, ...otherProps }) => {
   const { color } = useColor();
   const count = useContext(DivContext) || 0;
   const colored = count % 2 === 0;
