@@ -16,11 +16,12 @@ const Fonts = () => {
       fontName: "Amsterdam"
     });
   }, []);
-  return </>;
+  return null;
 };
 
 render(
   <Router>
+    <Fonts />
     <Body margin={0}>
       <Div flex={1}>
         <Div style={{ position: "absolute" }}>
