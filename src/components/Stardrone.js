@@ -2,8 +2,7 @@ import React from "react";
 import Div from "./Div";
 import { Link as BaseLink } from "react-router-dom";
 
-const Link = BaseLink;
-
+const Link = ({ children }) => <BaseLink>{children}</BaseLink>;
 
 export default () => (
   <Div>
