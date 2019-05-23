@@ -3,21 +3,17 @@ import Div from "./Div";
 import { Link as BaseLink } from "react-router-dom";
 
 const Link = ({ children, ...props }) => (
-  <BaseLink style={{ color: "black", fontFamily: "Amsterdam", textDecoration: "none" }} {...props}>
-    {children}
-  </BaseLink>
+  <Div>
+    <BaseLink style={{ color: "black", fontFamily: "Amsterdam", textDecoration: "none" }} {...props}>
+      {children}
+    </BaseLink>
+  </Div>
 );
 
 export default () => (
   <Div row>
-    <Div>
-      <Link to="music">Music</Link>
-    </Div>
-    <Div>
-      <Link to="colors">Colors</Link>
-    </Div>
-    <Div>
-      <Link to="space">Space</Link>
-    </Div>
+    <Link to="music">Music</Link>
+    <Link to="colors">Colors</Link>
+    <Link to="space">Space</Link>
   </Div>
 );
