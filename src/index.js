@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Stardrone from "./components/Stardrone";
 import Space from "./components/Space";
 import Div from './components/Div';
-import image from ""
+import image from "12524041_10153845708099354_6990004252861025374_n.jpg";
 
 render(
   <Router>
