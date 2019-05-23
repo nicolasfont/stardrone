@@ -3,7 +3,5 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import ExperimentInSpace from "./ExperimentInSpace";
 
 export default () => (
-  <Router>
-    <Route path="/" exact component={ExperimentInSpace} />
-  </Router>
+  <div>Stardrone</div>
 );
