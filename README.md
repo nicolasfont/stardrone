@@ -1,5 +1,6 @@
 # stardrone
 A playground for experiments.
 
-Developed using git-live.
+# Why so many small commits?
+This is being developed using [git-live].
 
