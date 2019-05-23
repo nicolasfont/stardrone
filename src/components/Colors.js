@@ -9,7 +9,6 @@ export default () =>
           <Div style={{ backgroundColor: "red", height: x, width: x }}></Div>
         }
       </Motion>
-    <Div style={{ backgroundColor: "red", height: 20, width: 20 }}></Div>
     <Div style={{ backgroundColor: "purple" }}></Div>
     <Div style={{ backgroundColor: "blue" }}></Div>
     <Div style={{ backgroundColor: "lightblue" }}></Div>
