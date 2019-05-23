@@ -28,7 +28,7 @@ const Div = ({ noBorder, centered, children, flex, style }) => {
   const count = useContext(DivContext) || 0;
   const colored = count % 2 === 0;
   return (
-    <div
+    <BaseDiv
       style={{
         alignItems: centered && "center",
         background: colored ? color : "white",
@@ -48,7 +48,7 @@ const Div = ({ noBorder, centered, children, flex, style }) => {
       }}
     >
       <DivContext.Provider value={count + 1}>{children}</DivContext.Provider>
-    </div>
+    </BaseDiv>
   );
 };
 
