@@ -9,8 +9,8 @@ render(
   <Router>
     <Div>
       <Div row>
-        <Link to="/">/</Link>
-        <Link to="space">Space</Link>
+        <Div row><Link to="/">/</Link></Div>
+        <Div row><Link to="space">Space</Link></Div>
       </Div>
       <Div>
         <Route path="/" exact component={Stardrone} />
