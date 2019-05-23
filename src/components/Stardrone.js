@@ -16,5 +16,8 @@ export default () => (
     <Div>
       <Link to="colors">Colors</Link>
     </Div>
+    <Div>
+      <Link to="music">Music</Link>
+    </Div>
   </Div>
 );
