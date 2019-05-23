@@ -12,7 +12,7 @@ render(
   <Router>
     <Body margin={0}>
       <Div flex={1}>
-        <Div row style={{ position: "absolute" }}>
+        <Div style={{ position: "absolute" }}>
           <Link to="/">
             <img src={image} width={40} height={40} />
           </Link>
