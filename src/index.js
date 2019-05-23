@@ -14,9 +14,11 @@ const Div = ({ children }) =>
   }}>{children}</div>;
 
 render(
+  <Div>
   <Router>
     <Route path="/" exact component={Stardrone} />
     <Route path="/space" exact component={Space} />
-  </Router>,
+  </Router>
+  </Div>,
   document.getElementById("app")
 );
