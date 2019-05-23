@@ -6,7 +6,8 @@ import ExperimentInSpace from "./components/ExperimentInSpace";
 
 render(
   <Router>
-    <Route path="/" exact component={ExperimentInSpace} />
+    <Route path="/" exact component={Stardrone} />
+    <Route path="/space" exact component={ExperimentInSpace} />
   </Router>,
   document.getElementById("app")
 );
