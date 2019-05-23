@@ -5,10 +5,10 @@ import Stardrone from "./components/Stardrone";
 import Space from "./components/Space";
 
 
-const Div = ({ children }) =>
+const Div = ({ children, row }) =>
   <div style={{
     display: "flex",
-    flexDirection: "row",
+    flexDirection: row ? "row" : "column",
     margin: 4,
     padding: 4,
   }}>{children}</div>;
