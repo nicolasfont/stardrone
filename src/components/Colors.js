@@ -8,11 +8,11 @@ export default () =>
         {({ height, width }) =>
           <>
             <Div style={{ backgroundColor: "red", height, width }}></Div>
-            <Div style={{ backgroundColor: "purple" }}></Div>
-            <Div style={{ backgroundColor: "blue" }}></Div>
-            <Div style={{ backgroundColor: "lightblue" }}></Div>
-            <Div style={{ backgroundColor: "green" }}></Div>
-            <Div style={{ backgroundColor: "yellow" }}></Div>
+            <Div style={{ backgroundColor: "purple", height, width  }}></Div>
+            <Div style={{ backgroundColor: "blue", height, width  }}></Div>
+            <Div style={{ backgroundColor: "lightblue", height, width  }}></Div>
+            <Div style={{ backgroundColor: "green", height, width  }}></Div>
+            <Div style={{ backgroundColor: "yellow", height, width  }}></Div>
           </>
         }
       </Motion>
