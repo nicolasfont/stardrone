@@ -16,8 +16,8 @@ render(
       </Div>
       <Div centered flex={1}>
         <Route path="/" exact component={Stardrone} />
-        <Route path="space" exact component={Space} />
-        <Route path="colors" exact component={Colors} />
+        <Route path="/space" exact component={Space} />
+        <Route path="/colors" exact component={Colors} />
       </Div>
     </Body>
   </Router>,
