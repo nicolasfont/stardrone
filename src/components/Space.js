@@ -77,12 +77,10 @@ const Body = ({ children }) => {
     if (color !== firstColor) {
       document.body.style.transition = "background-color 1000ms, color 1000ms";
     }
-    document.body.style.margin = 0;
 
     return () => {
       document.body.style.background = null;
       document.body.style.transition = null;
-      document.body.style.margin = null;
     };
   }, [color]);
 
