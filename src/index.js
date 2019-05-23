@@ -5,19 +5,6 @@ import Stardrone from "./components/Stardrone";
 import Space from "./components/Space";
 import Div from './components/Div';
 
-const Div2 = ({ children, row }) => (
-  <div
-    style={{
-      display: "flex",
-      flexDirection: row ? "row" : "column",
-      margin: 4,
-      padding: 4
-    }}
-  >
-    {children}
-  </div>
-);
-
 render(
   <Router>
     <Div>
