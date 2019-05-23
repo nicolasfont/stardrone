@@ -116,7 +116,7 @@ const Text = ({ children, uppercase, small, style }) => (
   </span>
 );
 
-const ExperimentInSpace = () =>
+export default () =>
   <ColorProvider>
     <Body>
       <稿タ />
@@ -168,5 +168,3 @@ const ExperimentInSpace = () =>
       </Div>
     </Body>
   </ColorProvider>;
-
-render(<ExperimentInSpace />, document.getElementById("app"));
