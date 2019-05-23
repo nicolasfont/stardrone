@@ -38,9 +38,9 @@ const Div = ({ noBorder, children, flex, style, ...otherProps }) => {
         color: colored ? "white" : "black",
         flex,
         transition: "background-color 1000ms, color 1000ms",
-        ...style,
-        ...otherProps
+        ...style
       }}
+      {...otherProps}
     >
       <DivContext.Provider value={count + 1}>{children}</DivContext.Provider>
     </BaseDiv>
