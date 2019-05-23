@@ -16,7 +16,7 @@ const Div = ({ children, row }) =>
 render(
       <Router>
   <Div>
-    <Div>
+    <Div row>
       <Link to="space">Space</Link>
     </Div>
     <Div>
