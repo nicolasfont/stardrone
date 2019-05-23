@@ -9,6 +9,7 @@ render(
   <Router>
     <Div>
       <Div row>
+        <Link to="/">/</Link>
         <Link to="space">Space</Link>
       </Div>
       <Div>
