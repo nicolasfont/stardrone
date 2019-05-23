@@ -9,6 +9,10 @@ import Space from "./components/Space";
 import image from "./images/12524041_10153845708099354_6990004252861025374_n.jpg";
 import webfont from 'webfont';
 
+const Fonts = () => {
+
+};
+
 render(
   <Router>
     <Body margin={0}>
