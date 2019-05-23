@@ -1,12 +1,13 @@
 import React from 'react';
 
-export default ({ children, row }) => (
+export default ({ children, row, style }) => (
   <div
     style={{
       display: "flex",
       flexDirection: row ? "row" : "column",
       margin: 4,
-      padding: 4
+      padding: 4,
+      ...style
     }}
   >
     {children}
