@@ -7,7 +7,7 @@ import Div from './components/Div';
 
 render(
   <Router>
-    <Div>
+
       <Div row>
         <Div><Link to="/">/</Link></Div>
         <Div><Link to="space">Space</Link></Div>
@@ -16,7 +16,7 @@ render(
         <Route path="/" exact component={Stardrone} />
         <Route path="/space" exact component={Space} />
       </Div>
-    </Div>
+
   </Router>,
   document.getElementById("app")
 );
