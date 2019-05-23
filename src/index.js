@@ -11,7 +11,7 @@ import webfont from 'webfont';
 
 const Fonts = () => {
   useEffect(() => {
-    webfont.load({
+    webfont({
       files: "src/fonts/**/*.ttf",
       fontName: "Amsterdam"
     });
