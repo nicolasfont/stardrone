@@ -8,7 +8,7 @@ const Link = ({ children, ...props }) => (
     <BaseLink
       style={{
         color: "black",
-        fontFamily: "Black Diamonds",
+        fontFamily: "Amsterdam",
         textDecoration: "none"
       }}
       {...props}
