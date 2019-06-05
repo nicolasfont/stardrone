@@ -20,7 +20,9 @@ const Link = ({ children, ...props }) => (
 
 export default () => (
   <Div flex={1} border>
-    <HomeLink />
+    <Div row>
+      <HomeLink />
+    </Div>
     <Div centered row flex={1}>
       <Link to="music">Music</Link>
       <Link to="colors">Colors</Link>
