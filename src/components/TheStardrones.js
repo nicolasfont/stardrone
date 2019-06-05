@@ -28,5 +28,7 @@ export default () => (
     <Div>
       <Link to="/">The Stardrones</Link>
     </Div>
+    <Div>
+    </Div>
   </Div>
 );
