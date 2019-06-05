@@ -11,17 +11,7 @@ const Link = ({ children, ...props }) => (
 );
 
 export default () => (
-  <Div flex={1}>
-  <Div centered row flex={1}>
-    <Link to="music">Music</Link>
-    <Link to="colors">Colors</Link>
-    <Link to="space">Space</Link>
-  </Div>
   <Div centered flex={1}>
-  <Div centered>
-    <Link to="space">les trous noirs</Link>
-    <Link to="thestardrones">The Stardrones</Link>
-  </Div>
-  </Div>
+    <Link to="/">The Stardrones</Link>
   </Div>
 );
