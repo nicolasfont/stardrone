@@ -28,7 +28,6 @@ export default () => (
       <img src={image} width={250} />
     </Div>
     <Div>
-      <Link to="/">Solvang & Volturiak</Link>
     </Div>
   </Div>
 );
