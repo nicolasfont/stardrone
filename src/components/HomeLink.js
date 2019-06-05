@@ -1,7 +1,6 @@
 import React from "react";
 import { render } from "react-dom";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import Body from "./components/Body";
 import Colors from "./components/Colors";
 import Div from "./components/Div";
 import Music from "./components/Music";
