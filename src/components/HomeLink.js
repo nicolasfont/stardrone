@@ -4,9 +4,6 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Body from "./components/Body";
 import Colors from "./components/Colors";
 import Div from "./components/Div";
-import Music from "./components/Music";
-import Space from "./components/Space";
-import Stardrone from "./components/Stardrone";
 import image from "./images/12524041_10153845708099354_6990004252861025374_n.jpg";
 
 export default () => (
