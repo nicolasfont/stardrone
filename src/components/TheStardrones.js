@@ -26,7 +26,7 @@ export default () => (
       <img src={image} width={250} />
     </Div>
     <Div>
-      <Link to="/"><Div style={{textShadow: "0.1px 0.1px 0.1px" }}>The Stardrones</Link>
+      <Link to="/"><Div style={{textShadow: "0.1px 0.1px 0.1px" }}>The Stardrones</Div></Link>
     </Div>
     <Div>
     </Div>
