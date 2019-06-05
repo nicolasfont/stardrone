@@ -24,5 +24,8 @@ export default () => (
     <Div centered>
       <img src={image} width={200} style={{ borderRadius: "50%" }} />
     </Div>
+    <Div centered flex={1}>
+      <Link to="/">The Stardrones</Link>
+    </Div>
   </Div>
 );
