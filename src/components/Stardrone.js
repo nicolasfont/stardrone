@@ -19,7 +19,7 @@ const Link = ({ children, ...props }) => (
 );
 
 export default () => (
-  <Div flex={1} border>
+  <Div flex={1}>
     <Div row>
       <HomeLink />
     </Div>
