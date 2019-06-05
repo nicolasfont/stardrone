@@ -19,11 +19,4 @@ export default () => (
   </Div>
 );
 
-render(
-  <Router>
-    <Body margin={0}>
-      <Div flex={1} />
-    </Body>
-  </Router>,
-  document.getElementById("app")
-);
+;
