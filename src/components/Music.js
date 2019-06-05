@@ -1,4 +1,5 @@
 import React from "react";
+import HomeLink from "./HomeLink";
 
 export default () => (
   <div>
