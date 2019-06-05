@@ -22,6 +22,8 @@ export default () => (
   <Div centered flex={1}>
   <Div centered flex={1}>
     <Link to="/">The Stardrones</Link>
+  </Div>
+  <Div centered flex={1}>
     <HomeLink bottom={0} right={0}/>
   </Div>
 );
