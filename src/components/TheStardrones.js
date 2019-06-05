@@ -25,7 +25,6 @@ export default () => (
       <Link to="/">The Stardrones</Link>
     </Div>
     <Div centered>
-      <HomeLink />
       <img src={image} width={40} height={40} style={{ borderRadius: "50%" }} />
     </Div>
   </Div>
