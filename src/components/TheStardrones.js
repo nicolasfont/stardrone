@@ -4,7 +4,14 @@ import { Link as BaseLink } from "react-router-dom";
 
 const Link = ({ children, ...props }) => (
   <Div>
-    <BaseLink style={{ color: "black", fontFamily: "Amsterdam", textDecoration: "none" }} {...props}>
+    <BaseLink
+      style={{
+        color: "black",
+        fontFamily: "Amsterdam",
+        textDecoration: "none"
+      }}
+      {...props}
+    >
       {children}
     </BaseLink>
   </Div>
