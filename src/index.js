@@ -15,7 +15,7 @@ render(
   <Router>
     <Body margin={0}>
       <Div flex={1}>
-                <Div flex={1} border>
+        <Div flex={1} border>
           <Route path="/" exact component={Stardrone} />
           <Route path="/space" exact component={Space} />
           <Route path="/colors" exact component={Colors} />
