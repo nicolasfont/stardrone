@@ -22,7 +22,7 @@ const Link = ({ children, ...props }) => (
 export default () => (
   <Div centered flex={1}>
     <Div>
-      <img src={image} width={200} style={{ borderRadius: "50%" }} />
+      <img src={image} width={200}/>
     </Div>
     <Div>
       <Link to="/">The Stardrones</Link>
