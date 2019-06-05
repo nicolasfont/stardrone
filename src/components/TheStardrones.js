@@ -1,6 +1,6 @@
 import React from "react";
 import Div from "./Div";
-import HomeLink from "./components/HomeLink";
+import HomeLink from ".//HomeLink";
 import { Link as BaseLink } from "react-router-dom";
 
 const Link = ({ children, ...props }) => (
