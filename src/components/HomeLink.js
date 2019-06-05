@@ -12,7 +12,7 @@ import image from "./images/12524041_10153845708099354_6990004252861025374_n.jpg
 import "./fonts/billy-argel_amsterdam/Amsterdam Personal Use.ttf";
 
 export default ({ style }) => (
-  <Div style={{ position: "absolute" }}>
+  <Div style={{ position: "absolute", ...style }}>
     <Link to="/">
       <img src={image} width={40} height={40} style={{ borderRadius: "50%" }} />
     </Link>
