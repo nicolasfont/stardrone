@@ -26,7 +26,6 @@ export default () => (
     </Div>
     <Div>
       <Link to="/">The Stardrones</Link>
-      <Link to="/">Solvang & Volturiak</Link>
     </Div>
   </Div>
 );
