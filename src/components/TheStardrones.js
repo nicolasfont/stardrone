@@ -22,6 +22,7 @@ const Link = ({ children, ...props }) => (
 export default () => (
   <Div centered flex={1}>
     <Div>
+      <Link to="/">The Stardrones</Link>
       <Link to="/">Solvang & Volturiak</Link>
     </Div>
     <Div>
@@ -29,6 +30,7 @@ export default () => (
     </Div>
     <Div>
       <Link to="/">The Stardrones</Link>
+      <Link to="/">Solvang & Volturiak</Link>
     </Div>
   </Div>
 );
