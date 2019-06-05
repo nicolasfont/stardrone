@@ -23,5 +23,5 @@ export default () => (
     <Div centered>
       <HomeLink />
     </Div>
-    <Div>
+  </Div>
 );
