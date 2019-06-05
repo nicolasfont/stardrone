@@ -22,6 +22,10 @@ const Link = ({ children, ...props }) => (
 
 export default () => (
   <Div centered flex={1}>
+    <Div>
+      <Link to="/"><Div>The Stardrones</Div></Link>
+      <Link to="/"><Div>Les Trous Noirs N'Existent Pas</Div></Link>
+    </Div>
     <Div centered>
       <img src={image} width={250} />
     </Div>
