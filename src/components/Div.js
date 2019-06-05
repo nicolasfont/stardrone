@@ -1,10 +1,10 @@
 import React from "react";
 
-export default ({ centered, children, flex, row, style }) => (
+export default ({ border, centered, children, flex, row, style }) => (
   <div
     style={{
       alignItems: centered && "center",
-      border: "solid 1px",
+      border: border && "solid 1px",
       borderRadius: 4,
       display: "flex",
       flex,
