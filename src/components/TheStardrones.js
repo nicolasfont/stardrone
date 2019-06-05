@@ -27,7 +27,7 @@ export default () => (
     </Div>
     <Div>
       <Link to="/"><Div style={{textShadow: "0.1px 0.1px 0.1px" }}>The Stardrones</Div></Link>
-      <Link to="/"><Div style={{textShadow: "0.1px 0.1px 0.1px" }}>The Stardrones</Div></Link>
+      <Link to="/"><Div style={{textShadow: "0.1px 0.1px 0.1px" }}>Les Trous Noirs N'Existent Pas</Div></Link>
     </Div>
     <Div>
     </Div>
