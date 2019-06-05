@@ -25,6 +25,7 @@ export default () => (
       <Link to="colors">Colors</Link>
       <Link to="space">Space</Link>
     </Div>
+    <HomeLink/>
     <Div centered flex={1}>
       <Div centered>
         <Link to="space">les trous noirs</Link>
