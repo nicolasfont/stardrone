@@ -20,7 +20,7 @@ const Link = ({ children, ...props }) => (
 );
 
 export default () => (
-  <Div centered flex={1} border>
+  <Div centered border>
     <Div>
       <img src={image} width={250} />
     </Div>
