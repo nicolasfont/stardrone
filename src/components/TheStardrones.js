@@ -24,8 +24,5 @@ export default () => (
     <Div>
       <img src={image} width={250} />
     </Div>
-    <Div>
-      <Link to="/">The Stardrones</Link>
-    </Div>
   </Div>
 );
