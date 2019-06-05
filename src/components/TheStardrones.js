@@ -23,7 +23,7 @@ export default () => (
     <Div centered flex={1}>
       <Link to="/">The Stardrones</Link>
     </Div>
-    <Div>
+    <Div centered>
       <HomeLink />
     </Div>
   </Div>
