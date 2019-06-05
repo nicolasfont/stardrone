@@ -25,14 +25,7 @@ render(
             />
           </Link>
         </Div>
-        <Div centered flex={1}>
-          <Route path="/" exact component={Stardrone} />
-          <Route path="/space" exact component={Space} />
-          <Route path="/colors" exact component={Colors} />
-          <Route path="/music" exact component={Music} />
-          <Route path="/thestardrones" exact component={TheStardrones} />
-        </Div>
-      </Div>
+     </Div>
     </Body>
   </Router>,
   document.getElementById("app")
