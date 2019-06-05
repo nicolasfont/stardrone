@@ -1,6 +1,7 @@
 import hash from "object-hash";
 import React, { createContext, useContext, useEffect, useState } from "react";
 import BaseDiv from "./Div";
+import HomeLink from "./HomeLink";
 
 const ColorContext = createContext();
 
