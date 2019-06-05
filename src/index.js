@@ -15,17 +15,7 @@ render(
   <Router>
     <Body margin={0}>
       <Div flex={1}>
-        <Div style={{ position: "absolute" }}>
-          <Link to="/">
-            <img
-              src={image}
-              width={40}
-              height={40}
-              style={{ borderRadius: "50%" }}
-            />
-          </Link>
-        </Div>
-        <Div flex={1} border>
+                <Div flex={1} border>
           <Route path="/" exact component={Stardrone} />
           <Route path="/space" exact component={Space} />
           <Route path="/colors" exact component={Colors} />
