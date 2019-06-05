@@ -23,7 +23,6 @@ export default () => (
   <Div centered flex={1}>
     <Div>
       <Link to="/">The Stardrones</Link>
-      <Link to="/">Solvang & Volturiak</Link>
     </Div>
     <Div>
       <img src={image} width={250} />
