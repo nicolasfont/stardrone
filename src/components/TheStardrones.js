@@ -26,7 +26,7 @@ const size = 250;
 export default () => (
   <Div centered flex={1}>
     <Div border centered style={{ padding: 0, margin: 0, width: 400, height: 400 }}>
-      <Div centered flex={1} style={{ padding: 0, margin: 0 }}>
+      <Div centered flex={1} >
         <img src={image} width={size} height={size} />
       </Div>
       <Div centered flex={1} style={{ padding: 0, margin: 0 }}>
