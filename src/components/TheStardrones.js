@@ -6,7 +6,6 @@ import image from "../images/TheStardrones.jpg";
 import { Link as BaseLink } from "react-router-dom";
 
 const Link = ({ children, ...props }) => (
-  <Div>
     <BaseLink
       style={{
         color: "black",
