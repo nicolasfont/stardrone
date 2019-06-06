@@ -19,7 +19,6 @@ const Link = ({ children, ...props }) => (
     >
       {children}
     </BaseLink>
-  </Div>
 );
 
 export default () => (
