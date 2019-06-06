@@ -27,7 +27,7 @@ export default () => (
   <Div centered flex={1}>
     <Div border style={{ padding: 0, margin: 0 }}>
       <Div centered style={{ padding: 0, margin: 0 }}>
-        <img src={image} width={size} />
+        <img src={image} width={size} height={size} />
       </Div>
       <Div style={{ padding: 0, margin: 0 }}>
         <Link to="/">The Stardrones</Link>
