@@ -29,7 +29,7 @@ export default () => (
       <Div centered flex={1}>
         <img src={image} width={size} height={size} />
       </Div>
-      <Div centered>
+      <Div centered flex={1}>
         <Link to="/">The Stardrones</Link>
         <Link to="/">Les Trous Noirs N'Existent Pas</Link>
       </Div>
