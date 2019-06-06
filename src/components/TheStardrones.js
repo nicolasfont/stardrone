@@ -27,8 +27,6 @@ export default () => (
   <Div centered flex={1}>
     <Div border centered style={{ padding: 0, margin: 0, width: 500, height: 500 }}>
       <Div centered flex={1}>
-      </Div>
-      <Div centered flex={1}>
         <img src={image} width={size} height={size} />
       </Div>
       <Div centered flex={1} style={{ padding: 0, margin: 0 }}>
