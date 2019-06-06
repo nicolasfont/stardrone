@@ -5,7 +5,7 @@ import Music from "./Music";
 import image from "../images/TheStardrones.jpg";
 import { Link as BaseLink } from "react-router-dom";
 
-const Link = ({ children, ...props }) => (
+const Link = ({ children, small, ...props }) => (
   <BaseLink
     style={{
       color: "black",
