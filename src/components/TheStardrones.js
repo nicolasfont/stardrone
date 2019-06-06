@@ -21,6 +21,8 @@ const Link = ({ children, ...props }) => (
   </BaseLink>
 );
 
+const size = 250;
+
 export default () => (
   <Div centered flex={1}>
     <Div border style={{ padding: 0, margin: 0 }}>
