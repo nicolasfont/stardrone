@@ -27,7 +27,7 @@ export default () => (
       <img src={image} width={250} />
     </Div>
     <Div>
-      <Link to="/">The Stardrones</Link>
+      <Link to="/">the Stardrones</Link>
       <Link to="/">Les Trous Noirs N'Existent Pas</Link>
     </Div>
     <Div>
