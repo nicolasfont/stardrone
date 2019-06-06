@@ -25,7 +25,7 @@ const size = 300;
 
 export default () => (
   <Div centered flex={1}>
-    <Div centered style={{ height: 400 }}>
+    <Div centered>
       <Div centered flex={1}>
         <img src={image} width={size} height={size} />
       </Div>
