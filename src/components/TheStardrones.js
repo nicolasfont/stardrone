@@ -29,7 +29,7 @@ export default () => (
       <Div centered style={{ padding: 0, margin: 0 }}>
         <img src={image} width={size} height={size} />
       </Div>
-      <Div style={{ padding: 0, margin: 0 }}>
+      <Div centered style={{ padding: 0, margin: 0 }}>
         <Link to="/">The Stardrones</Link>
         <Link to="/">Les Trous Noirs N'Existent Pas</Link>
       </Div>
