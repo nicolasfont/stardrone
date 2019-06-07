@@ -29,7 +29,7 @@ export default () => (
       <Div centered flex={1}>
         <img src={image} width={size} height={size} />
       </Div>
-      <Div centered style={{ padding: 28 }}>
+      <Div centered>
         <Link to="/">The Stardrones</Link>
       </Div>
     </Div>
