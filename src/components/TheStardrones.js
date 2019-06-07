@@ -32,12 +32,17 @@ export default () => (
   <Div centered flex={1}>
     <Div centered>
       <Div centered flex={1}>
-        <img title="The Tremecula Dance" src={image} width={size} height={size} />
+        <img
+          title="The Tremecula Dance"
+          src={image}
+          width={size}
+          height={size}
+        />
       </Div>
       <Div centered style={{ padding: 28 }}>
         <Link to="/">The Stardrones</Link>
       </Div>
-      <audio autoPlay loop src={soundtrack}/>
+      <audio autoPlay loop src={soundtrack} />
     </Div>
   </Div>
 );
