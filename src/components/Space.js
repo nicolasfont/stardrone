@@ -120,6 +120,7 @@ const Text = ({ children, uppercase, small, style }) => (
 export default () => (
   <ColorProvider>
     <Body>
+      <HomeLink/>
       <稿タ />
 
       <ColoringTextarea />
