@@ -2,6 +2,8 @@ import React from "react";
 import HomeLink from "./HomeLink";
 import Div from "./Div";
 
+// responsive
+
 export default () => (
   <Div centered flex={1}>
     <HomeLink />
