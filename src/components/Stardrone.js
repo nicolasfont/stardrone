@@ -34,7 +34,7 @@ export default () => (
           <Div row>
             <Link small to="music">Music</Link>
             <Link small to="colors">Colors</Link>
-            <Link to="space">Space</Link>
+            <Link small to="space">Space</Link>
           </Div>
         </Div>
       </Div>
