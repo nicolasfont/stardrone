@@ -3,7 +3,7 @@ import Div from "./Div";
 import { Motion, spring } from "react-motion";
 
 export default () => (
-  <Div row>
+  <Div centered row>
     <Motion
       defaultStyle={{ height: 0, width: 0 }}
       style={{ height: spring(30), width: spring(30) }}
