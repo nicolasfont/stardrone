@@ -1,5 +1,5 @@
 import React from "react";
-import Div from "./Div";
+import Body from "./Div";
 import Div from "./Div";
 import HomeLink from "./HomeLink";
 import Music from "./Music";
