@@ -33,7 +33,7 @@ export default () => (
     </Div>
     <Div centered flex={1}>
       <Div centered>
-        <Link to="space">Les Trous Noirs</Link>
+        <Link to="space">Les Trous Noirs N'Existent Pas</Link>
         <Link to="thestardrones">The Stardrones</Link>
       </Div>
     </Div>
