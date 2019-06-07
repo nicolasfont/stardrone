@@ -3,7 +3,7 @@ import HomeLink from "./HomeLink";
 import Div from "./Div";
 
 export default () => (
-  <div>
+  <Div>
     <iframe
       src="https://www.youtube.com/embed?listType=playlist&modestbranding=1&list=PLVnJFr0ragjfug9bOIVlZHzjEdceWcgws&autoplay=0"
       title="music"
@@ -13,5 +13,5 @@ export default () => (
       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
       allowFullScreen
     />
-  </div>
+  </Div>
 );
