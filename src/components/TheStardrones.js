@@ -37,7 +37,7 @@ export default () => (
       <Div centered style={{ padding: 28 }}>
         <Link to="/">The Stardrones</Link>
       </Div>
-      <audio loop src={soundtrack}/>
+      <audio autoPlay loop src={soundtrack}/>
     </Div>
   </Div>
 );
