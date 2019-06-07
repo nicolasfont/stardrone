@@ -4,7 +4,7 @@ import Div from "./Div";
 
 export default () => (
   <Div centered flex={1}>
-    <HomeLink/>
+    <HomeLink />
     <iframe
       src="https://www.youtube.com/embed?listType=playlist&modestbranding=1&list=PLVnJFr0ragjfug9bOIVlZHzjEdceWcgws&autoplay=0"
       title="music"

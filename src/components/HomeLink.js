@@ -6,7 +6,12 @@ import { Link } from "react-router-dom";
 export default () => (
   <Div>
     <Link to="/">
-      <img src={image} width={40} height={40} style={{ position: "absolute", left: 40, top: 40, borderRadius: "50%" }} />
+      <img
+        src={image}
+        width={40}
+        height={40}
+        style={{ position: "absolute", left: 40, top: 40, borderRadius: "50%" }}
+      />
     </Link>
   </Div>
 );
