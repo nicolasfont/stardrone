@@ -20,6 +20,7 @@ const Link = ({ children, ...props }) => (
 );
 
 export default () => (
+  <Body title="Stardrone">
   <Div flex={1}>
     <HomeLink />
     <Div centered flex={1}>
@@ -37,4 +38,5 @@ export default () => (
       </Div>
     </Div>
   </Div>
+</Body>
 );
