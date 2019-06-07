@@ -33,7 +33,7 @@ export default () => (
   <Div centered flex={1}>
     <Div centered>
       <Div centered flex={1}>
-        <img alt="alt" src={image} width={size} height={size} />
+        <img title="alt" src={image} width={size} height={size} />
       </Div>
       <Div centered style={{ padding: 28 }}>
         <Link to="/">The Stardrones</Link>
