@@ -27,7 +27,7 @@ export default () => (
       <Div centered>
         <Link to="/">Something like a spaceship</Link>
         <Link to="/">Les Trous Noirs N'Existent Pas</Link>
-        <Link to="thestardrones">The Stardrones</Link>
+        <Link to="/">The Stardrones</Link>
         <Link to="music">Music</Link>
         <Link to="colors">Colors</Link>
         <Link to="space">Space</Link>
