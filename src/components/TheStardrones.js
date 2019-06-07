@@ -28,6 +28,7 @@ const size = 300;
 // links
 
 export default () => (
+  <Body title="The Stardrones">
   <Div centered flex={1}>
     <HomeLink />
     <Div centered>
@@ -45,4 +46,5 @@ export default () => (
       <audio autoPlay loop src={soundtrack} />
     </Div>
   </Div>
+</Body>
 );
