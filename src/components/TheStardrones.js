@@ -29,7 +29,7 @@ const size = 300;
 // links
 // responsive
 // https
-// CC
+// Creative Commons
 
 export default () => (
   <Body title="The Stardrones">
