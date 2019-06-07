@@ -4,10 +4,10 @@ import HomeLink from "./HomeLink";
 import Music from "./Music";
 import image from "../images/TheStardrones.jpg";
 import soundtrack from "../sounds/The Stardrones - The Tremecula Dance.mp3";
-import { Link as BaseLink } from "react-router-dom";
+import { Link as Div } from "react-router-dom";
 
 const Link = ({ children, small, ...props }) => (
-  <BaseLink
+  <Div
     style={{
       color: "black",
       fontFamily: "Amsterdam",
@@ -19,7 +19,7 @@ const Link = ({ children, small, ...props }) => (
     {...props}
   >
     {children}
-  </BaseLink>
+  </Div>
 );
 
 const size = 300;
