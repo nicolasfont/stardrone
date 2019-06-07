@@ -7,7 +7,7 @@ import soundtrack from "../sounds/The Stardrones - The Tremecula Dance.mp3";
 import { Link as BaseLink } from "react-router-dom";
 
 const Link = ({ children, small, ...props }) => (
-  <Div
+  <BaseLink
     style={{
       color: "black",
       fontFamily: "Amsterdam",
