@@ -31,6 +31,7 @@ const size = 300;
 // https
 // Creative Commons
 // round favicon
+// loop
 
 export default () => (
   <Body title="The Stardrones">
