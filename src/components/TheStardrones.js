@@ -30,7 +30,6 @@ const size = 300;
 
 export default () => (
   <Div centered flex={1}>
-    <HomeLink/>
     <Div centered>
       <Div centered flex={1}>
         <img
