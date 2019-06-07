@@ -30,10 +30,10 @@ export default () => (
           <Link small to="/thestardrones">The Gazing Hour</Link>
           <Link small to="/thestardrones">Something Like A Spaceship</Link>
           <Link small to="/thestardrones">The Tremecula Dance</Link>
-          <Link to="/thestardrones">Les Trous Noirs N'Existent Pas</Link>
+          <Link small to="/thestardrones">Les Trous Noirs N'Existent Pas</Link>
           <Div row>
-            <Link to="music">Music</Link>
-            <Link to="colors">Colors</Link>
+            <Link small to="music">Music</Link>
+            <Link small to="colors">Colors</Link>
             <Link to="space">Space</Link>
           </Div>
         </Div>
