@@ -33,6 +33,7 @@ const size = 300;
 // round favicon
 // loop
 // CDN
+// mobile audio
 
 export default () => (
   <Body title="The Stardrones">
