@@ -36,7 +36,7 @@ export default () => (
         <img title="The Tremecula Dance" src={image} width={size} height={size} />
       </Div>
       <Div centered style={{ padding: 28 }}>
-        <Link to="/">The Stardrones</Link>
+        <Link to="">The Stardrones</Link>
       </Div>
       <audio loop src={soundtrack}/>
     </Div>
