@@ -24,6 +24,8 @@ const Link = ({ children, small, ...props }) => (
 
 const size = 300;
 
+// title: The Stardrones
+
 export default () => (
   <Div centered flex={1}>
     <Div centered>
