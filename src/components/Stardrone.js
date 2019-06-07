@@ -28,8 +28,8 @@ export default () => (
         <Div centered>
           <Link small to="/thestardrones">The Stardrones</Link>
           <Link small to="/thestardrones">The Gazing Hour</Link>
-          <Link to="/thestardrones">Something Like A Spaceship</Link>
-          <Link to="/thestardrones">The Tremecula Dance</Link>
+          <Link small to="/thestardrones">Something Like A Spaceship</Link>
+          <Link small to="/thestardrones">The Tremecula Dance</Link>
           <Link to="/thestardrones">Les Trous Noirs N'Existent Pas</Link>
           <Div row>
             <Link to="music">Music</Link>
