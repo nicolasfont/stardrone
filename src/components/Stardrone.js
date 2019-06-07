@@ -28,7 +28,6 @@ export default () => (
         <Link to="/">Something Like A Spaceship</Link>
         <Link to="/">The Tremucula Dance</Link>
         <Link to="/">Les Trous Noirs N'Existent Pas</Link>
-        <Link to="/thestardrones">The Stardrones</Link>
         <Link to="music">Music</Link>
         <Link to="colors">Colors</Link>
         <Link to="space">Space</Link>
