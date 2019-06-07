@@ -24,7 +24,7 @@ export default () => (
       <HomeLink />
     </Div>
     <Div centered row flex={1}>
-      <Link to="music">Music</Link>
+      <Link to="music">Something like a spaceship</Link>
       <Link to="colors">Colors</Link>
       <Link to="space">Space</Link>
     </Div>
