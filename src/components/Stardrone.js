@@ -26,7 +26,7 @@ export default () => (
       <HomeLink />
       <Div centered flex={1}>
         <Div centered>
-          <Link to="/thestardrones">The Stardrones</Link>
+          <Link small to="/thestardrones">The Stardrones</Link>
           <Link to="/thestardrones">The Gazing Hour</Link>
           <Link to="/thestardrones">Something Like A Spaceship</Link>
           <Link to="/thestardrones">The Tremecula Dance</Link>
