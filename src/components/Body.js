@@ -7,6 +7,6 @@ export default ({ children, margin, title }) => {
     return () => {
       document.body.style.margin = null;
     };
-  }, [margin]);
+  }, [margin, title]);
   return children;
 };
