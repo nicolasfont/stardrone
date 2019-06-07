@@ -27,6 +27,7 @@ const size = 300;
 // page title: The Stardrones
 // mute
 // links
+// responsive
 
 export default () => (
   <Body title="The Stardrones">
