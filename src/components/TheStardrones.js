@@ -31,9 +31,6 @@ export default () => (
       </Div>
       <Div centered>
         <Link to="/">The Stardrones</Link>
-        <Link to="/" small>
-          Les Trous Noirs N'Existent Pas
-        </Link>
       </Div>
     </Div>
   </Div>
