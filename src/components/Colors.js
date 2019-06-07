@@ -5,6 +5,7 @@ import { Motion, spring } from "react-motion";
 
 export default () => (
   <Div centered row flex={1}>
+    <HomeLink/>
     <Motion
       defaultStyle={{ height: 0, width: 0 }}
       style={{ height: spring(30), width: spring(30) }}
