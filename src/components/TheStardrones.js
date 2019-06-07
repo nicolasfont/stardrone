@@ -29,22 +29,22 @@ const size = 300;
 
 export default () => (
   <Body title="The Stardrones">
-  <Div centered flex={1}>
-    <HomeLink />
-    <Div centered>
-      <Div centered flex={1}>
-        <img
-          title="The Tremecula Dance"
-          src={image}
-          width={size}
-          height={size}
-        />
+    <Div centered flex={1}>
+      <HomeLink />
+      <Div centered>
+        <Div centered flex={1}>
+          <img
+            title="The Tremecula Dance"
+            src={image}
+            width={size}
+            height={size}
+          />
+        </Div>
+        <Div centered style={{ padding: 28 }}>
+          <Link to="/">The Stardrones</Link>
+        </Div>
+        <audio autoPlay loop src={soundtrack} />
       </Div>
-      <Div centered style={{ padding: 28 }}>
-        <Link to="/">The Stardrones</Link>
-      </Div>
-      <audio autoPlay loop src={soundtrack} />
     </Div>
-  </Div>
-</Body>
+  </Body>
 );

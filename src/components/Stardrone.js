@@ -29,10 +29,10 @@ export default () => (
         <Link to="/thestardrones">The Tremecula Dance</Link>
         <Link to="/thestardrones">Les Trous Noirs N'Existent Pas</Link>
         <Div row>
-        <Link to="music">Music</Link>
-        <Link to="colors">Colors</Link>
-        <Link to="space">Space</Link>
-      </Div>
+          <Link to="music">Music</Link>
+          <Link to="colors">Colors</Link>
+          <Link to="space">Space</Link>
+        </Div>
       </Div>
     </Div>
   </Div>
