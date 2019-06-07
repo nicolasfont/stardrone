@@ -23,9 +23,6 @@ export default () => (
     <Div row>
       <HomeLink />
     </Div>
-    <Div centered row flex={1}>
-      <Link to="/">Something like a spaceship</Link>
-    </Div>
     <Div centered flex={1}>
       <Div centered>
         <Link to="/">Something like a spaceship</Link>
