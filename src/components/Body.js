@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 
-export default ({ children, margin }) => {
+export default ({ children, margin, title }) => {
   useEffect(() => {
     document.title = "Stardrone";
     document.body.style.margin = margin;
