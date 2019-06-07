@@ -25,7 +25,6 @@ export default () => (
     </Div>
     <Div centered flex={1}>
       <Div centered>
-        <Link to="/">The Stardrones</Link>
         <Link to="/">Something like a spaceship</Link>
         <Link to="/">Les Trous Noirs N'Existent Pas</Link>
         <Link to="music">Music</Link>
