@@ -6,6 +6,7 @@ export default ({ children, margin, title }) => {
     document.body.style.margin = margin;
     return () => {
       document.body.style.margin = null;
+      document.title = "Stardrone";
     };
   }, [margin, title]);
   return children;
