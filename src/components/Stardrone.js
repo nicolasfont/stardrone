@@ -21,22 +21,22 @@ const Link = ({ children, ...props }) => (
 
 export default () => (
   <Body title="Stardrone">
-  <Div flex={1}>
-    <HomeLink />
-    <Div centered flex={1}>
-      <Div centered>
-        <Link to="/thestardrones">The Stardrones</Link>
-        <Link to="/thestardrones">The Gazing Hour</Link>
-        <Link to="/thestardrones">Something Like A Spaceship</Link>
-        <Link to="/thestardrones">The Tremecula Dance</Link>
-        <Link to="/thestardrones">Les Trous Noirs N'Existent Pas</Link>
-        <Div row>
-          <Link to="music">Music</Link>
-          <Link to="colors">Colors</Link>
-          <Link to="space">Space</Link>
+    <Div flex={1}>
+      <HomeLink />
+      <Div centered flex={1}>
+        <Div centered>
+          <Link to="/thestardrones">The Stardrones</Link>
+          <Link to="/thestardrones">The Gazing Hour</Link>
+          <Link to="/thestardrones">Something Like A Spaceship</Link>
+          <Link to="/thestardrones">The Tremecula Dance</Link>
+          <Link to="/thestardrones">Les Trous Noirs N'Existent Pas</Link>
+          <Div row>
+            <Link to="music">Music</Link>
+            <Link to="colors">Colors</Link>
+            <Link to="space">Space</Link>
+          </Div>
         </Div>
       </Div>
     </Div>
-  </Div>
-</Body>
+  </Body>
 );
