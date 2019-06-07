@@ -36,6 +36,7 @@ export default () => (
         <Link to="/">Something like a spaceship</Link>
         <Link to="space">Les Trous Noirs N'Existent Pas</Link>
         <Link to="thestardrones">The Stardrones</Link>
+      <Link to="music">Music</Link>
       </Div>
     </Div>
   </Div>
