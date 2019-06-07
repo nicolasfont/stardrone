@@ -25,6 +25,9 @@ const Link = ({ children, small, ...props }) => (
 const size = 300;
 
 // page title: The Stardrones
+// mute
+// links
+// song name?
 
 export default () => (
   <Div centered flex={1}>
