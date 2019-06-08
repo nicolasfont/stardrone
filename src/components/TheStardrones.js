@@ -49,7 +49,7 @@ export default () => {
     if (playing) {
       audioRef.pause();
     } else {
-      audioRef.play();
+      audioRef.loop();
     }
   }, [playing]);
   return <Body title="The Stardrones">
