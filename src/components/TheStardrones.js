@@ -24,6 +24,7 @@ const Link = ({ children, ...props }) => (
 
 const size = 300;
 
+// TODO
 // gapless loop
 // mute
 // links
