@@ -42,7 +42,7 @@ const size = 300;
 // git live
 // keep playing
 
-export default () => ({
+export default () => (
   <Body title="The Stardrones">
     <Div centered flex={1}>
       <HomeLink />
