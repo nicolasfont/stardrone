@@ -1,6 +1,6 @@
 import React from "react";
 
-export default ({ border, centered, children, flex, row, style }) => (
+export default ({ border, centered, children, flex, row, rtyle }) => (
   <div
     style={{
       alignItems: centered && "center",
