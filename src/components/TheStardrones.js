@@ -47,7 +47,7 @@ export default () => {
   const [playing, play] = useState(false);
   useEffect(() => {
     if (playing) {
-      audioRef.pause();
+      audioRef.current.pause();
     } else {
       audioRef.play();
     }
