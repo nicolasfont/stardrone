@@ -64,6 +64,6 @@ export default () => {
         </Div>
       </Div>
     </Div>
-    <audio autoPlay loop src={soundtrack} />
+    <audio autoPlay loop ref={audioRef} src={soundtrack} />
   </Body>
 };
