@@ -55,7 +55,7 @@ export default () => {
   return <Body title="The Stardrones">
     <Div centered flex={1}>
       <HomeLink />
-        <Div flex={1} style={{ padding: 16 }}>
+        <Div flex={1}>
         </Div>
       <Div centered>
         <Div centered style={{ padding: 16 }}>
