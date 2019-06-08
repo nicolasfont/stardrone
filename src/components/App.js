@@ -22,12 +22,16 @@ export default () => {
   const [playing, play] = useState(false);
   useEffect(() => {
     if (playing) {
-source = audioCtx.createBufferSource();
-audioCtx.decodeAudioData(soundtrack, buffer => {
-  source.buffer = buffer;
-  source.connect(audioCtx.destination);
-  source.loop = true;
-}, error => console.log(error));
+      source = audioCtx.createBufferSource();
+      audioCtx.decodeAudioData(
+        soundtrack,
+        buffer => {
+          source.buffer = buffer;
+          source.connect(audioCtx.destination);
+          source.loop = true;
+        },
+        error => console.log(error)
+      );
 
       source.start();
       // audioRef.current.play();
