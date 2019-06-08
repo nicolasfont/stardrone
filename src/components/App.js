@@ -24,7 +24,7 @@ export default () => {
           <Route path="/colors" exact component={Colors} />
           <Route path="/music" exact component={Music} />
           <Route path="/nicolasfont" exact component={NicolasFont} />
-          <Route path="/thestardrones" exact component={TheStardrones} />
+          <Route path="/thestardrones" exact component={() => <TheStardrones playing={playing} play={play}/>} />
         </Div>
       </Div>
     </Body>
