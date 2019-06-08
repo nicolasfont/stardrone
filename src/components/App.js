@@ -29,4 +29,4 @@ export default () => {
     </Body>
   </Router>,
   document.getElementById("app")
-);
+};
