@@ -67,9 +67,6 @@ export default () => {
         <Div centered style={{ padding: 16 }}>
           <Link>The Stardrones</Link>
         </Div>
-        <Div centered flex={1} style={{ padding: 16 }}>
-          <Link onClick={() => play(!playing)} style={{ fontFamily: "impact", cursor: "pointer" }}>{playing ? "II" : <>&#9658;</>}</Link>
-        </Div>
       </Div>
     </Div>
     <audio loop ref={audioRef} src={soundtrack} />
