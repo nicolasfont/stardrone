@@ -25,28 +25,24 @@ export default () => {
     }
   }, [playing]);
   return (
-    (
-      <Router>
-        <Body margin={0}>
+    <Router>
+      <Body margin={0}>
+        <Div flex={1}>
           <Div flex={1}>
-            <Div flex={1}>
-              <Route path="/" exact component={Stardrone} />
-              <Route path="/space" exact component={Space} />
-              <Route path="/colors" exact component={Colors} />
-              <Route path="/music" exact component={Music} />
-              <Route path="/nicolasfont" exact component={NicolasFont} />
-              <Route
-                path="/thestardrones"
-                exact
-                component={() => (
-                  <TheStardrones playing={playing} play={play} />
-                )}
-              />
-            </Div>
+            <Route path="/" exact component={Stardrone} />
+            <Route path="/space" exact component={Space} />
+            <Route path="/colors" exact component={Colors} />
+            <Route path="/music" exact component={Music} />
+            <Route path="/nicolasfont" exact component={NicolasFont} />
+            <Route
+              path="/thestardrones"
+              exact
+              component={() => <TheStardrones playing={playing} play={play} />}
+            />
           </Div>
-          <audio loop ref={audioRef} src={soundtrack} />
-        </Body>
-      </Router>
-    )
+        </Div>
+        <audio loop ref={audioRef} src={soundtrack} />
+      </Body>
+    </Router>
   );
 };

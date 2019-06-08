@@ -5,7 +5,6 @@ import HomeLink from "./HomeLink";
 import Music from "./Music";
 import image from "../images/TheStardrones.jpg";
 
-
 const Link = ({ children, style, ...props }) => (
   <Div
     style={{
