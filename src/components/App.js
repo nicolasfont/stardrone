@@ -14,8 +14,7 @@ import "./fonts/billy-argel_amsterdam/Amsterdam Personal Use.ttf";
 import "./fonts/Black Diamonds Personal Use.ttf";
 
 export default () => {
-  return
-  <Router>
+  return <Router>
     <Body margin={0}>
       <Div flex={1}>
         <Div flex={1}>
