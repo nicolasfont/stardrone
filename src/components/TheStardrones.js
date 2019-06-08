@@ -6,7 +6,7 @@ import Music from "./Music";
 import image from "../images/TheStardrones.jpg";
 import soundtrack from "../sounds/The Stardrones - The Tremecula Dance.mp3";
 
-const Link = ({ children, ...props }) => (
+const Link = ({ children, style, ...props }) => (
   <Div
     style={{
       color: "black",
