@@ -27,6 +27,7 @@ render(
           <Route path="/thestardrones" exact component={TheStardrones} />
         </Div>
       </Div>
+      <audio autoPlay loop src={soundtrack} />
     </Body>
   </Router>,
   document.getElementById("app")
