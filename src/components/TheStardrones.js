@@ -26,7 +26,7 @@ const size = 300;
 
 // TODO
 // gapless loop
-// mute
+// pause
 // links
 // responsive
 // https
