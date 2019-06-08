@@ -58,7 +58,7 @@ export default () => {
         <Div flex={1}>
         </Div>
       <Div>
-        <Div centered style={{ padding: 16 }}>
+        <Div style={{ padding: 16 }}>
           <img
             title="The Tremecula Dance"
             src={image}
