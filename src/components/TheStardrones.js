@@ -56,7 +56,7 @@ export default () => (
           />
         </Div>
         <Div centered style={{ padding: 16 }}>
-          <Link to="/">The Stardrones</Link>
+          <Link>The Stardrones</Link>
         </Div>
         <Div centered style={{ padding: 16 }}>
           <Link style={{ fontFamily: "impact" }}>II</Link>
