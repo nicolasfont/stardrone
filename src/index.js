@@ -15,19 +15,7 @@ import "./fonts/billy-argel_amsterdam/Amsterdam Personal Use.ttf";
 import "./fonts/Black Diamonds Personal Use.ttf";
 
 render(
-  <Router>
-    <Body margin={0}>
-      <Div flex={1}>
-        <Div flex={1}>
-          <Route path="/" exact component={Stardrone} />
-          <Route path="/space" exact component={Space} />
-          <Route path="/colors" exact component={Colors} />
-          <Route path="/music" exact component={Music} />
-          <Route path="/nicolasfont" exact component={NicolasFont} />
-          <Route path="/thestardrones" exact component={TheStardrones} />
-        </Div>
-      </Div>
-    </Body>
-  </Router>,
+  <App />
+  ,
   document.getElementById("app")
 );
