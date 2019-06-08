@@ -44,7 +44,7 @@ const size = 300;
 
 export default () => {
   const audioRef = useRef(null);
-  const [playing, play] = useState(false);
+  const [playing, setPlay] = useState(false);
   return <Body title="The Stardrones">
     <Div centered flex={1}>
       <HomeLink />
