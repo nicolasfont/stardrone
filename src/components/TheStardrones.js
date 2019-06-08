@@ -79,7 +79,6 @@ export default ({ playing, play }) => {
           </Link>
         </Div>
       </Div>
-      <audio loop ref={audioRef} src={soundtrack} />
     </Body>
   );
 };
