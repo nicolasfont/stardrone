@@ -44,7 +44,7 @@ const size = 300;
 
 export default () => {
   const audioRef = useRef(null);
-  const [playing, setPlay] = useState(false);
+  const [playing, play] = useState(false);
   return <Body title="The Stardrones">
     <Div centered flex={1}>
       <HomeLink />
@@ -61,7 +61,7 @@ export default () => {
           <Link>The Stardrones</Link>
         </Div>
         <Div centered style={{ padding: 16 }}>
-          <Link onClick={() => setPlay(!playing)} style={{ fontFamily: "impact", cursor: "pointer" }}>{playing ? "II" : <>&#9658;</>}</Link>
+          <Link onClick={() => play(!playing)} style={{ fontFamily: "impact", cursor: "pointer" }}>{playing ? "II" : <>&#9658;</>}</Link>
         </Div>
       </Div>
     </Div>
