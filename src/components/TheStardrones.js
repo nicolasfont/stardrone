@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import Body from "./Body";
 import Div from "./Div";
 import HomeLink from "./HomeLink";
