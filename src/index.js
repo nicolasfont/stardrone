@@ -22,7 +22,7 @@ render(
           <Route path="/space" exact component={Space} />
           <Route path="/colors" exact component={Colors} />
           <Route path="/music" exact component={Music} />
-          <Route path-"/nicolasfont" exact component={NicolasFont} />
+          <Route path="/nicolasfont" exact component={NicolasFont} />
           <Route path="/thestardrones" exact component={TheStardrones} />
         </Div>
       </Div>
