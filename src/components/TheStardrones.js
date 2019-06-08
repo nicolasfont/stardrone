@@ -57,7 +57,7 @@ export default () => {
       <HomeLink />
         <Div flex={1}>
         </Div>
-      <Div centered>
+      <Div>
         <Div centered style={{ padding: 16 }}>
           <img
             title="The Tremecula Dance"
