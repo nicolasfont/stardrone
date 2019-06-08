@@ -39,6 +39,7 @@ const size = 300;
 // scale
 // filter photo
 // git live
+// keep playing
 
 export default () => (
   <Body title="The Stardrones">
