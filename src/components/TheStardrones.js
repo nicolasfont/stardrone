@@ -66,7 +66,7 @@ export default () => {
             height={size}
           />
         </Div>
-        <Div centered style={{ padding: 16 }}>
+        <Div style={{ padding: 16 }}>
           <Link>The Stardrones</Link>
         </Div>
       </Div>
