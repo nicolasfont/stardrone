@@ -52,28 +52,34 @@ export default () => {
       audioRef.current.pause();
     }
   }, [playing]);
-  return <Body title="The Stardrones">
-    <Div centered flex={1}>
-      <HomeLink />
-        <Div flex={1}>
+  return (
+    <Body title="The Stardrones">
+      <Div centered flex={1}>
+        <HomeLink />
+        <Div flex={1} />
+        <Div>
+          <Div style={{ padding: 16 }}>
+            <img
+              title="The Tremecula Dance"
+              src={image}
+              width={size}
+              height={size}
+            />
+          </Div>
+          <Div style={{ padding: 16 }}>
+            <Link>The Stardrones</Link>
+          </Div>
         </Div>
-      <Div>
-        <Div style={{ padding: 16 }}>
-          <img
-            title="The Tremecula Dance"
-            src={image}
-            width={size}
-            height={size}
-          />
-        </Div>
-        <Div style={{ padding: 16 }}>
-          <Link>The Stardrones</Link>
+        <Div centered flex={1} style={{ padding: 16 }}>
+          <Link
+            onClick={() => play(!playing)}
+            style={{ fontFamily: "impact", cursor: "pointer" }}
+          >
+            {playing ? "II" : <>&#9658;</>}
+          </Link>
         </Div>
       </Div>
-        <Div centered flex={1} style={{ padding: 16 }}>
-          <Link onClick={() => play(!playing)} style={{ fontFamily: "impact", cursor: "pointer" }}>{playing ? "II" : <>&#9658;</>}</Link>
-        </Div>
-    </Div>
-    <audio loop ref={audioRef} src={soundtrack} />
-  </Body>
+      <audio loop ref={audioRef} src={soundtrack} />
+    </Body>
+  );
 };
