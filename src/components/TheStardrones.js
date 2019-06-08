@@ -43,7 +43,6 @@ const size = 300;
 // keep playing
 
 export default ({ playing, play }) => {
-  const audioRef = useRef(null);
   const [playing, play] = useState(false);
   return (
     <Body title="The Stardrones">
