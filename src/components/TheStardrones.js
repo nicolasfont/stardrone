@@ -4,7 +4,7 @@ import Div from "./Div";
 import HomeLink from "./HomeLink";
 import Music from "./Music";
 import image from "../images/TheStardrones.jpg";
-import soundtrack from "../sounds/The Stardrones - The Tremecula Dance.mp3";
+
 
 const Link = ({ children, style, ...props }) => (
   <Div
