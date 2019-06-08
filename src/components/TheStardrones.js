@@ -55,6 +55,9 @@ export default () => {
   return <Body title="The Stardrones">
     <Div centered flex={1}>
       <HomeLink />
+        <Div centered flex={1} style={{ padding: 16 }}>
+          <Link onClick={() => play(!playing)} style={{ fontFamily: "impact", cursor: "pointer" }}>{playing ? "II" : <>&#9658;</>}</Link>
+        </Div>
       <Div centered>
         <Div centered style={{ padding: 16 }}>
           <img
