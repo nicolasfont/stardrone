@@ -27,6 +27,7 @@ export default () => {
           <Route path="/thestardrones" exact component={() => <TheStardrones playing={playing} play={play}/>} />
         </Div>
       </Div>
+      <audio loop ref={audioRef} src={soundtrack} />
     </Body>
   </Router>,
   document.getElementById("app")
