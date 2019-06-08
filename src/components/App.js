@@ -47,7 +47,6 @@ export default () => {
           <audio loop ref={audioRef} src={soundtrack} />
         </Body>
       </Router>
-    ),
-    document.getElementById("app")
+    )
   );
 };
