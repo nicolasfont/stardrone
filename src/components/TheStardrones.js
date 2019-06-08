@@ -43,7 +43,7 @@ const size = 300;
 // keep playing
 
 export default () => {
-  const audioRef = null;
+  const audioRef = useRef(null);
   return <Body title="The Stardrones">
     <Div centered flex={1}>
       <HomeLink />
