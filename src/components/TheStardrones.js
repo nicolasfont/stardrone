@@ -59,7 +59,7 @@ export default () => (
           <Link>The Stardrones</Link>
         </Div>
         <Div centered style={{ padding: 16 }}>
-          <Link style={{ fontFamily: "impact" }}>II</Link>
+          <Link style={{ fontFamily: "impact", cursor: "pointer" }}>II</Link>
         </Div>
       </Div>
     </Div>
