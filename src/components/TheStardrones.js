@@ -52,7 +52,7 @@ export default () => (
             title="The Tremecula Dance"
             src={image}
             width={size}
-            heigh t={size}
+            height={size}
           />
         </Div>
         <Div centered style={{ padding: 16 }}>
