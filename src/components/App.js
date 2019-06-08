@@ -14,6 +14,7 @@ import "./fonts/billy-argel_amsterdam/Amsterdam Personal Use.ttf";
 import "./fonts/Black Diamonds Personal Use.ttf";
 
 export default () => {
+  const [playing, play] = setState(false);
   return <Router>
     <Body margin={0}>
       <Div flex={1}>
