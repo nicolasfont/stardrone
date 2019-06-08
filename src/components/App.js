@@ -14,7 +14,7 @@ import "../fonts/billy-argel_amsterdam/Amsterdam Personal Use.ttf";
 import "../fonts/Black Diamonds Personal Use.ttf";
 import soundtrack from "../sounds/The Stardrones - The Tremecula Dance.mp3";
 
-console.log(soundtrack);
+console.log(typeof soundtrack);
 
 const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
 let source = null;
