@@ -16,7 +16,14 @@ import "./fonts/Black Diamonds Personal Use.ttf";
 export default () => {
   const audioRef = useRef(null);
   const [playing, play] = setState(false);
-  return <Router>
+ useEffect(() => {
+    if (playing) {
+      audioRef.current.play();
+    } else {
+      audioRef.current.pause();
+    }
+  }, [playing]);
+ return <Router>
     <Body margin={0}>
       <Div flex={1}>
         <Div flex={1}>
