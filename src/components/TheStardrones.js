@@ -36,6 +36,9 @@ const size = 300;
 // mobile audio
 // fade in audio
 // pm2
+// scale
+// filter photo
+// git live
 
 export default () => (
   <Body title="The Stardrones">
