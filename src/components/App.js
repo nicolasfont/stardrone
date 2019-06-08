@@ -15,23 +15,24 @@ import "../fonts/Black Diamonds Personal Use.ttf";
 import soundtrack from "../sounds/The Stardrones - The Tremecula Dance.mp3";
 
 const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
-const source = audioCtx.createBufferSource();
-
-audioCtx.decodeAudioData(soundtrack, buffer => {
-  source.buffer = buffer;
-  source.connect(audioCtx.destination);
-  source.loop = true;
-}, error => console.log(error));
+let source = null;
 
 export default () => {
   const audioRef = useRef(null);
   const [playing, play] = useState(false);
   useEffect(() => {
     if (playing) {
-      source.resume();
+source = audioCtx.createBufferSource();
+audioCtx.decodeAudioData(soundtrack, buffer => {
+  source.buffer = buffer;
+  source.connect(audioCtx.destination);
+  source.loop = true;
+}, error => console.log(error));
+
+      source.start();
       // audioRef.current.play();
     } else {
-      source.pause();
+      source && source.stop();
       // audioRef.current.pause();
     }
   }, [playing]);
