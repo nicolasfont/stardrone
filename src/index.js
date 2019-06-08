@@ -1,6 +1,7 @@
 import React from "react";
 import { render } from "react-dom";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+  const [playing, play] = useState(false);
 import Body from "./components/Body";
 import Colors from "./components/Colors";
 import Div from "./components/Div";
