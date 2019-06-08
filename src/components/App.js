@@ -16,27 +16,37 @@ import "./fonts/Black Diamonds Personal Use.ttf";
 export default () => {
   const audioRef = useRef(null);
   const [playing, play] = setState(false);
- useEffect(() => {
+  useEffect(() => {
     if (playing) {
       audioRef.current.play();
     } else {
       audioRef.current.pause();
     }
   }, [playing]);
- return <Router>
-    <Body margin={0}>
-      <Div flex={1}>
-        <Div flex={1}>
-          <Route path="/" exact component={Stardrone} />
-          <Route path="/space" exact component={Space} />
-          <Route path="/colors" exact component={Colors} />
-          <Route path="/music" exact component={Music} />
-          <Route path="/nicolasfont" exact component={NicolasFont} />
-          <Route path="/thestardrones" exact component={() => <TheStardrones playing={playing} play={play}/>} />
-        </Div>
-      </Div>
-      <audio loop ref={audioRef} src={soundtrack} />
-    </Body>
-  </Router>,
-  document.getElementById("app")
+  return (
+    (
+      <Router>
+        <Body margin={0}>
+          <Div flex={1}>
+            <Div flex={1}>
+              <Route path="/" exact component={Stardrone} />
+              <Route path="/space" exact component={Space} />
+              <Route path="/colors" exact component={Colors} />
+              <Route path="/music" exact component={Music} />
+              <Route path="/nicolasfont" exact component={NicolasFont} />
+              <Route
+                path="/thestardrones"
+                exact
+                component={() => (
+                  <TheStardrones playing={playing} play={play} />
+                )}
+              />
+            </Div>
+          </Div>
+          <audio loop ref={audioRef} src={soundtrack} />
+        </Body>
+      </Router>
+    ),
+    document.getElementById("app")
+  );
 };
