@@ -15,7 +15,7 @@ import "../fonts/Black Diamonds Personal Use.ttf";
 
 export default () => {
   const audioRef = useRef(null);
-  const [playing, play] = setState(false);
+  const [playing, play] = useState(false);
   useEffect(() => {
     if (playing) {
       audioRef.current.play();
