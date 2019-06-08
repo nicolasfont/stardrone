@@ -4,7 +4,6 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Body from "./components/Body";
 import Colors from "./components/Colors";
 import Div from "./components/Div";
-import HomeLink from "./HomeLink";
 import Music from "./components/Music";
 import Space from "./components/Space";
 import Stardrone from "./components/Stardrone";
