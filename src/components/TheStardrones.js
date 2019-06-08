@@ -6,13 +6,13 @@ import Music from "./Music";
 import image from "../images/TheStardrones.jpg";
 import soundtrack from "../sounds/The Stardrones - The Tremecula Dance.mp3";
 
-const Link = ({ children, small, ...props }) => (
+const Link = ({ children, ...props }) => (
   <Div
     style={{
       color: "black",
       fontFamily: "Amsterdam",
       textDecoration: "none",
-      fontSize: small ? "12px" : "16px",
+      fontSize: "16px",
       padding: 0,
       margin: 0
     }}
@@ -24,16 +24,16 @@ const Link = ({ children, small, ...props }) => (
 
 const size = 300;
 
-// page title: The Stardrones
+// gapless loop
 // mute
 // links
 // responsive
 // https
 // Creative Commons
 // round favicon
-// loop
 // CDN
 // mobile audio
+// fade in audio
 
 export default () => (
   <Body title="The Stardrones">
