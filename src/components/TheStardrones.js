@@ -45,14 +45,7 @@ const size = 300;
 export default ({ playing, play }) => {
   const audioRef = useRef(null);
   const [playing, play] = useState(false);
-  useEffect(() => {
-    if (playing) {
-      audioRef.current.play();
-    } else {
-      audioRef.current.pause();
-    }
-  }, [playing]);
-  return (
+    return (
     <Body title="The Stardrones">
       <Div centered flex={1}>
         <HomeLink />
