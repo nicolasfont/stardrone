@@ -15,6 +15,7 @@ import "./fonts/Black Diamonds Personal Use.ttf";
 
 export default () => {
   const [playing, play] = setState(false);
+  const audioRef = useRef(null);
   return <Router>
     <Body margin={0}>
       <Div flex={1}>
