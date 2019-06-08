@@ -15,6 +15,7 @@ export default ({ border, centered, children, flex, row, style }) => (
       textAlign: centered && "center",
       ...style
     }}
+    {...props}
   >
     {children}
   </div>
