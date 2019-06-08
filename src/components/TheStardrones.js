@@ -53,7 +53,7 @@ export default () => (
             height={size}
           />
         </Div>
-        <Div centered style={{ padding: 28 }}>
+        <Div centered style={{ padding: 16 }}>
           <Link to="/">The Stardrones</Link>
         </Div>
         <audio autoPlay loop src={soundtrack} />
