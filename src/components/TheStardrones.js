@@ -3,6 +3,7 @@ import Body from "./Body";
 import Div from "./Div";
 import HomeLink from "./HomeLink";
 import Music from "./Music";
+import Stardrone from "./Stardrone";
 import image from "../images/TheStardrones.jpg";
 
 const Link = ({ children, style, ...props }) => (
