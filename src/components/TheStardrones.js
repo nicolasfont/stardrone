@@ -63,7 +63,7 @@ export default ({ playing, play }) => {
           </Div>
           <Div flex={1} />
         </Div>
-        <Div centered flex={1}>
+        <Div flex={1}>
           <Stardrone />
         </Div>
       </Div>
