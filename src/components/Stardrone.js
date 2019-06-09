@@ -22,9 +22,8 @@ const Link = ({ children, small, ...props }) => (
 
 export default ({ small }) => (
   <Body title="Stardrone">
-    <Div flex={1}>
+    <Div centered flex={1}>
       <HomeLink />
-      <Div centered flex={1}>
         <Link small={small} to="/thestardrones">
           Something Like A Spaceship
         </Link>
@@ -40,7 +39,6 @@ export default ({ small }) => (
         <Link small={small} to="/thestardrones">
           Les Trous Noirs N'Existent Pas
         </Link>
-      </Div>
     </Div>
   </Body>
 );
