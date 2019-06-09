@@ -28,7 +28,7 @@ export default () => {
       sound.play();
       // audioRef.current.play();
     } else {
-      sounds.pause();
+      sound.pause();
       // audioRef.current.pause();
     }
   }, [playing]);
