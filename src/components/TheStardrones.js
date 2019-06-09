@@ -46,6 +46,7 @@ export default ({ playing, play }) => {
   return (
     <Body title="The Stardrones">
       <HomeLink />
+      <Div flex={1} />
       <Div row>
         <Div flex={1} />
         <Div centered flex={1}>
