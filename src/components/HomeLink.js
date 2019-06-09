@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 export default () => (
   <Div>
-    <Link to="/">
+    <Link to="/nicolasfont">
       <img
         src={image}
         width={40}
