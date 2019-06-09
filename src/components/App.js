@@ -14,6 +14,7 @@ import "../fonts/billy-argel_amsterdam/Amsterdam Personal Use.ttf";
 import "../fonts/Black Diamonds Personal Use.ttf";
 import soundtrack from "../sounds/The Stardrones - The Tremecula Dance.mp3";
 import { Howl } from "howler";
+import Gapless5 from "../gapless5";
 
 const sound = new Howl({
   buffer: false,
