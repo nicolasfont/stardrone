@@ -48,6 +48,9 @@ export default ({ playing, play }) => {
       <HomeLink />
       <Div row>
         <Div centered flex={1}>
+          <Stardrone />
+        </Div>
+        <Div centered flex={1}>
           <Div flex={1} />
           <Div style={{ padding: 16 }}>
             <img
@@ -61,9 +64,6 @@ export default ({ playing, play }) => {
             <Link>The Stardrones</Link>
           </Div>
           <Div flex={1} />
-        </Div>
-        <Div centered flex={1}>
-          <Stardrone />
         </Div>
       </Div>
     </Body>
