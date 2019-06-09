@@ -7,6 +7,7 @@ export default () => (
   <Div>
     <Link to="/nicolasfont">
       <img
+        alt="Music, film, visuals, and code by Nicolás Font"
         src={image}
         width={40}
         height={40}
