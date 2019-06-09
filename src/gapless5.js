@@ -1662,3 +1662,5 @@ var Init = function(elem_id, options, tickMS) {
 $(document).ready(Init(elem_id, options, this.tickMS));
 
 };
+
+export default Gapless5;
