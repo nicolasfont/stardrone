@@ -21,7 +21,7 @@ myAudio.ontimeupdate = function(i) {
     this.play();
   }
 };
-myAudio.currentTime = 110;
+myAudio.currentTime = 118;
 myAudio.play();
 
 export default () => {
