@@ -22,13 +22,18 @@ const sound = new Howl({
   src: [soundtrack]
 });
 
+const player = new Gapless5("gapless5-block", {
+  tracks: [soundtrack],
+  loop: true
+});
+
 export default () => {
   const [playing, play] = useState(false);
   useEffect(() => {
     if (playing) {
-      sound.play();
+      player.play();
     } else {
-      sound.pause();
+      player.pause();
     }
   }, [playing]);
   return (
