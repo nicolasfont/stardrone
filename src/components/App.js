@@ -14,7 +14,6 @@ import "../fonts/billy-argel_amsterdam/Amsterdam Personal Use.ttf";
 import "../fonts/Black Diamonds Personal Use.ttf";
 import soundtrack from "../sounds/The Stardrones - The Tremecula Dance.mp3";
 import { Howl } from "howler";
-import Gapless5 from "../gapless5";
 
 const sound = new Howl({
   buffer: false,
@@ -23,18 +22,21 @@ const sound = new Howl({
   src: [soundtrack]
 });
 
-const player = new Gapless5("gapless5-block", {
-  tracks: [soundtrack],
-  loop: true
-});
+myAudio = new Audio(soundtrack);
+myAudio.ontimeupdate= function(i) {
+  if((this.currentTime / this.duration)>0.9){
+    this.currentTime = 0;
+    this.play();
+  }
+};
 
 export default () => {
   const [playing, play] = useState(false);
   useEffect(() => {
     if (playing) {
-      player.play();
+      myAudio.play();
     } else {
-      player.pause();
+      myAudio.pause();
     }
   }, [playing]);
   return (
