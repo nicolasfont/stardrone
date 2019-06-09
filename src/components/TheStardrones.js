@@ -46,11 +46,7 @@ export default ({ playing, play }) => {
   return (
     <Body title="The Stardrones">
       <HomeLink />
-      <Div flex={1} />
-      <Div row>
-        <Div flex={1} />
         <Div centered flex={1}>
-          <Div flex={1} />
           <Div style={{ padding: 16 }}>
             <img
               title="The Tremecula Dance"
@@ -62,13 +58,7 @@ export default ({ playing, play }) => {
           <Div style={{ padding: 16 }}>
             <Link>The Stardrones</Link>
           </Div>
-          <Div flex={1} />
-        </Div>
-        <Div flex={1}>
-          <Stardrone small />
-        </Div>
       </Div>
-      <Div flex={1} />
     </Body>
   );
 };
