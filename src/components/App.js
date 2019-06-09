@@ -22,7 +22,7 @@ const sound = new Howl({
   src: [soundtrack]
 });
 
-myAudio = new Audio(soundtrack);
+const myAudio = new Audio(soundtrack);
 myAudio.ontimeupdate= function(i) {
   if((this.currentTime / this.duration)>0.9){
     this.currentTime = 0;
