@@ -4,13 +4,13 @@ import Div from "./Div";
 import HomeLink from "./HomeLink";
 import { Link as BaseLink } from "react-router-dom";
 
-const Link = ({ children, ...props }) => (
+const Link = ({ children, small, ...props }) => (
   <Div>
     <BaseLink
       style={{
         color: "black",
         fontFamily: "Amsterdam",
-        fontSize: "16px",
+        fontSize: small ? "12px" : "16px",
         textDecoration: "none"
       }}
       {...props}
