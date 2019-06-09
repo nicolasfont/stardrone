@@ -50,7 +50,6 @@ export default () => {
             />
           </Div>
         </Div>
-        <audio loop ref={audioRef} src={soundtrack} />
       </Body>
     </Router>
   );
