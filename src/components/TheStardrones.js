@@ -68,6 +68,7 @@ export default ({ playing, play }) => {
           <Stardrone small />
         </Div>
       </Div>
+      <Div flex={1} />
     </Body>
   );
 };
