@@ -45,8 +45,8 @@ const size = 300;
 export default ({ playing, play }) => {
   return (
     <Body title="The Stardrones">
-      <Div centered flex={1}>
         <HomeLink />
+      <Div centered flex={1}>
         <Div flex={1} />
         <Div style={{ padding: 16 }}>
           <img
