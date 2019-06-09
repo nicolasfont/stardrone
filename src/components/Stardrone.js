@@ -22,7 +22,7 @@ const Link = ({ children, small, ...props }) => (
 
 export default ({ small }) => (
   <Body title="Stardrone">
-    <Div centered flex={1}>
+    <Div flex={1}>
       <HomeLink />
       <Link small={small} to="/thestardrones">
         Something Like A Spaceship
