@@ -10,7 +10,7 @@ const Link = ({ children, small, ...props }) => (
       style={{
         color: "black",
         fontFamily: "Amsterdam",
-        fontSize: small ? "14px" : "18px",
+        fontSize: small ? "14px" : "16px",
         textDecoration: "none"
       }}
       {...props}
