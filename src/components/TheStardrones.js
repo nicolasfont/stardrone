@@ -60,6 +60,7 @@ export default ({ playing, play }) => {
           <Div style={{ padding: 16 }}>
             <Link>The Stardrones</Link>
           </Div>
+          <Div flex={1} />
         </Div>
       </Div>
     </Body>
