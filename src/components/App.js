@@ -22,15 +22,12 @@ const sound = new Howl({
 });
 
 export default () => {
-  const audioRef = useRef(null);
   const [playing, play] = useState(false);
   useEffect(() => {
     if (playing) {
       sound.play();
-      // audioRef.current.play();
     } else {
       sound.pause();
-      // audioRef.current.pause();
     }
   }, [playing]);
   return (
