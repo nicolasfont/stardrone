@@ -18,6 +18,7 @@ import { Howl } from "howler";
 const sound = new Howl({
   buffer: false,
   loop: true,
+  preload: true,
   src: [soundtrack]
 });
 
