@@ -23,12 +23,15 @@ const sound = new Howl({
 });
 
 const myAudio = new Audio(soundtrack);
+myAudio.loop = true;
+/*
 myAudio.ontimeupdate= function(i) {
   if((this.currentTime / this.duration)>0.9){
     this.currentTime = 0;
     this.play();
   }
 };
+*/
 
 export default () => {
   const [playing, play] = useState(false);
