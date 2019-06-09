@@ -13,14 +13,6 @@ import image from "../images/12524041_10153845708099354_6990004252861025374_n.jp
 import "../fonts/billy-argel_amsterdam/Amsterdam Personal Use.ttf";
 import "../fonts/Black Diamonds Personal Use.ttf";
 import soundtrack from "../sounds/The Stardrones - The Tremecula Dance.mp3";
-import { Howl } from "howler";
-
-const sound = new Howl({
-  buffer: false,
-  html5: false,
-  loop: true,
-  src: [soundtrack]
-});
 
 const myAudio = new Audio(soundtrack);
 myAudio.loop = true;
