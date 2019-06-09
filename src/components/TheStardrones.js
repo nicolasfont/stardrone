@@ -47,6 +47,7 @@ export default ({ playing, play }) => {
     <Body title="The Stardrones">
       <HomeLink />
       <Div row>
+        <Div flex={1} />
         <Div centered flex={1}>
           <Div flex={1} />
           <Div style={{ padding: 16 }}>
