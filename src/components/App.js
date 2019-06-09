@@ -36,7 +36,11 @@ export default () => {
       <Body margin={0}>
         <Div flex={1}>
           <Div flex={1}>
-            <Route path="/" exact component={Stardrone} />
+<Route
+              path="/"
+              exact
+              component={() => <TheStardrones playing={playing} play={play} />}
+            />
             <Route path="/space" exact component={Space} />
             <Route path="/colors" exact component={Colors} />
             <Route path="/music" exact component={Music} />
