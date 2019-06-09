@@ -21,8 +21,6 @@ myAudio.ontimeupdate = function(i) {
     this.play();
   }
 };
-myAudio.currentTime = 116;
-myAudio.play();
 
 export default () => {
   const [playing, play] = useState(false);
