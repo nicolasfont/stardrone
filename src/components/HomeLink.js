@@ -14,6 +14,5 @@ export default ({ title, to }) => (
         style={{ position: "absolute", left: 40, top: 40, borderRadius: "50%" }}
       />
     </Link>
-      Lala
   </Div>
 );
