@@ -16,7 +16,7 @@ import soundtrack from "../sounds/The Stardrones - The Tremecula Dance.mp3";
 import { Howl, Howler } from "howler";
 
 const sound = new Howl({
-  buffer: false,
+  buffer: true,
   loop: true,
   src: [soundtrack]
 });
