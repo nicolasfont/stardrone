@@ -16,7 +16,7 @@ import soundtrack from "../sounds/The Stardrones - The Tremecula Dance.mp3";
 
 const myAudio = new Audio(soundtrack);
 myAudio.ontimeupdate = function(i) {
-  if (this.currentTime >= this.duration - 0.2) {
+  if (this.currentTime >= this.duration - 0.3) {
     this.currentTime = 0;
     this.play();
   }
