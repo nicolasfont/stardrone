@@ -36,7 +36,7 @@ export default () => {
       <Body margin={0}>
         <Div flex={1}>
           <Div flex={1}>
-<Route
+            <Route
               path="/"
               exact
               component={() => <TheStardrones playing={playing} play={play} />}
