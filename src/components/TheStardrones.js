@@ -45,7 +45,7 @@ const size = 300;
 export default ({ playing, play }) => {
   return (
     <Body title="The Stardrones">
-      <HomeLink to="/nicolasfont" />
+      <HomeLink to="/nicolasfont" title="Music, film, visuals, and code by Nicolás Font" />
       <Div centered flex={1}>
         <Div style={{ padding: 16 }}>
           <img
