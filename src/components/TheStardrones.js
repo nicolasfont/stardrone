@@ -47,22 +47,22 @@ export default ({ playing, play }) => {
     <Body title="The Stardrones">
       <HomeLink />
       <Div row>
-      <Div centered flex={1}>
-        <Div flex={1} />
-        <Div style={{ padding: 16 }}>
-          <img
-            title="The Tremecula Dance"
-            src={image}
-            width={size}
-            height={size}
-          />
+        <Div centered flex={1}>
+          <Div flex={1} />
+          <Div style={{ padding: 16 }}>
+            <img
+              title="The Tremecula Dance"
+              src={image}
+              width={size}
+              height={size}
+            />
+          </Div>
+          <Div style={{ padding: 16 }}>
+            <Link>The Stardrones</Link>
+          </Div>
+          <Div flex={1} />
         </Div>
-        <Div style={{ padding: 16 }}>
-          <Link>The Stardrones</Link>
-        </Div>
-        <Div flex={1} />
       </Div>
-    </Div>
     </Body>
   );
 };
