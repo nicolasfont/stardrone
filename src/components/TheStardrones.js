@@ -62,7 +62,7 @@ export default ({ playing, play }) => {
           </Div>
         </Div>
         <Div centered flex={1} style={{ padding: 16 }}>
-          <Stardrone />
+          <Stardrone small />
           <Link
             onClick={() => play(!playing)}
             style={{ fontFamily: "impact", cursor: "pointer" }}
