@@ -30,7 +30,7 @@ export default () => {
     if (playing) {
       myAudio.play();
     } else {
-      myAudio.pause();
+      //myAudio.pause();
     }
   }, [playing]);
   return (
