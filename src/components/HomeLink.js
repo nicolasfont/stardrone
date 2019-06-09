@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 export default ({ to }) => (
   <Div>
-    <Link to={to}>
+    <Link to={to || "/"}>
       <img
         title="Music, film, visuals, and code by Nicolás Font"
         src={image}
