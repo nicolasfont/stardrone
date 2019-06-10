@@ -86,7 +86,7 @@ const Body = ({ children }) => {
   }, [color]);
 
   return (
-    <Div noBorder flex={1} style={{ maxWidth: 680, margin: "auto" }}>
+    <Div noBorder flex={1} style={{ maxWidth: 690, margin: "auto" }}>
       {children}
     </Div>
   );
