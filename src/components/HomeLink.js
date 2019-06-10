@@ -7,7 +7,7 @@ export default ({ title, to }) => (
   <Div>
     <Link to={to || "/thestardrones"}>
       <img
-        title={ title || "The Stardrones" }
+        title={title || "The Stardrones"}
         src={image}
         width={40}
         height={40}
