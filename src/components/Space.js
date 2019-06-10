@@ -142,6 +142,12 @@ export default () => (
 
       <Div>
         <Text>
+            Wonder around in circles where the flowers are. It will be fine there.
+        </Text>
+      </Div>
+
+      <Div>
+        <Text>
           Monkeys drove around carpool lanes, watching apples turn brown. Pushed
           through fast moving dust particles, singing fairies. Lyrical bombs
           caught her smiling again, until the love was gone. All the alls. None
