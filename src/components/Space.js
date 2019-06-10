@@ -10,10 +10,10 @@ const ColorProvider = ({ children }) => {
   const hue = parseInt(hash(base || new Date().toString()), 16) % 360;
   useEffect(() => {
     const loop = () => {
-    requestAnimationFrame(() => {
-      base && setBase(new Date().toString());
-      loop();
-    });
+      requestAnimationFrame(() => {
+        base && setBase(new Date().toString());
+        loop();
+      });
     };
   });
   const hue2 = (hue + 36) % 360;
@@ -149,7 +149,7 @@ export default () => (
 
       <Div>
         <Text>
-            Wonder around in circles where the flowers are. It will be fine there.
+          Wonder around in circles where the flowers are. It will be fine there.
         </Text>
       </Div>
 
