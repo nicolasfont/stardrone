@@ -15,6 +15,7 @@ const ColorProvider = ({ children }) => {
         loop();
       });
     };
+    loop();
   });
   const hue2 = (hue + 36) % 360;
   const saturation = `${80}%`;
