@@ -144,7 +144,7 @@ export default () => (
         <Text>
           Monkeys drove around carpool lanes, watching apples turn brown. Pushed
           through fast moving dust particles, singing fairies. Lyrical bombs
-          caught her smiling again, until the love was gone. All the alls, none
+          caught her smiling again, until the love was gone. All the alls. None
           the nones. Barter the golden monuments for drinks and proteins ★
         </Text>
       </Div>
