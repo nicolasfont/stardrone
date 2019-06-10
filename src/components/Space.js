@@ -6,8 +6,8 @@ import HomeLink from "./HomeLink";
 const ColorContext = createContext();
 
 const ColorProvider = ({ children }) => {
-  const [base, setBase] = useState(new Date().toString());
-  const hue = parseInt(hash(base), 16) % 360;
+  const [base, setBase] = useState();
+  const hue = parseInt(hash(base || new Date().toString()), 16) % 360;
   const hue2 = (hue + 36) % 360;
   const saturation = `${80}%`;
   const lightness = `${70}%`;
