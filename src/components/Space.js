@@ -7,7 +7,7 @@ const ColorContext = createContext();
 
 const ColorProvider = ({ children }) => {
   const [base, setBase] = useState("");
-  const seed = "1";
+  const seed = "0";
   const hue = parseInt(hash(seed + base), 16) % 360;
   const hue2 = (hue + 36) % 360;
   const saturation = `${80}%`;
