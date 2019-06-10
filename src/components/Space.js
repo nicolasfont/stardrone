@@ -9,7 +9,7 @@ const ColorProvider = ({ children }) => {
   const [base, setBase] = useState();
   const hue = parseInt(hash(base || new Date().toString()), 16) % 360;
   useEffect(() => {
-    const loop => () => {
+    const loop = () => {
     requestAnimationFrame(() => {
       base && setBase(new Date().toString());
       loop();
