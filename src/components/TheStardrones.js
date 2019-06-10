@@ -49,7 +49,7 @@ export default ({ playing, play }) => {
       <Div centered flex={1}>
         <Div style={{ padding: 16 }}>
           <img
-            title="The Tremecula Dance"
+            title="The Tremecula Dance means this is a gift to you. All my art is public domain. Please use it in your. And you dance it like this..."
             src={image}
             width={size}
             height={size}
