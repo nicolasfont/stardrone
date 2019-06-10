@@ -10,7 +10,7 @@ const ColorProvider = ({ children }) => {
   const seed = "";
   const hue = parseInt(hash(seed + base), 16) % 360;
   const hue2 = (hue + 36) % 360;
-  const saturation = `${50}%`;
+  const saturation = `${80}%`;
   const lightness = `${50}%`;
   const color = `linear-gradient(hsl(${hue}, ${saturation}, ${lightness}),hsl(${hue2}, ${saturation}, ${lightness}))`;
   return (
