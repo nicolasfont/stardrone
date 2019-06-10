@@ -39,7 +39,7 @@ export default () => {
             <Route
               path="/"
               exact
-              component={() => <TheStardrones playing={playing} play={play} />}
+              component={() => <Stardrone />}
             />
             <Route path="/space" exact component={Space} />
             <Route path="/colors" exact component={Colors} />
