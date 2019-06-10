@@ -8,6 +8,14 @@ const ColorContext = createContext();
 const ColorProvider = ({ children }) => {
   const [base, setBase] = useState();
   const hue = parseInt(hash(base || new Date().toString()), 16) % 360;
+  useEffect(() => {
+    const loop => () => {
+    requestAnimationFrame(() => {
+      base && setBase(new Date().toString());
+      loop();
+    });
+    };
+  });
   const hue2 = (hue + 36) % 360;
   const saturation = `${80}%`;
   const lightness = `${70}%`;
