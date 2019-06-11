@@ -30,6 +30,7 @@ request.onload = () => {
     response => {
       source.buffer = response;
       source.start(0);
+      source.loop = true;
     },
     e => console.error(e)
   );
