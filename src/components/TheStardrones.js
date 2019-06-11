@@ -24,7 +24,9 @@ const Link = ({ children, style, ...props }) => (
 );
 
 const License = () =>
-  <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>;
+  <Div style={{ position: "absolute", right: 40, top: 40 }}>
+    <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>;
+  </Div>
 
 const size = 300;
 
