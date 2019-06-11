@@ -6,7 +6,7 @@ import HomeLink from "./HomeLink";
 export default () => (
   <Body title="Stardrone">
     <Div centered flex={1}>
-      <Div centered style={{ fontFamily: "Impact", fontSize: 48, fontStyle: "italic" }}>
+      <Div style={{ fontFamily: "Impact", fontSize: 48, fontStyle: "italic" }}>
       <HomeLink />
           STARDRONE
       </Div>
