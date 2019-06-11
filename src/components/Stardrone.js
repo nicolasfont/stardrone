@@ -7,7 +7,7 @@ export default () => (
   <Body title="Stardrone">
     <Div flex={1}>
       <HomeLink />
-      <Div centered style={{ fontFamily: "Impact" }}>
+      <Div centered style={{ fontFamily: "Impact", fontStyle: "italic" }}>
           STARDRONE
       </Div>
     </Div>
