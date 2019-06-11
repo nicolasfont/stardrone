@@ -60,6 +60,7 @@ export default ({ playing, play }) => {
         to="/nicolasfont"
         title="Music, film, visuals, and code by Nicolás Font except where noted"
       />
+        <License/>
       <Div centered flex={1}>
         <Div onClick={flip} style={{ cursor: "pointer" }}>
           {flipped ? (
