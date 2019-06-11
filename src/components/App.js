@@ -14,19 +14,11 @@ import "../fonts/billy-argel_amsterdam/Amsterdam Personal Use.ttf";
 import "../fonts/Black Diamonds Personal Use.ttf";
 import soundtrack from "../sounds/The Stardrones - The Tremecula Dance.mp3";
 
-const myAudio = new Audio(soundtrack);
-myAudio.ontimeupdate = function(i) {
-  if (this.currentTime >= this.duration - 0.2915) {
-    this.currentTime = 0;
-    this.play();
-  }
-};
-
 export default () => {
   const [playing, play] = useState(false);
   useEffect(() => {
     if (playing) {
-      myAudio.play();
+      //myAudio.play();
     } else {
       //myAudio.pause();
     }
