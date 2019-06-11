@@ -58,7 +58,24 @@ export default ({ playing, play }) => {
       <Div centered flex={1}>
           <Div onClick={flip} style={{ cursor: "pointer" }}>
         {flipped ? (
-          <Div>back</Div>
+          <Div>
+<Link small={small} to="/thestardrones">
+          Something Like A Spaceship
+        </Link>
+        <Link small={small} to="/thestardrones">
+          The Tremecula Dance
+        </Link>
+        <Link small={small} to="/thestardrones">
+          The Gazing Hour
+        </Link>
+        <Link small={small} to="/thestardrones">
+          Here To Fuck Shit Up
+        </Link>
+        <Link small={small} to="/thestardrones">
+          Les Trous Noirs N'Existent Pas
+        </Link>
+
+          </Div>
         ) : (
           <>
             <Div style={{ padding: 16 }}>
