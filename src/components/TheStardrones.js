@@ -56,7 +56,7 @@ export default ({ playing, play }) => {
         title="Music, film, visuals, and code by Nicolás Font except where noted"
       />
       <Div centered flex={1}>
-          <Div onClick={flip}>
+          <Div onClick={flip} style={{ cursor: "pointer" }}>
         {flipped ? (
           <Div>back</Div>
         ) : (
