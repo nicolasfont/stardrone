@@ -20,15 +20,19 @@ source.connect(context.destination);
 
 const request = new XMLHttpRequest();
 
-request.open('GET', soundtrack, true);
+request.open("GET", soundtrack, true);
 
 request.responseType = "arraybuffer";
 
 request.onload = () => {
-  context.decodeAudioData(request.response, response => {
-    source.buffer = response;
-    source.start(0);
-  }, e => console.error(e));
+  context.decodeAudioData(
+    request.response,
+    response => {
+      source.buffer = response;
+      source.start(0);
+    },
+    e => console.error(e)
+  );
 };
 
 request.send();
