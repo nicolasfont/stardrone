@@ -8,7 +8,7 @@ export default () => (
     <Div flex={1}>
       <HomeLink />
       <Div centered style={{ fontFamily: "Impact", fontSize: 48, fontStyle: "italic" }}>
-          STARDRONE . ONLINE
+          STARDRONE
       </Div>
     </Div>
   </Body>
