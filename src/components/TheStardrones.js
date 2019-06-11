@@ -56,6 +56,8 @@ export default ({ playing, play }) => {
         title="Music, film, visuals, and code by Nicolás Font except where noted"
       />
       <Div centered flex={1}>
+          { flipped ?
+            <Div>back</Div> :
         <Div onClick={flip}>
           <Div style={{ padding: 16 }}>
             <img
@@ -68,7 +70,7 @@ export default ({ playing, play }) => {
           <Div style={{ padding: 16 }}>
             <Link>The Stardrones</Link>
           </Div>
-        </Div>
+        </Div> }
       </Div>
     </Body>
   );
