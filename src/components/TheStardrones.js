@@ -56,21 +56,23 @@ export default ({ playing, play }) => {
         title="Music, film, visuals, and code by Nicolás Font except where noted"
       />
       <Div centered flex={1}>
-          { flipped ?
-            <Div>back</Div> :
-        <Div onClick={flip}>
-          <Div style={{ padding: 16 }}>
-            <img
-              title="The Tremecula Dance means this is a gift to you. All my art is public domain. Please use it in yours. And you dance it like this..."
-              src={image}
-              width={size}
-              height={size}
-            />
+        {flipped ? (
+          <Div>back</Div>
+        ) : (
+          <Div onClick={flip}>
+            <Div style={{ padding: 16 }}>
+              <img
+                title="The Tremecula Dance means this is a gift to you. All my art is public domain. Please use it in yours. And you dance it like this..."
+                src={image}
+                width={size}
+                height={size}
+              />
+            </Div>
+            <Div style={{ padding: 16 }}>
+              <Link>The Stardrones</Link>
+            </Div>
           </Div>
-          <Div style={{ padding: 16 }}>
-            <Link>The Stardrones</Link>
-          </Div>
-        </Div> }
+        )}
       </Div>
     </Body>
   );
