@@ -7,7 +7,7 @@ export default () => (
   <Body title="Stardrone">
     <Div flex={1}>
       <HomeLink />
-      <Div style={{ justifyContent: "center" }}>
+      <Div centered style={{ justifyContent: "center" }}>
           STARDRONE
       </Div>
     </Div>
