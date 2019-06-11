@@ -22,29 +22,8 @@ const Link = ({ children, small, ...props }) => (
 
 export default ({ small }) => (
   <Body title="Stardrone">
-    {true ? (
-      <Div flex={1}>
-        <HomeLink />
-      </Div>
-    ) : (
-      <Div style={{ alignItems: "center" }} flex={1}>
-        <HomeLink />
-        <Link small={small} to="/thestardrones">
-          Something Like A Spaceship
-        </Link>
-        <Link small={small} to="/thestardrones">
-          The Tremecula Dance
-        </Link>
-        <Link small={small} to="/thestardrones">
-          The Gazing Hour
-        </Link>
-        <Link small={small} to="/thestardrones">
-          Here To Fuck Shit Up
-        </Link>
-        <Link small={small} to="/thestardrones">
-          Les Trous Noirs N'Existent Pas
-        </Link>
-      </Div>
-    )}
+    <Div flex={1}>
+      <HomeLink />
+    </Div>
   </Body>
 );
