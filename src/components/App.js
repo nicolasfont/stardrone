@@ -12,7 +12,7 @@ import NicolasFont from "./NicolasFont";
 import image from "../images/12524041_10153845708099354_6990004252861025374_n.jpg";
 import "../fonts/billy-argel_amsterdam/Amsterdam Personal Use.ttf";
 import "../fonts/Black Diamonds Personal Use.ttf";
-import soundtrack from "../sounds/The Stardrones - The Tremecula Dance.wav";
+import soundtrack from "../sounds/The Stardrones - The Tremecula Dance.mp3";
 
 const context = new AudioContext();
 const source = context.createBufferSource();
