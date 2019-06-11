@@ -32,6 +32,8 @@ request.onload = () => {
   }, e => console.error(e));
 };
 
+request.send();
+
 export default () => {
   const [playing, play] = useState(false);
   useEffect(() => {
