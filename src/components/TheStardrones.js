@@ -59,19 +59,19 @@ export default ({ playing, play }) => {
         <Div onClick={flip} style={{ cursor: "pointer" }}>
           {flipped ? (
             <Div>
-              <Link small={small} to="/thestardrones">
+              <Link to="/thestardrones">
                 Something Like A Spaceship
               </Link>
-              <Link small={small} to="/thestardrones">
+              <Link to="/thestardrones">
                 The Tremecula Dance
               </Link>
-              <Link small={small} to="/thestardrones">
+              <Link to="/thestardrones">
                 The Gazing Hour
               </Link>
-              <Link small={small} to="/thestardrones">
+              <Link to="/thestardrones">
                 Here To Fuck Shit Up
               </Link>
-              <Link small={small} to="/thestardrones">
+              <Link to="/thestardrones">
                 Les Trous Noirs N'Existent Pas
               </Link>
             </Div>
