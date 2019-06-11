@@ -33,6 +33,7 @@ const License = () => (
         alt="Creative Commons License"
         style={{ borderWidth: 0 }}
         src="https://i.creativecommons.org/l/by/4.0/88x31.png"
+        target="_blank"
       />
     </a>
   </Div>
