@@ -12,7 +12,7 @@ const Link = ({ children, style, ...props }) => (
       color: "black",
       fontFamily: "Amsterdam",
       textDecoration: "none",
-      fontSize: "1.3rem",
+      fontSize: "16px",
       padding: 0,
       margin: 0,
       ...style
@@ -76,7 +76,7 @@ export default ({ playing, play }) => {
                 />
               </Div>
               <Div style={{ padding: 16 }}>
-                <Link>The Stardrones</Link>
+                <Link style={{ fontSize: "1.3rem" }}>The Stardrones</Link>
               </Div>
             </>
           )}
