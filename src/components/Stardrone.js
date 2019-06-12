@@ -1,6 +1,7 @@
 import React from "react";
 import Body from "./Body";
 import Div from "./Div";
+import Link from "react-router-dom";
 import Text from "./Text";
 import HomeLink from "./HomeLink";
 
