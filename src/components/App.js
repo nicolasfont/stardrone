@@ -19,7 +19,7 @@ source.connect(context.destination);
 
 const request = new XMLHttpRequest();
 
-request.open("GET", soundtrack, true);
+// request.open("GET", soundtrack, true);
 
 request.responseType = "arraybuffer";
 
