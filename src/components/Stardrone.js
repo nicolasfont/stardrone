@@ -10,6 +10,9 @@ export default () => (
       <Div style={{ fontFamily: "Impact", fontSize: 48, fontStyle: "italic" }}>
         STARDRONE.ONLINE
       </Div>
+      <Div>
+          Music, film, visual, and code by Nicolás Font except where noted.
+      </Div>
     </Div>
   </Body>
 );
