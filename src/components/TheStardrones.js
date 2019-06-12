@@ -78,28 +78,33 @@ export default () => {
       <License />
       <Div centered flex={1}>
         <Div onClick={rotate} style={{ cursor: "pointer" }}>
-            {[
-            <Div>
-              <Link to="/thestardrones">The Tremecula Dance</Link>
-              <Link to="/thestardrones">Something Like A Spaceship</Link>
-              <Link to="/thestardrones">Les Trous Noirs N'Existent Pas</Link>
-              <Link to="/thestardrones">Here To Fuck Shit Up</Link>
-              <Link to="/thestardrones">The Gazing Hour</Link>
-            </Div>,
-            <Div>
-              <Div style={{ padding: 16 }}>
-                <img
-                  title="The Tremecula Dance means this is a gift to you. All my work here is free. Please use it in yours. And you dance it like this..."
-                  src={image}
-                  width={size}
-                  height={size}
-                />
-              </Div>
-              <Div style={{ padding: 16 }}>
-                <Link style={{ fontSize: "1.3rem" }}>The Stardrones</Link>
-              </Div>
+          {
+            [
+              <Div>
+                <Link to="/thestardrones">The Tremecula Dance</Link>
+                <Link to="/thestardrones">Something Like A Spaceship</Link>
+                <Link to="/thestardrones">Les Trous Noirs N'Existent Pas</Link>
+                <Link to="/thestardrones">Here To Fuck Shit Up</Link>
+                <Link to="/thestardrones">The Gazing Hour</Link>
               </Div>,
-              <Div centered flex={1}>the universe is not real and it's ok</Div>][rotation]}
+              <Div>
+                <Div style={{ padding: 16 }}>
+                  <img
+                    title="The Tremecula Dance means this is a gift to you. All my work here is free. Please use it in yours. And you dance it like this..."
+                    src={image}
+                    width={size}
+                    height={size}
+                  />
+                </Div>
+                <Div style={{ padding: 16 }}>
+                  <Link style={{ fontSize: "1.3rem" }}>The Stardrones</Link>
+                </Div>
+              </Div>,
+              <Div centered flex={1}>
+                the universe is not real and it's ok
+              </Div>
+            ][rotation]
+          }
         </Div>
       </Div>
     </Body>

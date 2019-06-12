@@ -33,8 +33,5 @@ export default ({ children }) => {
       //myAudio.pause();
     }
   }, [playing]);
-  return (
-    children
-  );
+  return children;
 };
-
