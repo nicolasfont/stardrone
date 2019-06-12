@@ -99,7 +99,7 @@ export default () => {
                 <Link style={{ fontSize: "1.3rem" }}>The Stardrones</Link>
               </Div>
               </>,
-              <Div centered flex={1}>the universe is not real and it's ok</Div>
+              <Div centered flex={1}>the universe is not real and it's ok</Div>]
           )}
         </Div>
       </Div>
