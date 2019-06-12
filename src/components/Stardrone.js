@@ -18,7 +18,15 @@ export default () => (
         </Text>
       </Div>
       <Div>
-        <HomeLink position="relative" />
+<Link to={"/thestardrones"}>
+    <img
+      title={"The Stardrones"}
+      src={image}
+      width={40}
+      height={40}
+      style={{ borderRadius: "50%" }}
+    />
+  </Link>
       </Div>
     </Div>
   </Body>
