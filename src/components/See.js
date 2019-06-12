@@ -5,7 +5,7 @@ import Text from "./Text";
 export default () => {
   return (
     <Div centered flex={1}>
-      <Text>See</Text>
+      <Text small>See</Text>
     </Div>
   );
 };
