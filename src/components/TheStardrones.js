@@ -78,7 +78,7 @@ export default () => {
       <License />
       <Div centered flex={1}>
         <Div onClick={rotate} style={{ cursor: "pointer" }}>
-            [
+            {[
             <Div>
               <Link to="/thestardrones">The Tremecula Dance</Link>
               <Link to="/thestardrones">Something Like A Spaceship</Link>
@@ -99,7 +99,7 @@ export default () => {
                 <Link style={{ fontSize: "1.3rem" }}>The Stardrones</Link>
               </Div>
               </>,
-              <Div centered flex={1}>the universe is not real and it's ok</Div>]
+              <Div centered flex={1}>the universe is not real and it's ok</Div>][rotation]}
           )}
         </Div>
       </Div>
