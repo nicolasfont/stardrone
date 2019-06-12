@@ -15,7 +15,6 @@ export default () => (
         STARDRONE.ONLINE
       </Div>
       <Div>
-          test
         <Text>
           Music, film, visual art, and code by Nicolás Font except where noted
         </Text>
