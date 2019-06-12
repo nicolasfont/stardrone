@@ -4,6 +4,7 @@ import Div from "./Div";
 import { Link } from "react-router-dom";
 import Text from "./Text";
 import HomeLink from "./HomeLink";
+import image from "../images/12524041_10153845708099354_6990004252861025374_n.jpg";
 
 export default () => (
   <Body title="Stardrone">
