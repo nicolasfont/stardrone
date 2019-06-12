@@ -12,18 +12,18 @@
   "author": "Nicolás Font @nicolasfont",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "chalk": "^2.4.2",
     "hash-index": "^3.0.0",
     "invert-color": "^2.0.0",
-    "jest": "^24.7.1",
+    "jest": "^24.8.0",
     "object-hash": "^1.3.1",
     "ramda": "^0.26.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-motion": "^0.5.2",
-    "react-router-dom": "^5.0.0",
-    "react-spring": "^8.0.20"
+    "react-router-dom": "^5.0.1",
+    "react-spring": "^8.0.23"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.3"
