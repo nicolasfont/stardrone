@@ -12,7 +12,7 @@
     "pm2:stop": "pm2 stop npm",
     "start": "parcel index.html",
     "test": "jest",
-    "update": "npm run pm2:stop; git pull; npm run pm2"
+    "update": "npm run pm2:stop; git pull; npm ci; npm run pm2"
   },
   "keywords": [],
   "author": "Nicolás Font @nicolasfont",
