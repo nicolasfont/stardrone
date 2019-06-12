@@ -37,7 +37,7 @@ request.onload = () => {
   );
 };
 
-request.send();
+// request.send();
 
 export default () => {
   const [playing, play] = useState(false);
