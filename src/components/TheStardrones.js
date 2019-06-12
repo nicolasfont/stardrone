@@ -73,8 +73,8 @@ export default () => {
   return (
     <Body title="The Stardrones">
       <HomeLink
-        to="/nicolasfont"
-        title="Music, film, visuals, and code by Nicolás Font except where noted"
+        to="/"
+        title="STARDRONE"
       />
       <License />
       <Div centered flex={1}>
