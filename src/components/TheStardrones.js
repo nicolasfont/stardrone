@@ -4,6 +4,7 @@ import Div from "./Div";
 import HomeLink from "./HomeLink";
 import Music from "./Music";
 import Stardrone from "./Stardrone";
+import Text from "./Text";
 import image from "../images/TheStardrones.jpg";
 import { useRotation } from "../hooks";
 
@@ -101,7 +102,7 @@ export default () => {
                 <Link to="/thestardrones">The Gazing Hour</Link>
               </Div>,
               <Div centered flex={1}>
-                the universe is not real and it's ok
+                <Text>the universe is not real and it's ok</Text>
               </Div>
             ][rotation]
           }
