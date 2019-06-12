@@ -37,7 +37,7 @@ request.onload = () => {
 
 // request.send();
 
-export default () => {
+export default ({ children }) => {
   const [playing, play] = useState(false);
   useEffect(() => {
     if (playing) {
@@ -47,24 +47,6 @@ export default () => {
     }
   }, [playing]);
   return (
-    <Router>
-      <Body margin={0}>
-        <Div flex={1}>
-          <Div flex={1}>
-            <Route path="/" exact component={() => <Stardrone />} />
-            <Route path="/colors" exact component={Colors} />
-            <Route path="/music" exact component={Music} />
-            <Route path="/nicolasfont" exact component={NicolasFont} />
-            <Route path="/see" exact component={See} />
-            <Route path="/space" exact component={Space} />
-            <Route
-              path="/thestardrones"
-              exact
-              component={() => <TheStardrones playing={playing} play={play} />}
-            />
-          </Div>
-        </Div>
-      </Body>
-    </Router>
+    children
   );
 };
