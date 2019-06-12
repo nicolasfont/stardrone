@@ -20,15 +20,15 @@ export default () => (
         </Text>
       </Div>
       <Div>
-<Link to={"/nicolasfont"}>
-    <img
-      title={"Nicolás Font"}
-      src={image}
-      width={40}
-      height={40}
-      style={{ borderRadius: "50%" }}
-    />
-  </Link>
+        <Link to={"/nicolasfont"}>
+          <img
+            title={"Nicolás Font"}
+            src={image}
+            width={40}
+            height={40}
+            style={{ borderRadius: "50%" }}
+          />
+        </Link>
       </Div>
       <License />
     </Div>

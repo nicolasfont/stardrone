@@ -10,7 +10,12 @@ export default ({ position, title, to }) => (
       src={image}
       width={40}
       height={40}
-      style={{ position: position || "absolute", left: 40, top: 40, borderRadius: "50%" }}
+      style={{
+        position: position || "absolute",
+        left: 40,
+        top: 40,
+        borderRadius: "50%"
+      }}
     />
   </Link>
 );
