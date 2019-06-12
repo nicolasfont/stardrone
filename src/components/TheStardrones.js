@@ -77,7 +77,7 @@ export default () => {
                 <Link to="/thestardrones">The Tremecula Dance</Link>
                 <Link to="/thestardrones">Something Like A Spaceship</Link>
                 <Link to="/thestardrones">Les Trous Noirs N'Existent Pas</Link>
-                <Link to="/thestardrones" style={{ fontFamily: "Impact" }}>189624370189624370</Link>
+                <Link to="/thestardrones" style={{ fontFamily: "Impact", fontSize: 26, paddingBottom: 12 }}>189624370189624370</Link>
                 <Link to="/thestardrones">The Gazing Hour</Link>
               </Div>,
               <Div centered flex={1}>
