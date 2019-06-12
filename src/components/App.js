@@ -13,39 +13,7 @@ import NicolasFont from "./NicolasFont";
 import image from "../images/12524041_10153845708099354_6990004252861025374_n.jpg";
 import "../fonts/billy-argel_amsterdam/Amsterdam Personal Use.ttf";
 
-const context = new AudioContext();
-const source = context.createBufferSource();
-source.connect(context.destination);
-
-const request = new XMLHttpRequest();
-
-// request.open("GET", soundtrack, true);
-
-request.responseType = "arraybuffer";
-
-request.onload = () => {
-  context.decodeAudioData(
-    request.response,
-    response => {
-      source.buffer = response;
-      source.start(0);
-      source.loop = true;
-    },
-    e => console.error(e)
-  );
-};
-
-// request.send();
-
 export default () => {
-  const [playing, play] = useState(false);
-  useEffect(() => {
-    if (playing) {
-      //myAudio.play();
-    } else {
-      //myAudio.pause();
-    }
-  }, [playing]);
   return (
     <Router>
       <Body margin={0}>
@@ -60,7 +28,7 @@ export default () => {
             <Route
               path="/thestardrones"
               exact
-              component={() => <TheStardrones playing={playing} play={play} />}
+              component={() => <TheStardrones />}
             />
           </Div>
         </Div>
