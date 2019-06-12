@@ -100,7 +100,6 @@ export default () => {
               </Div>
               </>,
               <Div centered flex={1}>the universe is not real and it's ok</Div>][rotation]}
-          )}
         </Div>
       </Div>
     </Body>
