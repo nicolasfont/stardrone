@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import Body from "./Body";
 import Div from "./Div";
 import HomeLink from "./HomeLink";
+import License from "./License";
 import Music from "./Music";
 import Stardrone from "./Stardrone";
 import Text from "./Text";
