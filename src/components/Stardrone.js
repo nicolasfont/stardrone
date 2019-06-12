@@ -1,6 +1,7 @@
 import React from "react";
 import Body from "./Body";
 import Div from "./Div";
+import Text from "./Text";
 import HomeLink from "./HomeLink";
 
 export default () => (
@@ -11,7 +12,9 @@ export default () => (
         STARDRONE.ONLINE
       </Div>
       <Div>
+        <Text>
           Music, film, visual, and code by Nicolás Font except where noted.
+        </Text>
       </Div>
     </Div>
   </Body>
