@@ -98,7 +98,7 @@ export default () => {
               <Div style={{ padding: 16 }}>
                 <Link style={{ fontSize: "1.3rem" }}>The Stardrones</Link>
               </Div>
-              <Div/>,
+              </Div>,
               <Div centered flex={1}>the universe is not real and it's ok</Div>][rotation]}
         </Div>
       </Div>
