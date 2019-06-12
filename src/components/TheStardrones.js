@@ -80,7 +80,7 @@ export default () => {
         <Div onClick={rotate} style={{ cursor: "pointer" }}>
           {
             [
-                            <Div>
+              <Div>
                 <Div style={{ padding: 16 }}>
                   <img
                     title="The Tremecula Dance means this is a gift to you. All my work here is free. Please use it in yours. And you dance it like this..."
@@ -100,7 +100,7 @@ export default () => {
                 <Link to="/thestardrones">Here To Fuck Shit Up</Link>
                 <Link to="/thestardrones">The Gazing Hour</Link>
               </Div>,
-<Div centered flex={1}>
+              <Div centered flex={1}>
                 the universe is not real and it's ok
               </Div>
             ][rotation]
