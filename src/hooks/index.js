@@ -7,6 +7,8 @@ export const useToggle = initialState => {
 
 export const useRotation = initialStates => {
   const [index, setIndex] = useState(0);
-  return [initialStates && initialStates[index], () => setIndex((index + 1) % initialStates.length)];
+  return [
+    initialStates && initialStates[index],
+    () => setIndex((index + 1) % initialStates.length)
+  ];
 };
-
