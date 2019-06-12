@@ -6,7 +6,7 @@ import License from "./License";
 import Music from "./Music";
 import Stardrone from "./Stardrone";
 import Text from "./Text";
-import image from "../images/TheStardrones.jpg";
+import image from "../images/The Stardrones.jpg";
 import { useRotation } from "../hooks";
 
 const Link = ({ children, style, ...props }) => (
