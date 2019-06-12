@@ -68,7 +68,7 @@ const useToggle = initialState => {
 };
 
 export default () => {
-  const [flipped, rotate] = useRotation([false, true]);
+  const [flipped, rotate] = useRotation([0, 1, 2]);
   return (
     <Body title="The Stardrones">
       <HomeLink
