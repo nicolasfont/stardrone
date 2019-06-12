@@ -1,4 +1,4 @@
 import React from "react";
 
-export default ({ children, small }) =>
-  <span style={{ fontFamily: "Amsterdam", fontSize: small ? 12 : 16 }}>{children}</span>;
+export default ({ children }) =>
+  <span style={{ fontFamily: "Amsterdam", fontSize: 16 }}>{children}</span>;
