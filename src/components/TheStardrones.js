@@ -102,7 +102,7 @@ export default () => {
                 <Link to="/thestardrones">The Gazing Hour</Link>
               </Div>,
               <Div centered flex={1}>
-                <Text>the universe is not real and it 's ok</Text>
+                <Text>the universe is not real and it's ok</Text>
               </Div>
             ][rotation]
           }
