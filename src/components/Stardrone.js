@@ -16,6 +16,9 @@ export default () => (
           Music, film, visuals, and code by Nicolás Font except where noted
         </Text>
       </Div>
+      <Div>
+        <HomeLink position="relative" />
+      </Div>
     </Div>
   </Body>
 );
