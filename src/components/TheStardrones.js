@@ -5,6 +5,7 @@ import HomeLink from "./HomeLink";
 import Music from "./Music";
 import Stardrone from "./Stardrone";
 import image from "../images/TheStardrones.jpg";
+import { useRotation } from "../hooks";
 
 const Link = ({ children, style, ...props }) => (
   <Div
@@ -67,7 +68,7 @@ const useToggle = initialState => {
 };
 
 export default ({ playing, play }) => {
-  const [flipped, flip] = useToggle(false);
+  const [flipped, rotate] = useRotation([false, true]);
   return (
     <Body title="The Stardrones">
       <HomeLink
@@ -76,7 +77,7 @@ export default ({ playing, play }) => {
       />
       <License />
       <Div centered flex={1}>
-        <Div onClick={flip} style={{ cursor: "pointer" }}>
+        <Div onClick={rotate} style={{ cursor: "pointer" }}>
           {flipped ? (
             <Div>
               <Link to="/thestardrones">The Tremecula Dance</Link>
