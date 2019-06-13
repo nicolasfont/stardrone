@@ -1,9 +1,8 @@
+import { all, equals, map, reverse, splitEvery } from "ramda";
 import React from "react";
 import Div from "./Div";
 import HomeLink from "./HomeLink";
 import Text from "./Text";
-
-const { all, equals, map, reverse, splitEvery } = require("ramda");
 
 const splitIntoGroups = (groupCount, array) =>
   map(reverse, reverse(splitEvery(array.length / groupCount, reverse(array))));
