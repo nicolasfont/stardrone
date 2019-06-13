@@ -11,6 +11,7 @@ import Stardrone from "./Stardrone";
 import TheStardrones from "./TheStardrones";
 import NicolasFont from "./NicolasFont";
 import "../fonts/billy-argel_amsterdam/Amsterdam Personal Use.ttf";
+import "../fonts/impact/impact.ttf";
 
 export default () => {
   return (
