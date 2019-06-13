@@ -82,7 +82,8 @@ export default () => {
                   style={{
                     fontFamily: "Impact",
                     fontSize: 26,
-                    paddingBottom: 12
+                    paddingBottom: 12,
+                    margin: 4
                   }}
                 >
                   189624370189624370
