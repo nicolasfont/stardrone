@@ -15,8 +15,11 @@ it("should split array into given number of groups", () => {
   expect(groups[2]).toEqual(["f", "g"]);
 });
 
-const Test = ({ children, it }) =>
-  <Div centered flex={1}>A Test</Div>;
+const Test = ({ children, it }) => (
+  <Div centered flex={1}>
+    A Test
+  </Div>
+);
 
 export default () => (
   <Div centered flex={1}>

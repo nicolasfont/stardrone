@@ -9,4 +9,3 @@ it("should split array into given number of groups", () => {
   expect(groups[1]).toEqual(["d", "e"]);
   expect(groups[2]).toEqual(["f", "g"]);
 });
-
