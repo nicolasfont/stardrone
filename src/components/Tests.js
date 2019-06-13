@@ -15,7 +15,7 @@ const Test = ({ children, name }) => (
   </Div>
 );
 
-const let = (value, body) => body(value);
+const letting = (value, body) => body(value);
 
 export default () => (
   <Div centered flex={1}>
