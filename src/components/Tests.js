@@ -7,7 +7,7 @@ import Text from "./Text";
 const splitIntoGroups = (groupCount, array) =>
   map(reverse, reverse(splitEvery(array.length / groupCount, reverse(array))));
 
-const Test = ({ children, it }) => (
+const Test = ({ children, name }) => (
   <Div centered flex={1}>
     <Text fontFamily="Impact" color={children() ? "black" : "red"}>
       {name}
