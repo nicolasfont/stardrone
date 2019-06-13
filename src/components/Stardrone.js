@@ -20,9 +20,9 @@ export default () => (
         </Text>
       </Div>
       <Div>
-        <Link to={"/nicolasfont"}>
+        <Link to="/nicolasfont">
           <img
-            title={"Nicolás Font"}
+            title="Nicolás Font"
             src={image}
             width={40}
             height={40}
