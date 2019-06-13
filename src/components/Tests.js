@@ -37,7 +37,7 @@ export default () => (
           equals(groups[0], ["a", "b", "c"]),
           equals(groups[1], ["d", "e"]),
           equals(groups[2], ["f", "g"])
-        )
+        ))
       }
     </Test>
     <Test name="false should always fail">{
