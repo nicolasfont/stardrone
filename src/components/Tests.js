@@ -1,4 +1,4 @@
-import { all, equals, map, reverse, splitEvery } from "ramda";
+import { all, equals, map, pipe, reverse, splitEvery } from "ramda";
 import React from "react";
 import Div from "./Div";
 import HomeLink from "./HomeLink";
@@ -32,7 +32,7 @@ export default () => (
     </Test>
     <Test name="splitIntoGroups should split array into given number of groups">
       {() =>
-        letting(
+        pipe(
           splitIntoGroups(3, ["a", "b", "c", "d", "e", "f", "g"]),
           groups =>
             all(
