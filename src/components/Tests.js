@@ -28,5 +28,8 @@ export default () => (
         );
       }}
     </Test>
+    <Test name="should fail">{
+      () => false
+    }</Test>
   </Div>
 );
