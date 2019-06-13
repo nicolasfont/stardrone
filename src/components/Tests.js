@@ -31,6 +31,6 @@ export default () => (
         )
       }
     </Test>
-    <Test name="false should always fail">{() => false}</Test>
+    <Test name="false should always fail">{false}</Test>
   </Div>
 );
