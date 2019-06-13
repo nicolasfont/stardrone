@@ -17,7 +17,6 @@ const Test = ({ children, it }) => (
 export default () => (
   <Div centered flex={1}>
     <HomeLink />
-    <Text fontFamily="Impact">No Tests</Text>
     <Test it="should split array into given number of groups">
       {() => {
         const groups = splitIntoGroups(3, ["a", "b", "c", "d", "e", "f", "g"]);
