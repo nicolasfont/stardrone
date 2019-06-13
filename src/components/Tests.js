@@ -16,7 +16,7 @@ it("should split array into given number of groups", () => {
 });
 
 const Test = ({ children, it }) =>
-  <Div>A Test</Div>;
+  <Div centered flex={1}>A Test</Div>;
 
 export default () => (
   <Div centered flex={1}>
