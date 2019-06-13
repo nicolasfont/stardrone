@@ -8,7 +8,7 @@ const splitIntoGroups = (groupCount, array) =>
   map(reverse, reverse(splitEvery(array.length / groupCount, reverse(array))));
 
 const Test = ({ children, name }) => (
-  <Div centered flex={1}>
+  <Div centered>
     <Text fontFamily="Impact" color={children ? "green" : "red"}>
       {name}
     </Text>
