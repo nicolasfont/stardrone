@@ -9,7 +9,7 @@ const splitIntoGroups = (groupCount, array) =>
 
 const Test = ({ children, name }) => (
   <Div centered flex={1}>
-    <Text fontFamily="Impact" color={children() ? "green" : "red"}>
+    <Text fontFamily="Impact" color={children ? "green" : "red"}>
       {name}
     </Text>
   </Div>
@@ -19,7 +19,7 @@ export default () => (
   <Div centered flex={1}>
     <HomeLink />
     <Test name="splitIntoGroups should split array into given number of groups">
-      {() => {
+      {
         const groups = splitIntoGroups(3, ["a", "b", "c", "d", "e", "f", "g"]);
         return all(
           equals(groups[0], ["a", "b", "c"]),
@@ -29,7 +29,7 @@ export default () => (
       }}
     </Test>
     <Test name="splitIntoGroups should split array into given number of groups">
-      {() =>
+      {
         pipe(
           splitIntoGroups(3, ["a", "b", "c", "d", "e", "f", "g"]),
           groups =>
