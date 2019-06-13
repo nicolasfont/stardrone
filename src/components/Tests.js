@@ -30,6 +30,16 @@ export default () => (
         );
       }}
     </Test>
+    <Test name="splitIntoGroups should split array into given number of groups">
+      {() => {
+        const groups = splitIntoGroups(3, ["a", "b", "c", "d", "e", "f", "g"]);
+        return all(
+          equals(groups[0], ["a", "b", "c"]),
+          equals(groups[1], ["d", "e"]),
+          equals(groups[2], ["f", "g"])
+        );
+      }}
+    </Test>
     <Test name="false should always fail">{
       () => false
     }</Test>
