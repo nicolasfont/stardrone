@@ -8,6 +8,7 @@ import Music from "./Music";
 import See from "./See";
 import Space from "./Space";
 import Stardrone from "./Stardrone";
+import Tests from "./Tests";
 import TheStardrones from "./TheStardrones";
 import NicolasFont from "./NicolasFont";
 import "../fonts/billy-argel_amsterdam/Amsterdam Personal Use.ttf";
@@ -25,6 +26,7 @@ export default () => {
             <Route path="/nicolasfont" exact component={NicolasFont} />
             <Route path="/see" exact component={See} />
             <Route path="/space" exact component={Space} />
+            <Route path="/tests" exact component={Tests} />
             <Route
               path="/thestardrones"
               exact
