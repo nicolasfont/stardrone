@@ -7,9 +7,7 @@ import HomeLink from "./HomeLink";
 export default () => (
   <Div centered flex={1} style={{ fontFamily: "Amsterdam", fontSize: 16 }}>
     <HomeLink />
-    <Link to="/thestardrones">
-    Who the fuck is Nicolás Font
-    </Link>
+    <Link to="/thestardrones">Who the fuck is Nicolás Font</Link>
     <License />
   </Div>
 );
