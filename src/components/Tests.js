@@ -18,8 +18,8 @@ const Test = ({ children, name }) => (
 export default () => (
   <Div centered flex={1}>
     <HomeLink />
-    <Test name="false is red">{false}</Test>
     <Test name="true is green">{true}</Test>
+    <Test name="false is red">{false}</Test>
     <Test name="splitIntoGroups should split array into given number of groups">
       {pipe(
         splitIntoGroups(3, ["a", "b", "c", "d", "e", "f", "g"]),
