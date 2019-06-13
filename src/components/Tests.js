@@ -10,7 +10,7 @@ const splitIntoGroups = (groupCount, array) =>
 const Test = ({ children, it }) => (
   <Div centered flex={1}>
     <Text fontFamily="Impact" color={children() ? "black" : "red"}>
-      {"it " + it}
+      {name}
     </Text>
   </Div>
 );
@@ -18,7 +18,7 @@ const Test = ({ children, it }) => (
 export default () => (
   <Div centered flex={1}>
     <HomeLink />
-    <Test it="should split array into given number of groups">
+    <Test name="splitIntoGroups should split array into given number of groups">
       {() => {
         const groups = splitIntoGroups(3, ["a", "b", "c", "d", "e", "f", "g"]);
         return all(
