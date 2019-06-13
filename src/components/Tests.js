@@ -15,8 +15,6 @@ const Test = ({ children, name }) => (
   </Div>
 );
 
-const letting = (value, body) => body(value);
-
 export default () => (
   <Div centered flex={1}>
     <HomeLink />
