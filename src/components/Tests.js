@@ -26,14 +26,14 @@ export default () => (
     <HomeLink />
     <Text fontFamily="Impact">No Tests</Text>
     <Test it="should split array into given number of groups">
-        {() => {
-  const groups = splitIntoGroups(3, ["a", "b", "c", "d", "e", "f", "g"]);
-          all(
-            equal(groups[0], ["a", "b", "c"]),
-  equal(groups[1], ["d", "e"]),
-  equal(groups[2], ["f", "g"]))
-        }
-        }
+      {() => {
+        const groups = splitIntoGroups(3, ["a", "b", "c", "d", "e", "f", "g"]);
+        all(
+          equal(groups[0], ["a", "b", "c"]),
+          equal(groups[1], ["d", "e"]),
+          equal(groups[2], ["f", "g"])
+        );
+      }}
     </Test>
   </Div>
 );
