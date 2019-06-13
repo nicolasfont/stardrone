@@ -10,7 +10,9 @@ const splitIntoGroups = (groupCount, array) =>
 
 const Test = ({ children, it }) => (
   <Div centered flex={1}>
-    <Text fontFamily="Impact" color={children() ? "black" : "red"}>{"it " + it}</Text>
+    <Text fontFamily="Impact" color={children() ? "black" : "red"}>
+      {"it " + it}
+    </Text>
   </Div>
 );
 
