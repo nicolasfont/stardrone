@@ -70,7 +70,7 @@ export default () => {
                   />
                 </Div>
                 <Div style={{ padding: 16 }}>
-                  <Link style={{ fontSize: "1.3rem" }}>The Stardrones</Link>
+                  <Link style={{ fontSize: "1.5rem" }}>The Stardrones</Link>
                 </Div>
               </Div>,
               <Div>
