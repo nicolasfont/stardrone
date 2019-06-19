@@ -63,7 +63,7 @@ export default () => {
               <Div>
                 <Div style={{ padding: 16 }}>
                   <img
-                    title="The Tremecula Dance means this is a gift to you. All my art here is libre. Please use it in yours. And you dance it like this..."
+                    title="The Tremecula Dance"
                     src={image}
                     width={size}
                     height={size}
