@@ -17,7 +17,9 @@ const Test = ({ children, name }) => (
 
 export default () => (
   <Div centered flex={1}>
+
     <HomeLink />
+
     <Div centered>
       <Text>Hola Qué Tal</Text>
     </Div>
