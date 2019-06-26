@@ -49,7 +49,7 @@ export default () => (
       splitIntoGroups should split array into given number of groups
     </Test2>
 
-<Test name="splitIntoGroups should split array into given number of groups">
+    <Test name="splitIntoGroups should split array into given number of groups">
       {pipe(
         splitIntoGroups(3, ["a", "b", "c", "d", "e", "f", "g"]),
         groups =>
