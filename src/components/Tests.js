@@ -34,7 +34,6 @@ export default () => (
 
     <Test2 test={true}>True is green</Test2>
 
-    <Test name="false is red">{false}</Test>
     <Test2 test={false}>False is red</Test2>
 
     <Test name="splitIntoGroups should split array into given number of groups">
