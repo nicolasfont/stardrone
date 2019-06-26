@@ -49,4 +49,5 @@ export default () => (
     </Test>
 
   </Div>
-<Test name="splitIntoGroups should split array into given number of groups">
+);
+
