@@ -31,5 +31,8 @@ export default () => (
           )
       )}
     </Test>
+    <Div centered>
+      Hola
+    </Div>
   </Div>
 );
