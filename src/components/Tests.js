@@ -18,6 +18,9 @@ const Test = ({ children, name }) => (
 export default () => (
   <Div centered flex={1}>
     <HomeLink />
+    <Div centered>
+      <Text>Hola Qué Tal</Text>
+    </Div>
     <Test name="true is green">{true}</Test>
     <Test name="false is red">{false}</Test>
     <Test name="splitIntoGroups should split array into given number of groups">
@@ -31,8 +34,5 @@ export default () => (
           )
       )}
     </Test>
-    <Div centered>
-      <Text>Hola Qué Tal</Text>
-    </Div>
   </Div>
 );
