@@ -25,7 +25,6 @@ const Test2 = ({ children, test }) => (
 
 export default () => (
   <Div centered flex={1}>
-
     <HomeLink />
 
     <Div centered>
@@ -47,7 +46,5 @@ export default () => (
           )
       )}
     </Test>
-
   </Div>
 );
-
