@@ -32,8 +32,6 @@ export default () => (
       <Text>Hola Qué Tal</Text>
     </Div>
 
-    <Test name="true is green">{true}</Test>
-
     <Test2 test={true}>True is green</Test2>
 
     <Test name="false is red">{false}</Test>
