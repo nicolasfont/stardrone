@@ -19,10 +19,6 @@ export default () => (
   <Div centered flex={1}>
     <HomeLink />
 
-    <Div centered>
-      <Text>Hola Qué Tal</Text>
-    </Div>
-
     <Test name="true is green">{true}</Test>
 
     <Test name="false is red">{false}</Test>
