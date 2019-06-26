@@ -15,14 +15,6 @@ const Test = ({ children, name }) => (
   </Div>
 );
 
-const Test2 = ({ children, test }) => (
-  <Div centered>
-    <Text fontFamily="Impact" color={test ? "green" : "red"}>
-      {test}
-    </Text>
-  </Div>
-);
-
 export default () => (
   <Div centered flex={1}>
     <HomeLink />
