@@ -21,8 +21,11 @@ export default () => (
     <Div centered>
       <Text>Hola Qué Tal</Text>
     </Div>
+
     <Test name="true is green">{true}</Test>
+
     <Test name="false is red">{false}</Test>
+
     <Test name="splitIntoGroups should split array into given number of groups">
       {pipe(
         splitIntoGroups(3, ["a", "b", "c", "d", "e", "f", "g"]),
@@ -34,5 +37,6 @@ export default () => (
           )
       )}
     </Test>
+
   </Div>
 );
