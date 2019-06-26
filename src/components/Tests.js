@@ -32,7 +32,7 @@ export default () => (
       )}
     </Test>
     <Div centered>
-      Hola
+      <Text>Hola</Text>
     </Div>
   </Div>
 );
