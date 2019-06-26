@@ -18,7 +18,7 @@ const Test = ({ children, name }) => (
 const Test2 = ({ children, test }) => (
   <Div centered>
     <Text fontFamily="Impact" color={test ? "green" : "red"}>
-      {children}
+      {test}
     </Text>
   </Div>
 );
@@ -32,22 +32,9 @@ export default () => (
       <Text>Hola Qué Tal</Text>
     </Div>
 
-    <Test2 test={true}>True is green</Test2>
+    <Test name="true is green">{true}</Test>
 
-    <Test2 test={false}>False is red</Test2>
-
-    <Test2 test={
-      pipe(
-        splitIntoGroups(3, ["a", "b", "c", "d", "e", "f", "g"]),
-        groups =>
-          all(
-            equals(groups[0], ["a", "b", "c"]),
-            equals(groups[1], ["d", "e"]),
-            equals(groups[2], ["f", "g"])
-          )
-      )}>
-      splitIntoGroups should split array into given number of groups
-    </Test2>
+    <Test name="false is red">{false}</Test>
 
     <Test name="splitIntoGroups should split array into given number of groups">
       {pipe(
@@ -62,4 +49,4 @@ export default () => (
     </Test>
 
   </Div>
-);
+<Test name="splitIntoGroups should split array into given number of groups">
