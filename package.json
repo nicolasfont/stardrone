@@ -10,7 +10,7 @@
     "pm2:start": "pm2 start npm -- start",
     "pm2:startup": "pm2 startup",
     "pm2:stop": "pm2 stop npm",
-    "start": "parcel index.html",
+    "start": "parcel -p 20698 index.html",
     "test": "jest",
     "update:notime": "npm run pm2:stop && git pull && npm ci && npm run pm2",
     "update": "time npm run update:notime"
