@@ -5,6 +5,8 @@ import Div from "./Div";
 const Cell = () => <button />;
 
 const Board = ({ values }) => 
+
+    <Div centered flex={1}>
   values.map(row =>
     <Div centered flex={1} row>
         {row.map(value =>
@@ -13,7 +15,10 @@ const Board = ({ values }) =>
     </Div>
             )}
     </Div>
-  );
+      )
+
+    </Div>
+      ;
 
 export default () => (
   <Div centered flex={1}>
