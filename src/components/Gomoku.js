@@ -7,10 +7,10 @@ const Cell = ({ value }) => <button>{value}</button>;
 
 const Board = ({ values }) => (
   <Div centered flex={1}>
-    {values.map(row => (
-      <Div centered flex={1} key={row.map(val => hash(val))} row>
-        {row.map(value => (
-          <Div centered flex={1} key={hash(value)}>
+    {values.map((row, i) => (
+      <Div centered flex={1} key={i} row>
+        {row.map((value, j) => (
+          <Div centered flex={1} key={ i + j}>
             <Cell value={value} />
           </Div>
         ))}
