@@ -4,7 +4,7 @@ import Div from "./Div";
 
 const Cell = () => <button />;
 
-const Board = values => 
+const Board = ({ values }) => 
   {values.map(row =>
     <Div centered flex={1}>
         {row.map(value =>
