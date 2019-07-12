@@ -4,7 +4,8 @@ import Div from "./Div";
 
 const Cell = () => <button />;
 
-const Board = () => <Cell />;
+const Board = values => 
+  {<Cell />};
 
 export default () => (
   <Div centered flex={1}>
