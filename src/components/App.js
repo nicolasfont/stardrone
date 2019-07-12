@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Body from "./Body";
 import Colors from "./Colors";
 import Div from "./Div";
+import Gomoku from "./Gomoku";
 import Music from "./Music";
 import See from "./See";
 import Space from "./Space";
@@ -22,6 +23,7 @@ export default () => {
           <Div flex={1}>
             <Route path="/" exact component={() => <Stardrone />} />
             <Route path="/colors" exact component={Colors} />
+            <Route path="/gomoku" exact component={Gomoku} />
             <Route path="/music" exact component={Music} />
             <Route path="/nicolasfont" exact component={NicolasFont} />
             <Route path="/see" exact component={See} />
