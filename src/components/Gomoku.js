@@ -2,7 +2,7 @@ import React from "react";
 import HomeLink from "./HomeLink";
 import Div from "./Div";
 
-const Cell = value => <button >{value}</button>;
+const Cell = value => <button>{value}</button>;
 
 const Board = ({ values }) => (
   <Div centered flex={1}>
