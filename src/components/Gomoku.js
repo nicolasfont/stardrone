@@ -1,4 +1,3 @@
-import hash from "hash-index";
 import React from "react";
 import HomeLink from "./HomeLink";
 import Div from "./Div";
