@@ -7,7 +7,7 @@ const Cell = () => <button />;
 const Board = ({ values }) => 
 
     <Div centered flex={1}>
-  values.map(row =>
+        {values.map(row =>
     <Div centered flex={1} row>
         {row.map(value =>
     <Div centered flex={1}>
@@ -15,7 +15,7 @@ const Board = ({ values }) =>
     </Div>
             )}
     </Div>
-      )
+      )}
 
     </Div>
       ;
