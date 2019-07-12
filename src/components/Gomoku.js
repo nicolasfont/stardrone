@@ -6,6 +6,6 @@ import Div from "./Div";
 export default () => (
   <Div centered flex={1}>
     <HomeLink />
-    <ReactBoard size={2} values={[[0, 1], [2, 3]]} />
+    <ReactBoard size={2} values={[[" ", " "], [" ", " "]]} />
   </Div>
 );
