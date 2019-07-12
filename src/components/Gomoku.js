@@ -5,7 +5,15 @@ import Div from "./Div";
 const Cell = () => <button />;
 
 const Board = values => 
-  {<Cell />};
+  {values.map(row =>
+    <Div centered flex={1}>
+        {row.map(value =>
+    <Div centered flex={1} row>
+          <Cell />
+    </Div>
+            )}
+    </Div>
+  )};
 
 export default () => (
   <Div centered flex={1}>
