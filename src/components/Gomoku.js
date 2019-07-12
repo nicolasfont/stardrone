@@ -18,6 +18,6 @@ const Board = values =>
 export default () => (
   <Div centered flex={1}>
     <HomeLink />
-    <Board />
+    <Board values={[[0, 1], [2, 3]]} />
   </Div>
 );
