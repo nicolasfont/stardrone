@@ -8,7 +8,7 @@ const Cell = ({ value }) => <button>{value}</button>;
 const Board = ({ values }) => (
   <Div centered flex={1}>
     {values.map(row => (
-      <Div centered flex={1} key={hash(row.map(hash))} row>
+      <Div centered flex={1} key={row.map(hash).reduce((acc, val) => acc + val, 0)} row>
         {row.map(value => (
           <Div centered flex={1} key={hash(value)}>
             <Cell value={value} />
