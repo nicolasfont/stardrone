@@ -18,7 +18,7 @@ const Board = ({ values }) => (
   </Div>
 );
 export default () => (
-  <Div centered flex={1}>
+  <Div centered flex={1} row>
     <HomeLink />
     <Board values={[[0, 1], [2, 3]]} />
   </Div>
