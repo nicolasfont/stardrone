@@ -1,6 +1,6 @@
 import { lensPath, map, range, set } from "ramda";
 import React, { useCallback, useState } from "react";
-import { useRotation } from "../hooks";
+import { useRotation, useToggle } from "../hooks";
 import HomeLink from "./HomeLink";
 import Div from "./Div";
 
@@ -16,6 +16,7 @@ export default () => {
 const Board = () => {
   const [values, setValues] = useState(emptyMatrix(19));
   const [turn, nextTurn] = useRotation(["X", "O"]);
+  const playing = useToggle(true);
   const onClick = (i, j) =>
     useCallback(() => {
       setValues(set(lensPath([i, j]), turn, values));
