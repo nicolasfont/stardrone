@@ -21,7 +21,7 @@ export default () => {
         onKeyDown={onKeyDown}
         value={input}
       />
-      {todos.map(todo => (
+      {todos.reverse().map(todo => (
         <Div key={hash(todo)}>{todo.text}</Div>
       ))}
     </Div>
