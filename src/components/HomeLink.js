@@ -4,7 +4,7 @@ import image from "../images/12524041_10153845708099354_6990004252861025374_n.jp
 import { Link } from "react-router-dom";
 
 export default ({ position, title, to }) => (
-  <Link to={to || "/thestardrones"}>
+  <Link to={to || "/"}>
     <img
       title={title || "The Stardrones"}
       src={image}
