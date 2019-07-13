@@ -4,16 +4,6 @@ import React, { useCallback, useEffect, useState } from "react";
 import Div from "./Div";
 import Text from "./Text";
 
-const Todos = ({ head, todos }) => {
-  const todo = todos[head];
-  return todo ? (
-    <>
-      <Div key={hash(todo)}>{todo.text}</Div>
-      <Todos head={todo.prev} todos={todos} />
-    </>
-  ) : null;
-};
-
 export default () => {
   const [todos, setTodos] = useState({});
   const [head, setHead] = useState();
@@ -42,4 +32,14 @@ export default () => {
       <Todos head={head} todos={todos} />
     </Div>
   );
+};
+
+const Todos = ({ head, todos }) => {
+  const todo = todos[head];
+  return todo ? (
+    <>
+      <Div key={hash(todo)}>{todo.text}</Div>
+      <Todos head={todo.prev} todos={todos} />
+    </>
+  ) : null;
 };
