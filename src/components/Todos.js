@@ -22,7 +22,6 @@ export default () => {
   }, [todos]);
   return (
     <Div alignItems="center" flex={1} justifyContent="center">
-      <Div textAlign="center">
         <Text>Todos</Text>
       <input
         type="text"
@@ -31,7 +30,6 @@ export default () => {
         value={input}
       />
       <Todos head={head} todos={todos} />
-</Div>
     </Div>
   );
 };
