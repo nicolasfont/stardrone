@@ -35,7 +35,7 @@ const Board = ({ values }) => {
               margin={0}
               padding={0}
             >
-              <Cell value={value} onClick={onClick} />
+              <Cell value={value} onClick={onClick(i+j)} />
             </Div>
           ))}
         </Div>
