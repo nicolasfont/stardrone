@@ -14,12 +14,7 @@ export default () => {
 };
 
 const won = values => {
-  const repeats = 0;
-  for (let i = 0; i < values.length - 1; i++) {
-    repeats = values[i] === values[i + 1] ? repeats + 1 : 0; 
-  }
   return undefined;
-  return repeats !== 5 ? undefined : true;
 };
 
 const Board = () => {
