@@ -6,14 +6,12 @@ import Text from "./Text";
 
 const Todos = ({ head, todos }) => {
   const todo = todos[head];
-  return (
-    todo ? (
-      <>
-        <Div key={hash(todo)}>{todo.text}</Div>
-        <Todos head={todo.prev} todos={todos} />
-      </>
-    ) : null
-  );
+  return todo ? (
+    <>
+      <Div key={hash(todo)}>{todo.text}</Div>
+      <Todos head={todo.prev} todos={todos} />
+    </>
+  ) : null;
 };
 
 export default () => {
@@ -30,7 +28,7 @@ export default () => {
     }
   });
   useEffect(() => {
-    console.log({ todos});
+    console.log({ todos });
   }, [todos]);
   return (
     <Div alignItems="center" flex={1} justifyContent="center">
