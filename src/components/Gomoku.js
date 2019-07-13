@@ -38,11 +38,11 @@ const Board = ({ values }) => (
   </Div>
 );
 
-const initialValues = size =>
+const emptyMatrix = size =>
   map(() => map(() => " ", range(0, size)), range(0, size));
 
 export default () => {
-  const [values, setValues] = useState(initialValues(19));
+  const [values, setValues] = useState(emptyMatrix(19));
   return (
     <Div flex={1} row>
       <HomeLink to="/" />
