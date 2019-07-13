@@ -11,6 +11,7 @@ export default () => {
     if (e.key === "Enter") {
       setTodos([...todos, { text: input, prev: todos[todos.length - 1] }]);
       setInput("");
+      console.log({ todos });
     }
   });
   return (
