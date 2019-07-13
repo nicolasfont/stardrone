@@ -22,7 +22,8 @@ export default () => {
   }, [todos]);
   return (
     <Div alignItems="center" flex={1} justifyContent="center">
-      <Div><Text>Todos</Text></Div>
+      <Div>
+        <Text>Todos</Text>
       <input
         type="text"
         onChange={e => setInput(e.target.value)}
@@ -30,6 +31,7 @@ export default () => {
         value={input}
       />
       <Todos head={head} todos={todos} />
+</Div>
     </Div>
   );
 };
