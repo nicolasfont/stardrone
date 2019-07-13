@@ -13,7 +13,7 @@ export default () => {
 };
 
 const checkWinner = values => {
-  return true;
+  return undefined;
 };
 
 const Board = () => {
@@ -57,7 +57,7 @@ const Cell = ({ onClick, value, winner }) => (
       justifyContent: "center",
       margin: 0,
       padding: 0,
-      backgroundColor: value === winner && "gold"
+      backgroundColor: value === winner ? gold" : undefined
     }}
   >
     {value}
