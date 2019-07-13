@@ -4,21 +4,14 @@ import { useRotation } from "../hooks";
 import HomeLink from "./HomeLink";
 import Div from "./Div";
 
-const Cell = ({ onClick, turn, value }) => (
-  <button
-    onClick={onClick}
-    style={{
-      cursor: "pointer",
-      display: "flex",
-      flex: 1,
-      justifyContent: "center",
-      margin: 0,
-      padding: 0
-    }}
-  >
-    {value}
-  </button>
-);
+export default () => {
+  return (
+    <Div flex={1} row>
+      <HomeLink to="/" />
+      <Board />
+    </Div>
+  );
+};
 
 const Board = () => {
   const [values, setValues] = useState(emptyMatrix(19));
@@ -45,14 +38,22 @@ const Board = () => {
   );
 };
 
+const Cell = ({ onClick, turn, value }) => (
+  <button
+    onClick={onClick}
+    style={{
+      cursor: "pointer",
+      display: "flex",
+      flex: 1,
+      justifyContent: "center",
+      margin: 0,
+      padding: 0
+    }}
+  >
+    {value}
+  </button>
+);
+
 const emptyMatrix = size =>
   map(() => map(() => " ", range(0, size)), range(0, size));
 
-export default () => {
-  return (
-    <Div flex={1} row>
-      <HomeLink to="/" />
-      <Board />
-    </Div>
-  );
-};
