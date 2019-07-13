@@ -3,6 +3,7 @@ import React, { useCallback, useState } from "react";
 import { useRotation } from "../hooks";
 import HomeLink from "./HomeLink";
 import Div from "./Div";
+import Text from "./Text";
 
 export default () => {
   return (
@@ -30,6 +31,7 @@ const Board = () => {
     });
   return (
     <Div flex={1}>
+      <Text>Turn: {turn}</Text>
       {values.map((row, i) => (
         <Div flex={1} key={i} margin={0} padding={0} row>
           {row.map((value, j) => (
