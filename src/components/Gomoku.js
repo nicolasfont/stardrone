@@ -20,7 +20,7 @@ const Cell = ({ value }) => (
 const Board = ({ values }) => (
   <Div flex={1}>
     {values.map((row, i) => (
-      <Div border flex={1} key={i} margin={0} padding={0} row>
+      <Div flex={1} key={i} margin={0} padding={0} row>
         {row.map((value, j) => (
           <Div justifyContent="center" flex={1} key={i + "" + j}>
             <Cell value={value} />
