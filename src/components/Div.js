@@ -23,8 +23,8 @@ export default ({
       flex,
       flexDirection: row ? "row" : "column",
       justifyContent: justifyContent || (centered && "center"),
-      margin: margin || 4,
-      padding: padding || 4,
+      margin: margin !== undefined ? margin : 4,
+      padding: padding !== undefined ? padding : 4,
       textAlign: textAlign || (centered && "center"),
       ...style
     }}
