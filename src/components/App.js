@@ -10,7 +10,7 @@ import See from "./See";
 import Space from "./Space";
 import Stardrone from "./Stardrone";
 import Tests from "./Tests";
-import Todo from "./Todo";
+import Todos from "./Todos";
 import TheStardrones from "./TheStardrones";
 import NicolasFont from "./NicolasFont";
 import "../fonts/billy-argel_amsterdam/Amsterdam Personal Use.ttf";
@@ -30,7 +30,7 @@ export default () => {
           <Route path="/space" exact component={Space} />
           <Route path="/tests" exact component={Tests} />
           <Route path="/thestardrones" exact component={TheStardrones} />
-          <Route path="/todo" exact component={Todo} />
+          <Route path="/todos" exact component={Todos} />
         </Div>
       </Body>
     </Router>
