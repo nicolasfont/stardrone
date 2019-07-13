@@ -7,6 +7,8 @@ export default ({
   children,
   flex,
   justifyContent,
+  margin,
+  padding,
   row,
   style,
   textAlign,
@@ -21,8 +23,8 @@ export default ({
       flex,
       flexDirection: row ? "row" : "column",
       justifyContent: justifyContent || (centered && "center"),
-      margin: 4,
-      padding: 4,
+      margin: margin || 4,
+      padding: padding || 4,
       textAlign: textAlign || (centered && "center"),
       ...style
     }}
