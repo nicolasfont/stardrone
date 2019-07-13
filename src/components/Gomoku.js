@@ -1,6 +1,6 @@
 import { lensPath, map, range, set } from "ramda";
 import React, { useCallback, useState } from "react";
-import { useRotation, useToggle } from "../hooks";
+import { useRotation } from "../hooks";
 import HomeLink from "./HomeLink";
 import Div from "./Div";
 
