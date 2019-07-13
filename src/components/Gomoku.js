@@ -31,7 +31,7 @@ const Board = () => {
     });
   return (
     <Div flex={1}>
-      <Div flex={1} textAlign="center">
+      <Div textAlign="center">
         <Text>Turn: {turn}</Text>
       </Div>
       <Div border margin={0} padding={0} flex={1}>
