@@ -60,7 +60,7 @@ export default () => {
           {
             [
               <Div>
-                <Div centered row style={{ padding: 16 }}>
+                <Div row style={{ padding: 16 }}>
                   <img
                     title="The Tremecula Dance"
                     src={image}
