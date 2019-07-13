@@ -47,7 +47,7 @@ const Board = () => {
   );
 };
 
-const Cell = ({ onClick, value }) => (
+const Cell = ({ onClick, value, winner }) => (
   <button
     onClick={onClick}
     style={{
@@ -56,7 +56,8 @@ const Cell = ({ onClick, value }) => (
       flex: 1,
       justifyContent: "center",
       margin: 0,
-      padding: 0
+      padding: 0,
+      backgroundColor: "red"
     }}
   >
     {value}
