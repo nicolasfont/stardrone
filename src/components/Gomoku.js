@@ -18,10 +18,10 @@ const Board = () => {
   const [turn, nextTurn] = useRotation(["X", "O"]);
   const onClick = (i, j) => useCallback(() => {
     console.log(i + " " + j);
-    setValues([
+    setValues({
       ...values,
-      [i]: [...values[i], [j]: turn]
-    ]);
+      [i]: {...values[i], [j]: turn}
+    });
   });
   return (
     <Div flex={1}>
