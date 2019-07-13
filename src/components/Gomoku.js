@@ -1,4 +1,4 @@
-import { map, range } from "ramda";
+import { lensPath, map, range, set } from "ramda";
 import React, { useCallback, useState } from "react";
 import { useRotation } from "../hooks";
 import HomeLink from "./HomeLink";
@@ -19,10 +19,7 @@ const Board = () => {
   const onClick = (i, j) =>
     useCallback(() => {
       console.log(i + " " + j);
-      setValues({
-        ...values,
-        [i]: { ...values[i], [j]: turn }
-      });
+      setValues(set(turn, lensPath([i, j], values)));
     });
   return (
     <Div flex={1}>
