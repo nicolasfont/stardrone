@@ -26,7 +26,7 @@ const Board = ({ values }) => (
   </Div>
 );
 
-const initialValues = R.range(0, 2).map(() => [R.range(0, 2).map(() => " ")]);
+const initialValues = R.range(0, 2).map(() => R.range(0, 2).map(() => " "));
 
 export default () => {
   const [values, setValues] = useState(initialValues);
