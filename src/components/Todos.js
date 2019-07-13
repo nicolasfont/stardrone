@@ -15,7 +15,7 @@ export default () => {
       const todo = { text: input, prev: last && hash(last) };
       setTodos([...todos, todo]);
       setTodosMap({ ...todosMap, [hash(todo)]: todo });
-      setHead(todo);
+      setHead(hash(todo));
       setInput("");
     }
   });
