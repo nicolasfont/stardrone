@@ -5,7 +5,7 @@ import Div from "./Div";
 // responsive
 
 export default () => (
-  <Div alignItems="center" textAlign="center" flex={1}>
+  <Div alignItems="center" justifyContent="center" flex={1}>
     <HomeLink />
     <iframe
       src="https://www.youtube.com/embed?listType=playlist&modestbranding=1&list=PLVnJFr0ragjfug9bOIVlZHzjEdceWcgws&autoplay=0"
