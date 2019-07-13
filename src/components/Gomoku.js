@@ -30,8 +30,9 @@ const Board = () => {
       }
     });
   return (
-    <Div border margin={0} padding={0} flex={1}>
+    <>
       <Div flex={1} textAlign="center"><Text>Turn: {turn}</Text></Div>
+    <Div border margin={0} padding={0} flex={1}>
       {values.map((row, i) => (
         <Div flex={1} key={i} margin={0} padding={0} row>
           {row.map((value, j) => (
@@ -48,6 +49,7 @@ const Board = () => {
         </Div>
       ))}
     </Div>
+    </>
   );
 };
 
