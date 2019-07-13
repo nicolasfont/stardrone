@@ -7,7 +7,7 @@ export default () => {
   return (
     <Div alignItems="center" flex={1} justifyContent="center">
       <Text>Todos</Text>
-      {todos.map(todo => <Div>{todo}</Div>)}
+      {todos.map(todo => <Div key={todo}>{todo}</Div>)}
     </Div>
   );
 };
