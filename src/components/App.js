@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import { render } from "react-dom";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 
 import Body from "./Body";
 import Colors from "./Colors";
@@ -24,6 +24,7 @@ export default () => {
     <Router>
       <Body margin={0}>
         <Div flex={1}>
+          <Switch>
           <Route path="/" exact component={Stardrone} />
           <Route path="/colors" exact component={Colors} />
           <Route path="/gomoku" exact component={Gomoku} />
@@ -35,6 +36,7 @@ export default () => {
           <Route path="/thestardrones" exact component={TheStardrones} />
           <Route path="/todos" exact component={Todos} />
           <Route component={What} />
+        </Switch>
         </Div>
       </Body>
     </Router>
