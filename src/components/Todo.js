@@ -7,6 +7,7 @@ export default () => {
   return (
     <Div alignItems="center" flex={1} justifyContent="center">
       <Text>Todos</Text>
+      <input type="text"/>
       {todos.map(todo => <Div key={todo}>{todo}</Div>)}
     </Div>
   );
