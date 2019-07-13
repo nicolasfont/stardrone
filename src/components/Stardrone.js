@@ -10,7 +10,7 @@ import image from "../images/12524041_10153845708099354_6990004252861025374_n.jp
 export default () => (
   <Body title="Stardrone">
     <Div centered flex={1}>
-      <HomeLink />
+      <HomeLink to="/thestardrones" />
       <Div style={{ fontFamily: "Impact", fontSize: 48, fontStyle: "italic" }}>
         STARDRONE.ONLINE
       </Div>
