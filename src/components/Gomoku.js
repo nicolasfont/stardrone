@@ -10,13 +10,10 @@ const Cell = ({ value }) => (
 );
 
 const Board = ({ values }) => (
-  console.log("values: ", JSON.stringify(values)) ||
   <Div flex={1}>
     {values.map((row, i) => (
-      console.log("i: ", i, " row: ", row) ||
       <Div flex={1} key={i} row>
         {row.map((value, j) => (
-          console.log("j: ", j, " value: ", value) ||
           <Div justifyContent="center" flex={1} key={i + "" + j}>
             <Cell value={value} />
           </Div>
