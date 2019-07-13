@@ -49,7 +49,7 @@ export default () => {
   return (
     <Body title="The Stardrones">
       <HomeLink to="/" title="STARDRONE" />
-      <Div centered flex={1}>
+      <Div jusitfyContent="center" flex={1}>
         <Div onClick={rotate} style={{ cursor: "pointer" }}>
           {
             [
