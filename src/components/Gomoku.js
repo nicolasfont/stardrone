@@ -4,7 +4,7 @@ import HomeLink from "./HomeLink";
 import Div from "./Div";
 
 const Cell = ({ value }) => (
-  <button style={{ display: "flex", flex: 1, justifyContent: "center" }}>
+  <button style={{ display: "flex", flex: 1, justifyContent: "center", margin: 0, padding: 0 }}>
     {value}
   </button>
 );
