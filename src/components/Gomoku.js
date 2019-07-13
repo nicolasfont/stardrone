@@ -13,7 +13,7 @@ export default () => {
 };
 
 const checkWinner = values => {
-  return false;
+  return undefined;
 };
 
 const Board = () => {
