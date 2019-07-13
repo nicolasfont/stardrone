@@ -22,7 +22,7 @@ export default () => {
   }, [todos]);
   return (
     <Div alignItems="center" flex={1} justifyContent="center">
-        <Text>Todos</Text>
+      <Text>Todos</Text>
       <input
         type="text"
         onChange={e => setInput(e.target.value)}
