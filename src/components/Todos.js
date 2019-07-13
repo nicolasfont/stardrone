@@ -10,7 +10,7 @@ export default () => {
   const onKeyDown = useCallback(e => {
     if (e.key === "Enter") {
       const last = todos[todos.length - 1];
-      setTodos([...todos, { text: input, prev: hash(last) }]);
+      setTodos([...todos, { text: input, prev: last && hash(last) }]);
       setInput("");
       console.log({ todos });
     }
