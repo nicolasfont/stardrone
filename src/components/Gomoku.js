@@ -23,13 +23,13 @@ const won = values => {
 
 const Board = () => {
   const [values, setValues] = useState(emptyMatrix(19));
-  const [turn, nextTurn] = useRotation(["X", "O"]);
+  const [player, nextTurn] = useRotation(["X", "O"]);
   const [winner, setWinner] = useState();
   const onClick = (i, j) =>
     useCallback(() => {
       if (winner === undefined && values[i][j] === " ") {
-        setValues(set(lensPath([i, j]), turn, values));
-        setWinner(won(values) ? turn : undefined);
+        setValues(set(lensPath([i, j]), player, values));
+        setWinner(won(values) ? player : undefined);
         nextTurn();
       }
     });
