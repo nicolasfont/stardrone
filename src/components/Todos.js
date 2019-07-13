@@ -6,6 +6,7 @@ import Text from "./Text";
 
 export default () => {
   const [todos, setTodos] = useState([]);
+  const [todosMap, setTodosMap] = useState({});
   const [input, setInput] = useState("");
   const onKeyDown = useCallback(e => {
     if (e.key === "Enter") {
