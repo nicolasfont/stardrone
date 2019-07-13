@@ -25,18 +25,18 @@ export default () => {
       <Body margin={0}>
         <Div flex={1}>
           <Switch>
-          <Route path="/" exact component={Stardrone} />
-          <Route path="/colors" exact component={Colors} />
-          <Route path="/gomoku" exact component={Gomoku} />
-          <Route path="/music" exact component={Music} />
-          <Route path="/nicolasfont" exact component={NicolasFont} />
-          <Route path="/see" exact component={See} />
-          <Route path="/space" exact component={Space} />
-          <Route path="/tests" exact component={Tests} />
-          <Route path="/thestardrones" exact component={TheStardrones} />
-          <Route path="/todos" exact component={Todos} />
-          <Route component={What} />
-        </Switch>
+            <Route path="/" exact component={Stardrone} />
+            <Route path="/colors" exact component={Colors} />
+            <Route path="/gomoku" exact component={Gomoku} />
+            <Route path="/music" exact component={Music} />
+            <Route path="/nicolasfont" exact component={NicolasFont} />
+            <Route path="/see" exact component={See} />
+            <Route path="/space" exact component={Space} />
+            <Route path="/tests" exact component={Tests} />
+            <Route path="/thestardrones" exact component={TheStardrones} />
+            <Route path="/todos" exact component={Todos} />
+            <Route component={What} />
+          </Switch>
         </Div>
       </Body>
     </Router>
