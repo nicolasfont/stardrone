@@ -13,7 +13,7 @@ export default () => {
   );
 };
 
-const checkWinner = values => {
+const won = values => {
   const repeats = 0;
   for (let i = 0; i < values.length - 1; i++) {
     repeats = values[i] === values[i + 1] ? repeats + 1 : 0; 
@@ -29,7 +29,7 @@ const Board = () => {
     useCallback(() => {
       if (winner === undefined && values[i][j] === " ") {
         setValues(set(lensPath([i, j]), turn, values));
-        setWinner(checkWinner(values) ? turn : undefined);
+        setWinner(won(values) ? turn : undefined);
         nextTurn();
       }
     });
