@@ -62,6 +62,7 @@ const Cell = ({ onClick, value, winner }) => (
       margin: 0,
       padding: 0,
       backgroundColor: value === winner ? "gold" : undefined
+      borderColor: "black"
     }}
   >
     {value}
