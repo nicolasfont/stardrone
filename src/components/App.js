@@ -22,7 +22,7 @@ export default () => {
       <Body margin={0}>
         <Div flex={1}>
           <Div flex={1}>
-            <Route path="/" exact component={() => <Stardrone />} />
+            <Route path="/" exact component={Stardrone} />
             <Route path="/colors" exact component={Colors} />
             <Route path="/gomoku" exact component={Gomoku} />
             <Route path="/music" exact component={Music} />
@@ -34,7 +34,7 @@ export default () => {
             <Route
               path="/thestardrones"
               exact
-              component={() => <TheStardrones />}
+              component={TheStardrones}
             />
           </Div>
         </Div>
