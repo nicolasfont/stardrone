@@ -6,7 +6,14 @@ import Text from "./Text";
 
 const Todos = ({ head, todos }) => {
   const todo = todos[head];
-  return todo && <><Div key={hash(todo)}>{todo.text}</Div><Todos head={todo.prev} todos={todos} /></>;
+  return (
+    todo && (
+      <>
+        <Div key={hash(todo)}>{todo.text}</Div>
+        <Todos head={todo.prev} todos={todos} />
+      </>
+    )
+  );
 };
 
 export default () => {
