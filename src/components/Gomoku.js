@@ -33,7 +33,7 @@ const Board = () => {
     <Div flex={1}>
       <HomeLink />
       <Div textAlign="center">
-        <Text>Player: {player}</Text>
+        <Text>Player {player}</Text>
       </Div>
       <Div border margin={0} padding={0} flex={1}>
         {values.map((row, i) => (
