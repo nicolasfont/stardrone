@@ -16,7 +16,7 @@ export default () => {
 const Board = () => {
   const [values, setValues] = useState(emptyMatrix(19));
   const [turn, nextTurn] = useRotation(["X", "O"]);
-  const playing = useToggle(true);
+  const [playing, togglePlaying] = useToggle(true);
   const onClick = (i, j) =>
     useCallback(() => {
       setValues(set(lensPath([i, j]), turn, values));
