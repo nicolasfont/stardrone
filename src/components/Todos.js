@@ -23,18 +23,15 @@ export default () => {
   const [input, setInput] = useState("");
   const onKeyDown = useCallback(e => {
     if (e.key === "Enter") {
-      const last = todos[todos.length - 1];
-      const todo = { text: input, prev: last && hash(last) };
-      setTodos([...todos, todo]);
+      const todo = { text: input, prev: head && hash(head) };
       setTodosMap({ ...todosMap, [hash(todo)]: todo });
       setHead(hash(todo));
       setInput("");
     }
   });
   useEffect(() => {
-    console.log({ todos });
     console.log({ todosMap });
-  }, [todos]);
+  }, [todosMap]);
   return (
     <Div alignItems="center" flex={1} justifyContent="center">
       <Text>Todos</Text>
@@ -44,13 +41,7 @@ export default () => {
         onKeyDown={onKeyDown}
         value={input}
       />
-      {map(
-        todo => (
-          <Div key={hash(todo)}>{todo.text}</Div>
-        ),
-        reverse(todos)
-      )}
-          <Todos head={head} todos={todosMap} />
+      <Todos head={head} todos={todosMap} />
     </Div>
   );
 };
