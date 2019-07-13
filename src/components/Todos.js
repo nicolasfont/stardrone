@@ -50,6 +50,7 @@ export default () => {
         ),
         reverse(todos)
       )}
+          <Todos head={head} todos={todosMap} />
     </Div>
   );
 };
