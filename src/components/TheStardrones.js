@@ -39,7 +39,6 @@ const size = 300;
 // CDN
 // mobile audio
 // fade in audio
-// pm2
 // scale
 // filter photo
 // git live
