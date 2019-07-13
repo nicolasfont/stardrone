@@ -38,7 +38,7 @@ const Board = () => {
               margin={0}
               padding={0}
             >
-              <Cell value={value} onClick={!winner && onClick(i, j)} />
+              <Cell value={value} onClick={winner ? () => {} :  onClick(i, j)} />
             </Div>
           ))}
         </Div>
