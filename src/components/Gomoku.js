@@ -31,6 +31,7 @@ const Board = () => {
     });
   return (
     <Div flex={1}>
+      <HomeLink to="/" />
       <Div textAlign="center">
         <Text>Player: {player}</Text>
       </Div>
