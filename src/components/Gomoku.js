@@ -53,7 +53,7 @@ const Cell = ({ onClick, value, winner }) => (
   <button
     onClick={onClick}
     style={{
-      cursor: "pointer",
+      cursor: winner === undefined ? "pointer" : undefined,
       display: "flex",
       flex: 1,
       justifyContent: "center",
