@@ -22,7 +22,7 @@ const Board = () => {
   const [winner, setWinner] = useState();
   const onClick = (i, j) =>
     useCallback(() => {
-      if (winner === undefined) {
+      if (winner === undefined && values[i][j] === " ") {
         setValues(set(lensPath([i, j]), turn, values));
         setWinner(checkWinner(values));
         nextTurn();
