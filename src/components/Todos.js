@@ -22,7 +22,7 @@ export default () => {
   }, [todos]);
   return (
     <Div alignItems="center" flex={1} justifyContent="center">
-      <Div>
+      <Div textAlign="center">
         <Text>Todos</Text>
       <input
         type="text"
