@@ -39,7 +39,7 @@ export default () => {
   const [values, setValues] = useState(initialValues(19));
   return (
     <Div flex={1} row>
-      <HomeLink />
+      <HomeLink to="/" />
       <Board values={values} />
     </Div>
   );
