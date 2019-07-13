@@ -16,13 +16,14 @@ export default () => {
 const Board = () => {
   const [values, setValues] = useState(emptyMatrix(19));
   const [turn, nextTurn] = useRotation(["X", "O"]);
-  const onClick = (i, j) => useCallback(() => {
-    console.log(i + " " + j);
-    setValues({
-      ...values,
-      [i]: { ...values[i], [j]: turn }
+  const onClick = (i, j) =>
+    useCallback(() => {
+      console.log(i + " " + j);
+      setValues({
+        ...values,
+        [i]: { ...values[i], [j]: turn }
+      });
     });
-  });
   return (
     <Div flex={1}>
       {values.map((row, i) => (
@@ -62,4 +63,3 @@ const Cell = ({ onClick, value }) => (
 
 const emptyMatrix = size =>
   map(() => map(() => " ", range(0, size)), range(0, size));
-
