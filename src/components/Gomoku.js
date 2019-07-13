@@ -16,7 +16,9 @@ export default () => {
 const Board = () => {
   const [values, setValues] = useState(emptyMatrix(19));
   const [turn, nextTurn] = useRotation(["X", "O"]);
-  const onClick = i => useCallback(() => );
+  const onClick = i => useCallback(() => {
+    console.log(i);
+  });
   return (
     <Div flex={1}>
       {values.map((row, i) => (
