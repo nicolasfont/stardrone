@@ -48,7 +48,7 @@ export default () => {
   const [rotation, rotate] = useRotation([0, 1, 2]);
   return (
     <Body title="The Stardrones">
-      <HomeLink to="/" title="STARDRONE" />
+      <HomeLink />
       <Div
         alignItems="center"
         justifyContent="center"
