@@ -30,8 +30,8 @@ export default () => {
             <Route path="/see" exact component={See} />
             <Route path="/space" exact component={Space} />
             <Route path="/tests" exact component={Tests} />
-            <Route path="/todo" exact component={Todo} />
             <Route path="/thestardrones" exact component={TheStardrones} />
+            <Route path="/todo" exact component={Todo} />
           </Div>
         </Div>
       </Body>
