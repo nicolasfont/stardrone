@@ -23,20 +23,20 @@ const won = values => {
 
 const Board = () => {
   const [values, setValues] = useState(emptyMatrix(19));
-  const [player, nextTurn] = useRotation(["X", "O"]);
+  const [player, nextPlayer] = useRotation(["X", "O"]);
   const [winner, setWinner] = useState();
   const onClick = (i, j) =>
     useCallback(() => {
       if (winner === undefined && values[i][j] === " ") {
         setValues(set(lensPath([i, j]), player, values));
         setWinner(won(values) ? player : undefined);
-        nextTurn();
+        nextPlayer();
       }
     });
   return (
     <Div flex={1}>
       <Div textAlign="center">
-        <Text>Turn: {turn}</Text>
+        <Text>Player: {player}</Text>
       </Div>
       <Div border margin={0} padding={0} flex={1}>
         {values.map((row, i) => (
