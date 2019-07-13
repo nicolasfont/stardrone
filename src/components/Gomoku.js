@@ -31,24 +31,26 @@ const Board = () => {
     });
   return (
     <>
-      <Div flex={1} textAlign="center"><Text>Turn: {turn}</Text></Div>
-    <Div border margin={0} padding={0} flex={1}>
-      {values.map((row, i) => (
-        <Div flex={1} key={i} margin={0} padding={0} row>
-          {row.map((value, j) => (
-            <Div
-              justifyContent="center"
-              flex={1}
-              key={i + "" + j}
-              margin={0}
-              padding={0}
-            >
-              <Cell value={value} winner={winner} onClick={onClick(i, j)} />
-            </Div>
-          ))}
-        </Div>
-      ))}
-    </Div>
+      <Div flex={1} textAlign="center">
+        <Text>Turn: {turn}</Text>
+      </Div>
+      <Div border margin={0} padding={0} flex={1}>
+        {values.map((row, i) => (
+          <Div flex={1} key={i} margin={0} padding={0} row>
+            {row.map((value, j) => (
+              <Div
+                justifyContent="center"
+                flex={1}
+                key={i + "" + j}
+                margin={0}
+                padding={0}
+              >
+                <Cell value={value} winner={winner} onClick={onClick(i, j)} />
+              </Div>
+            ))}
+          </Div>
+        ))}
+      </Div>
     </>
   );
 };
