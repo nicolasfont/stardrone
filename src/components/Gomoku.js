@@ -22,7 +22,7 @@ const Cell = ({ onClick, turn, value }) => (
 
 const Board = ({ values }) => {
   const [turn, nextTurn] = useRotation(["X", "O"]);
-  const onClick = useCallback(e => console.log(e));
+  const onClick = i => useCallback(() => console.log(i));
   return (
     <Div flex={1}>
       {values.map((row, i) => (
