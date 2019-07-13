@@ -21,6 +21,7 @@ const Cell = ({ onClick, value }) => (
 );
 
 const Board = ({ values }) => {
+  const [turn, toggleTurn] = useToggle();
   return (
     <Div flex={1}>
       {values.map((row, i) => (
