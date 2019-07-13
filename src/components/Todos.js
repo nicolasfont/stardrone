@@ -1,4 +1,5 @@
 import hash from "object-hash";
+import { map, reverse } from "ramda";
 import React, { useCallback, useState } from "react";
 import Div from "./Div";
 import Text from "./Text";
@@ -21,9 +22,9 @@ export default () => {
         onKeyDown={onKeyDown}
         value={input}
       />
-      {todos.reverse().map(todo => (
+      {map(todo => (
         <Div key={hash(todo)}>{todo.text}</Div>
-      ))}
+      ), reverse(todos))}
     </Div>
   );
 };
