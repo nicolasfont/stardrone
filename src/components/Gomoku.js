@@ -1,4 +1,4 @@
-import * as R from "ramda";
+import { map, range } from "ramda";
 import React, { useState } from "react";
 import HomeLink from "./HomeLink";
 import Div from "./Div";
@@ -39,7 +39,7 @@ const Board = ({ values }) => (
 );
 
 const initialValues = size =>
-  R.map(() => R.map(() => " ", R.range(0, size)), R.range(0, size));
+  map(() => map(() => " ", range(0, size)), range(0, size));
 
 export default () => {
   const [values, setValues] = useState(initialValues(19));
