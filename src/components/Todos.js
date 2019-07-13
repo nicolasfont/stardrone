@@ -4,6 +4,11 @@ import React, { useCallback, useEffect, useState } from "react";
 import Div from "./Div";
 import Text from "./Text";
 
+const Todos = ({ head }) =>
+  <>
+    {head && head}
+    </>;
+
 export default () => {
   const [todos, setTodos] = useState([]);
   const [todosMap, setTodosMap] = useState({});
