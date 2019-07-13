@@ -14,7 +14,11 @@ export default () => {
 };
 
 const checkWinner = values => {
-  return undefined;
+  const repeats = 0;
+  for (let i = 0; i < values.length - 1; i++) {
+    repeats = values[i] === values[i + 1] ? repeats + 1 : 0; 
+  }
+  return repeats !== 5 ? undefined : true;
 };
 
 const Board = () => {
@@ -25,7 +29,7 @@ const Board = () => {
     useCallback(() => {
       if (winner === undefined && values[i][j] === " ") {
         setValues(set(lensPath([i, j]), turn, values));
-        setWinner(checkWinner(values));
+        setWinner(checkWinner(values) ? turn : undefined);
         nextTurn();
       }
     });
