@@ -20,7 +20,7 @@ const Board = () => {
     console.log(i + " " + j);
     setValues({
       ...values,
-      [i]: {...values[i], [j]: turn}
+      [i]: { ...values[i], [j]: turn }
     });
   });
   return (
