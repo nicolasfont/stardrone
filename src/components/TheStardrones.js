@@ -45,11 +45,6 @@ const size = 300;
 // git live
 // keep playing
 
-const useToggle = initialState => {
-  const [toggle, setToggle] = useState(initialState);
-  return [toggle, () => setToggle(!toggle)];
-};
-
 export default () => {
   const [rotation, rotate] = useRotation([0, 1, 2]);
   return (
