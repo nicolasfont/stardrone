@@ -17,22 +17,21 @@ const Todos = ({ head, todos }) => {
 };
 
 export default () => {
-  const [todos, setTodos] = useState([]);
-  const [todosMap, setTodosMap] = useState({});
+  const [todos, setTodos] = useState({});
   const [head, setHead] = useState();
   const [input, setInput] = useState("");
   const onKeyDown = useCallback(e => {
     if (e.key === "Enter") {
       const todo = { text: input, prev: head };
       const todoHash = hash(todo);
-      setTodosMap({ ...todosMap, [todoHash]: todo });
+      setTodos({ ...todos, [todoHash]: todo });
       setHead(todoHash);
       setInput("");
     }
   });
   useEffect(() => {
-    console.log({ todosMap });
-  }, [todosMap]);
+    console.log({ todos});
+  }, [todos]);
   return (
     <Div alignItems="center" flex={1} justifyContent="center">
       <Text>Todos</Text>
@@ -42,7 +41,7 @@ export default () => {
         onKeyDown={onKeyDown}
         value={input}
       />
-      <Todos head={head} todos={todosMap} />
+      <Todos head={head} todos={todos} />
     </Div>
   );
 };
