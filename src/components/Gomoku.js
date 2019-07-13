@@ -12,6 +12,10 @@ export default () => {
   );
 };
 
+const checkWinner = values => {
+  return false;
+};
+
 const Board = () => {
   const [values, setValues] = useState(emptyMatrix(19));
   const [turn, nextTurn] = useRotation(["X", "O"]);
