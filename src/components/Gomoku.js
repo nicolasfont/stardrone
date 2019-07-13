@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import HomeLink from "./HomeLink";
 import Div from "./Div";
 
@@ -18,9 +18,10 @@ const Board = ({ values }) => (
     ))}
   </Div>
 );
-export default () => (
-  <Div flex={1} row>
+export default () => ({
+  const [values, setValues] = useState([[" ", " "], [" ", " "]]);
+  return <Div flex={1} row>
     <HomeLink />
     <Board values={[[" ", " x "], [" ", " "]]} />
   </Div>
-);
+});
