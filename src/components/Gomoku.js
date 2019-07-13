@@ -52,7 +52,7 @@ export default () => {
   return (
     <Div flex={1} row>
       <HomeLink to="/" />
-      <Board values={values} />
+      <Board />
     </Div>
   );
 };
