@@ -34,6 +34,7 @@ export default () => {
           <Route path="/tests" exact component={Tests} />
           <Route path="/thestardrones" exact component={TheStardrones} />
           <Route path="/todos" exact component={Todos} />
+          <Route component={What} />
         </Div>
       </Body>
     </Router>
