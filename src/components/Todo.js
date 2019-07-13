@@ -14,7 +14,7 @@ export default () => {
   return (
     <Div alignItems="center" flex={1} justifyContent="center">
       <Text>Todos</Text>
-      <input type="text" onChange={e => setInput(e.target.value)} onKeyDown={e => console.log(e.key)} value={input}/>
+      <input type="text" onChange={e => setInput(e.target.value)} onKeyDown={onKeyDown} value={input}/>
       {todos.map(todo => <Div key={todo}>{todo}</Div>)}
     </Div>
   );
