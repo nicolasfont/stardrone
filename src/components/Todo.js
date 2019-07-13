@@ -4,7 +4,7 @@ import Div from "./Div";
 import Text from "./Text";
 
 export default () => {
-  const [todos, setTodos] = useState([{ text: "banans" }, { text: "pords" }]);
+  const [todos, setTodos] = useState([]);
   const [input, setInput] = useState("");
   const onKeyDown = useCallback(e => {
     if (e.key === "Enter") {
