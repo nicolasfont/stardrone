@@ -20,7 +20,6 @@ export default () => {
   return (
     <Router>
       <Body margin={0}>
-        <Div flex={1}>
           <Div flex={1}>
             <Route path="/" exact component={Stardrone} />
             <Route path="/colors" exact component={Colors} />
@@ -32,7 +31,6 @@ export default () => {
             <Route path="/tests" exact component={Tests} />
             <Route path="/thestardrones" exact component={TheStardrones} />
             <Route path="/todo" exact component={Todo} />
-          </Div>
         </Div>
       </Body>
     </Router>
