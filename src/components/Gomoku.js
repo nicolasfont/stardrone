@@ -35,7 +35,7 @@ const initialValues = size =>
   R.range(0, size).map(() => R.range(0, size).map(() => " "));
 
 export default () => {
-  const [values, setValues] = useState(initialValues(4));
+  const [values, setValues] = useState(initialValues(19));
   return (
     <Div flex={1} row>
       <HomeLink />
