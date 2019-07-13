@@ -18,10 +18,10 @@ const Board = ({ values }) => (
     ))}
   </Div>
 );
-export default () => ({
+export default () => {
   const [values, setValues] = useState([[" ", "x"], [" ", " "]]);
   return <Div flex={1} row>
     <HomeLink />
   <Board values={values} />
   </Div>;
-});
+};
