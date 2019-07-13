@@ -1,3 +1,4 @@
+import hash from "object-hash";
 import React, { useCallback, useState } from "react";
 import Div from "./Div";
 import Text from "./Text";
@@ -15,7 +16,7 @@ export default () => {
     <Div alignItems="center" flex={1} justifyContent="center">
       <Text>Todos</Text>
       <input type="text" onChange={e => setInput(e.target.value)} onKeyDown={onKeyDown} value={input}/>
-      {todos.map(todo => <Div key={todo}>{todo}</Div>)}
+      {todos.map(todo => <Div key={hash(todo)}>{todo}</Div>)}
     </Div>
   );
 };
