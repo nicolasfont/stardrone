@@ -23,7 +23,13 @@ const Board = ({ values }) => (
     {values.map((row, i) => (
       <Div flex={1} key={i} margin={0} padding={0} row>
         {row.map((value, j) => (
-          <Div justifyContent="center" flex={1} key={i + "" + j} margin={0} padding={0}> 
+          <Div
+            justifyContent="center"
+            flex={1}
+            key={i + "" + j}
+            margin={0}
+            padding={0}
+          >
             <Cell value={value} />
           </Div>
         ))}
@@ -33,7 +39,7 @@ const Board = ({ values }) => (
 );
 
 const initialValues = size =>
- R.map(() => R.map(() => " ", R.range(0, size)), R.range(0, size));
+  R.map(() => R.map(() => " ", R.range(0, size)), R.range(0, size));
 
 export default () => {
   const [values, setValues] = useState(initialValues(19));
