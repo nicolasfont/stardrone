@@ -17,6 +17,7 @@ export default () => {
   });
   useEffect(() => {
     console.log({ todos });
+    console.log({ todosMap });
   }, [todos]);
   return (
     <Div alignItems="center" flex={1} justifyContent="center">
