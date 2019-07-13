@@ -24,8 +24,9 @@ export default () => {
   const onKeyDown = useCallback(e => {
     if (e.key === "Enter") {
       const todo = { text: input, prev: head };
-      setTodosMap({ ...todosMap, [hash(todo)]: todo });
-      setHead(hash(todo));
+      const todoHash = hash(todo);
+      setTodosMap({ ...todosMap, [todoHash]: todo });
+      setHead(todoHash);
       setInput("");
     }
   });
