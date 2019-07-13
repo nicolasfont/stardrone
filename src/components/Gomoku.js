@@ -33,7 +33,7 @@ const Board = ({ values }) => (
 );
 
 const initialValues = size =>
- R.map(() => R.map(() => " ", R.range(0, size), R.range(0, size));
+ R.map(() => R.map(() => " ", R.range(0, size)), R.range(0, size));
 
 export default () => {
   const [values, setValues] = useState(initialValues(19));
