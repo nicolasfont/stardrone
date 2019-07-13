@@ -54,6 +54,7 @@ export default () => {
   const [rotation, rotate] = useRotation([0, 1, 2]);
   return (
     <Body title="The Stardrones">
+      <HomeLink to="/" title="STARDRONE" />
       <Div centered flex={1}>
         <Div onClick={rotate} style={{ cursor: "pointer" }}>
           {
@@ -72,7 +73,6 @@ export default () => {
                 </Div>
               </Div>,
               <Div>
-                <HomeLink to="/" title="STARDRONE" />
                 <Link to="/thestardrones">The Tremecula Dance</Link>
                 <Link to="/thestardrones">Something Like A Spaceship</Link>
                 <Link to="/thestardrones">Les Trous Noirs N'Existent Pas</Link>
@@ -86,7 +86,6 @@ export default () => {
                   }}
                 >
                   189624370189624370
-                  <License />
                 </Link>
                 <Link to="/thestardrones">The Gazing Hour</Link>
               </Div>,
@@ -97,6 +96,7 @@ export default () => {
           }
         </Div>
       </Div>
+    <License />
     </Body>
   );
 };
