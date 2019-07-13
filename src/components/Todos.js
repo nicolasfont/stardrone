@@ -12,9 +12,9 @@ export default () => {
       const last = todos[todos.length - 1];
       setTodos([...todos, { text: input, prev: last && hash(last) }]);
       setInput("");
-      console.log({ todos });
     }
   });
+  console.log({ todos });
   return (
     <Div alignItems="center" flex={1} justifyContent="center">
       <Text>Todos</Text>
