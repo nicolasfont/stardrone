@@ -23,5 +23,5 @@ export default () => ({
   return <Div flex={1} row>
     <HomeLink />
   <Board values={values} />
-  </Div>
+  </Div>;
 });
