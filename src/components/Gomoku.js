@@ -20,7 +20,7 @@ const Board = () => {
   const [values, setValues] = useState(emptyMatrix(19));
   const [turn, nextTurn] = useRotation(["X", "O"]);
   const [winner, setWinner] = useState();
-  const onClick = (i, j, winner) =>
+  const onClick = (i, j) =>
     useCallback(() => {
       if (winner === undefined) {
       setValues(set(lensPath([i, j]), turn, values));
@@ -40,7 +40,7 @@ const Board = () => {
               margin={0}
               padding={0}
             >
-              <Cell value={value} winner={winner} onClick={onClick(i, j, winner)} />
+              <Cell value={value} winner={winner} onClick={onClick(i, j)} />
             </Div>
           ))}
         </Div>
