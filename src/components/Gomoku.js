@@ -1,4 +1,4 @@
-import R from "ramda";
+import * as R from "ramda";
 import React, { useState } from "react";
 import HomeLink from "./HomeLink";
 import Div from "./Div";
