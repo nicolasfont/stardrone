@@ -22,6 +22,6 @@ export default () => ({
   const [values, setValues] = useState([[" ", "x"], [" ", " "]]);
   return <Div flex={1} row>
     <HomeLink />
-    <Board values={values} /
+  <Board values={values} />
   </Div>
 });
