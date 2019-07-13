@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 export default ({ position, title, to }) => (
   <Link to={to || "/"}>
     <img
-      title={title || "The Stardrones"}
+      title={title || "STARDRONE"}
       src={image}
       width={40}
       height={40}
