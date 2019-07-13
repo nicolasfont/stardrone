@@ -23,10 +23,10 @@ const Board = ({ values }) => (
   </Div>
 );
 
-const initialValues = R.range(0, 2).map(() => R.range(0, 2).map(() => " "));
+const initialValues = size => R.range(0, size).map(() => R.range(0, size).map(() => " "));
 
 export default () => {
-  const [values, setValues] = useState(initialValues);
+  const [values, setValues] = useState(initialValues(4));
   return (
     <Div flex={1} row>
       <HomeLink />
