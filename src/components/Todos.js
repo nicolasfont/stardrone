@@ -1,6 +1,6 @@
 import hash from "object-hash";
 import { map, reverse } from "ramda";
-import React, { useCallback, useState } from "react";
+import React, { useCallback, useEffect, useState } from "react";
 import Div from "./Div";
 import Text from "./Text";
 
@@ -14,7 +14,9 @@ export default () => {
       setInput("");
     }
   });
-  console.log({ todos });
+  useEffect(() => {
+    console.log({ todos });
+  }, [todos]);
   return (
     <Div alignItems="center" flex={1} justifyContent="center">
       <Text>Todos</Text>
