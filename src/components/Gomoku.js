@@ -20,9 +20,10 @@ const Cell = ({ onClick, turn, value }) => (
   </button>
 );
 
-const Board = ({ values }) => {
+const Board = () => {
+  const [values, setValues] = useState(emptyMatrix(19));
   const [turn, nextTurn] = useRotation(["X", "O"]);
-  const onClick = i => useCallback(() => console.log(i));
+  const onClick = i => useCallback(() => );
   return (
     <Div flex={1}>
       {values.map((row, i) => (
@@ -48,7 +49,6 @@ const emptyMatrix = size =>
   map(() => map(() => " ", range(0, size)), range(0, size));
 
 export default () => {
-  const [values, setValues] = useState(emptyMatrix(19));
   return (
     <Div flex={1} row>
       <HomeLink to="/" />
