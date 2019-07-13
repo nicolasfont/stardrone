@@ -6,6 +6,7 @@ import Div from "./Div";
 const Cell = ({ value }) => (
   <button
     style={{
+      cursor: "pointer",
       display: "flex",
       flex: 1,
       justifyContent: "center",
