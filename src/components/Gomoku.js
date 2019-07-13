@@ -7,7 +7,6 @@ import Div from "./Div";
 export default () => {
   return (
     <Div flex={1} row>
-      <HomeLink to="/" />
       <Board />
     </Div>
   );
