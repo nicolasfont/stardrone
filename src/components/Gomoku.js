@@ -4,7 +4,7 @@ import { useRotation } from "../hooks";
 import HomeLink from "./HomeLink";
 import Div from "./Div";
 
-const Cell = ({ onClick, value }) => (
+const Cell = ({ onClick, turn, value }) => (
   <button
     onClick={onClick}
     style={{
@@ -34,7 +34,7 @@ const Board = ({ values }) => {
               margin={0}
               padding={0}
             >
-              <Cell value={value} />
+              <Cell value={value} onClick={onClick} />
             </Div>
           ))}
         </Div>
