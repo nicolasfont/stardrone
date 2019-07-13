@@ -7,12 +7,12 @@ import Text from "./Text";
 const Todos = ({ head, todos }) => {
   const todo = todos[head];
   return (
-    todo && (
+    todo ? (
       <>
         <Div key={hash(todo)}>{todo.text}</Div>
         <Todos head={todo.prev} todos={todos} />
       </>
-    )
+    ) : null
   );
 };
 
