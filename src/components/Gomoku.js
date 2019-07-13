@@ -2,8 +2,11 @@ import React, { useState } from "react";
 import HomeLink from "./HomeLink";
 import Div from "./Div";
 
-const Cell = ({ value }) =>
-  <button style={{ display: "flex", flex: 1, justifyContent: "center" }}>{value}</button>;
+const Cell = ({ value }) => (
+  <button style={{ display: "flex", flex: 1, justifyContent: "center" }}>
+    {value}
+  </button>
+);
 
 const Board = ({ values }) => (
   <Div flex={1}>
@@ -20,8 +23,10 @@ const Board = ({ values }) => (
 );
 export default () => {
   const [values, setValues] = useState([[" ", "x"], [" ", " "]]);
-  return <Div flex={1} row>
-    <HomeLink />
-  <Board values={values} />
-  </Div>;
+  return (
+    <Div flex={1} row>
+      <HomeLink />
+      <Board values={values} />
+    </Div>
+  );
 };
