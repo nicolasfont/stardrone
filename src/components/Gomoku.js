@@ -18,8 +18,8 @@ const Board = () => {
   const [turn, nextTurn] = useRotation(["X", "O"]);
   const onClick = (i, j) =>
     useCallback(() => {
-      console.log(i + " " + j);
       setValues(set(lensPath([i, j]), turn, values));
+      nextTurn();
     });
   return (
     <Div flex={1}>
