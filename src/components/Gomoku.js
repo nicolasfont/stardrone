@@ -38,7 +38,7 @@ const Board = () => {
   );
 };
 
-const Cell = ({ onClick, turn, value }) => (
+const Cell = ({ onClick, value }) => (
   <button
     onClick={onClick}
     style={{
