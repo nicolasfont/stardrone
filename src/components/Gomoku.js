@@ -38,8 +38,7 @@ const Board = ({ values }) => (
   </Div>
 );
 
-const initialValues = size =>
-  map(() => map(() => " ", range(0, size)), range(0, size));
+const initialValues = size => map(() => map(() => " ", range(0, size)), range(0, size));
 
 export default () => {
   const [values, setValues] = useState(initialValues(19));
