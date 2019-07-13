@@ -19,10 +19,11 @@ const checkWinner = values => {
 const Board = () => {
   const [values, setValues] = useState(emptyMatrix(19));
   const [turn, nextTurn] = useRotation(["X", "O"]);
-  const [playing, togglePlaying] = useToggle(true);
+  const [winner, setWinner] = useState();
   const onClick = (i, j) =>
     useCallback(() => {
       setValues(set(lensPath([i, j]), turn, values));
+      checkWinner(values);
       nextTurn();
     });
   return (
