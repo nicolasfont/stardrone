@@ -65,7 +65,7 @@ const Cell = ({ onClick, value, winner }) => (
       justifyContent: "center",
       margin: 0,
       padding: 0,
-      fontWeight: value === winner ? "800" : undefined,
+      fontWeight: value === winner ? "800" : "400",
       borderColor: "black"
     }}
   >
