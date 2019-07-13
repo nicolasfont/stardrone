@@ -4,7 +4,15 @@ import HomeLink from "./HomeLink";
 import Div from "./Div";
 
 const Cell = ({ value }) => (
-  <button style={{ display: "flex", flex: 1, justifyContent: "center", margin: 0, padding: 0 }}>
+  <button
+    style={{
+      display: "flex",
+      flex: 1,
+      justifyContent: "center",
+      margin: 0,
+      padding: 0
+    }}
+  >
     {value}
   </button>
 );
@@ -23,7 +31,8 @@ const Board = ({ values }) => (
   </Div>
 );
 
-const initialValues = size => R.range(0, size).map(() => R.range(0, size).map(() => " "));
+const initialValues = size =>
+  R.range(0, size).map(() => R.range(0, size).map(() => " "));
 
 export default () => {
   const [values, setValues] = useState(initialValues(4));

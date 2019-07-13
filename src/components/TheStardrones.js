@@ -49,7 +49,12 @@ export default () => {
   return (
     <Body title="The Stardrones">
       <HomeLink to="/" title="STARDRONE" />
-      <Div alignItems="center" justifyContent="center" textAlign="center" flex={1}>
+      <Div
+        alignItems="center"
+        justifyContent="center"
+        textAlign="center"
+        flex={1}
+      >
         <Div onClick={rotate} style={{ cursor: "pointer" }}>
           {
             [
@@ -90,7 +95,7 @@ export default () => {
           }
         </Div>
       </Div>
-    <License />
+      <License />
     </Body>
   );
 };
