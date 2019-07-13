@@ -1,6 +1,6 @@
 import React from "react";
 
-export default ({ alignItems, border, centered, children, flex, row, style, ...props }) => (
+export default ({ alignItems, border, centered, children, flex, row, style, textAlign, ...props }) => (
   <div
     style={{
       alignItems,
@@ -12,7 +12,7 @@ export default ({ alignItems, border, centered, children, flex, row, style, ...p
       justifyContent: centered && "center",
       margin: 4,
       padding: 4,
-      textAlign: centered && "center",
+      textAlign: textAlign || centered && "center",
       ...style
     }}
     {...props}
