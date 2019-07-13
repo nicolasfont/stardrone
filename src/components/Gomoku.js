@@ -1,6 +1,6 @@
 import { map, range } from "ramda";
 import React, { useState } from "react";
-import { useToggle } from "../hooks";
+import { useRotation } from "../hooks";
 import HomeLink from "./HomeLink";
 import Div from "./Div";
 
@@ -21,7 +21,7 @@ const Cell = ({ onClick, value }) => (
 );
 
 const Board = ({ values }) => {
-  const [turn, toggleTurn] = useToggle();
+  const [turn, nextTurn] = useRotation(["X", "O"]);
   return (
     <Div flex={1}>
       {values.map((row, i) => (
