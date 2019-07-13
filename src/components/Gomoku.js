@@ -12,8 +12,10 @@ const Cell = ({ value }) => (
 const Board = ({ values }) => (
   <Div flex={1}>
     {values.map((row, i) => (
+      console.log("i: ", i) ||
       <Div flex={1} key={i} row>
         {row.map((value, j) => (
+          console.log("j: ", j) ||
           <Div justifyContent="center" flex={1} key={i + "" + j}>
             <Cell value={value} />
           </Div>
