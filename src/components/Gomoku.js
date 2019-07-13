@@ -8,6 +8,7 @@ import Text from "./Text";
 export default () => {
   return (
     <Div flex={1} row>
+      <Div flex={1} textAlign="center"><Text>Turn: {turn}</Text></Div>
       <Board />
     </Div>
   );
@@ -31,7 +32,6 @@ const Board = () => {
     });
   return (
     <Div flex={1}>
-      <Text>Turn: {turn}</Text>
       {values.map((row, i) => (
         <Div flex={1} key={i} margin={0} padding={0} row>
           {row.map((value, j) => (
