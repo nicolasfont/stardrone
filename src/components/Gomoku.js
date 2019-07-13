@@ -12,7 +12,7 @@ const Cell = ({ value }) => (
 const Board = ({ values }) => (
   <Div flex={1}>
     {values.map((row, i) => (
-      console.log("i: ", i) ||
+      console.log("i: ", i, " row: ", row) ||
       <Div flex={1} key={i} row>
         {row.map((value, j) => (
           console.log("j: ", j, " value: ", value) ||
