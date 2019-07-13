@@ -1,3 +1,4 @@
+import R from "ramda";
 import React, { useState } from "react";
 import HomeLink from "./HomeLink";
 import Div from "./Div";
@@ -21,8 +22,11 @@ const Board = ({ values }) => (
     ))}
   </Div>
 );
+
+const initialValues = R.range(0, 19).map(() => [R.range(0, 19).map(() => " ")]);
+
 export default () => {
-  const [values, setValues] = useState([[" ", "x"], [" ", " "]]);
+  const [values, setValues] = useState(initialValues);
   return (
     <Div flex={1} row>
       <HomeLink />
