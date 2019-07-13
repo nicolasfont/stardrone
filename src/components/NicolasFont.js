@@ -8,7 +8,6 @@ export default () => (
   <Div centered flex={1} style={{ fontFamily: "Amsterdam", fontSize: 16 }}>
     <HomeLink />
     <Link
-      to="/"
       style={{
         color: "black",
         fontFamily: "Amsterdam",
