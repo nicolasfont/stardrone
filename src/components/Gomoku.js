@@ -19,7 +19,7 @@ const Board = () => {
   const onClick = (i, j) =>
     useCallback(() => {
       console.log(i + " " + j);
-      setValues(set(turn, lensPath([i, j], values)));
+      setValues(set(turn, lensPath([i, j]), values));
     });
   return (
     <Div flex={1}>
