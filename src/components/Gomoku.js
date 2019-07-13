@@ -14,7 +14,7 @@ export default () => {
 };
 
 const won = values => {
-  return "X";
+  return "O";
 };
 
 const Board = () => {
