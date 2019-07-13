@@ -9,7 +9,8 @@ export default () => {
   const [input, setInput] = useState("");
   const onKeyDown = useCallback(e => {
     if (e.key === "Enter") {
-      setTodos([...todos, { text: input, prev: todos[todos.length - 1] }]);
+      const last = todos[todos.length - 1];
+      setTodos([...todos, { text: input, prev: last }]);
       setInput("");
       console.log({ todos });
     }
