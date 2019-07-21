@@ -14,6 +14,7 @@ import Stardrone from "./Stardrone";
 import Tests from "./Tests";
 import TheStardrones from "./TheStardrones";
 import Todos from "./Todos";
+import Tv from "./Tv";
 import What from "./What";
 
 import "../fonts/billy-argel_amsterdam/Amsterdam Personal Use.ttf";
@@ -35,6 +36,7 @@ export default () => {
             <Route path="/tests" exact component={Tests} />
             <Route path="/thestardrones" exact component={TheStardrones} />
             <Route path="/todos" exact component={Todos} />
+            <Route path="/tv" exact component={Tv} />
             <Route component={What} />
           </Switch>
         </Div>
