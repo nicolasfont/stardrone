@@ -6,18 +6,6 @@ import Div from "./Div";
 import Text from "./Text";
 
 export default () => {
-  return (
-    <Div flex={1} row>
-      <Board />
-    </Div>
-  );
-};
-
-const won = values => {
-  return undefined;
-};
-
-const Board = () => {
   const [values, setValues] = useState(emptyMatrix(19));
   const [player, nextPlayer] = useRotation(["X", "O"]);
   const [winner, setWinner] = useState();
@@ -76,3 +64,7 @@ const Cell = ({ onClick, value, winner }) => (
 
 const emptyMatrix = size =>
   map(() => map(() => " ", range(0, size)), range(0, size));
+
+const won = values => {
+  return undefined;
+};
