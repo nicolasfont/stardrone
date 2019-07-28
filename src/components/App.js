@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import { render } from "react-dom";
+import { hot } from "react-hot-loader";
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 
 import Body from "./Body";
@@ -20,7 +20,7 @@ import What from "./What";
 import "../fonts/billy-argel_amsterdam/Amsterdam Personal Use.ttf";
 import "../fonts/impact/impact.ttf";
 
-export default () => {
+const App = () => {
   return (
     <Router>
       <Body margin={0}>
@@ -44,3 +44,5 @@ export default () => {
     </Router>
   );
 };
+
+export default hot(module)(App);
