@@ -16,7 +16,7 @@ export default () => (
       </Div>
       <Div>
         <Text>
-          Music, film, visual art, and code by Nicolás Font except where noted.
+          Music, film, visual art, and code by Nicolás Font except where noted
         </Text>
       </Div>
       <Div>
