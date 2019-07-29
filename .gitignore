@@ -1,6 +1,6 @@
-node_modules
-dist
 .cache
-.idea
 .DS_Store
-
+.idea
+build
+dist
+node_modules
