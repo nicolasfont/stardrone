@@ -4,6 +4,7 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
+    "build": "parcel build index.html",
     "format": "prettier --write \"{,!(node_modules|dist|.cache)/**/}*.{js,json}\"",
     "pm2": "npm run pm2:start",
     "pm2:monit": "pm2 monit",
