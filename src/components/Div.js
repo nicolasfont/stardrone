@@ -26,7 +26,7 @@ export default ({
       margin: margin !== undefined ? margin : 4,
       padding: padding !== undefined ? padding : 4,
       textAlign: textAlign || (centered && "center"),
-      ...style
+      ...style,
     }}
     {...props}
   >

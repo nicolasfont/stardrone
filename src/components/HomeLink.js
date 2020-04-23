@@ -14,7 +14,7 @@ export default ({ position, title, to }) => (
         position: position || "absolute",
         left: 40,
         top: 40,
-        borderRadius: "50%"
+        borderRadius: "50%",
       }}
     />
   </Link>

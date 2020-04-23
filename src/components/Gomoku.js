@@ -55,16 +55,16 @@ const Cell = ({ onClick, value, winner }) => (
       margin: 0,
       padding: 0,
       fontWeight: value === winner ? "800" : "400",
-      borderColor: "black"
+      borderColor: "black",
     }}
   >
     {value}
   </button>
 );
 
-const emptyMatrix = size =>
+const emptyMatrix = (size) =>
   map(() => map(() => " ", range(0, size)), range(0, size));
 
-const won = values => {
+const won = (values) => {
   return undefined;
 };

@@ -8,7 +8,7 @@ export default () => {
   const [todos, setTodos] = useState({});
   const [head, setHead] = useState();
   const [input, setInput] = useState("");
-  const onKeyDown = useCallback(e => {
+  const onKeyDown = useCallback((e) => {
     if (e.key === "Enter") {
       const todo = { text: input, prev: head };
       const todoHash = hash(todo);
@@ -25,7 +25,7 @@ export default () => {
       <Text>Todos</Text>
       <input
         type="text"
-        onChange={e => setInput(e.target.value)}
+        onChange={(e) => setInput(e.target.value)}
         onKeyDown={onKeyDown}
         value={input}
       />

@@ -13,12 +13,12 @@ request.responseType = "arraybuffer";
 request.onload = () => {
   context.decodeAudioData(
     request.response,
-    response => {
+    (response) => {
       source.buffer = response;
       source.start(0);
       source.loop = true;
     },
-    e => console.error(e)
+    (e) => console.error(e)
   );
 };
 

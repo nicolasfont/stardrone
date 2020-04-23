@@ -1,0 +1,10 @@
+name = "online"
+type = "webpack"
+account_id = "5242b1d3f9481bfa53d2e69206c7ca32"
+workers_dev = true
+route = ""
+zone_id = ""
+
+[site]
+bucket = "./dist"
+entry-point = "workers-site"

@@ -24,14 +24,12 @@ export default () => (
     <Test name="false is red">{false}</Test>
 
     <Test name="splitIntoGroups should split array into given number of groups">
-      {pipe(
-        splitIntoGroups(3, ["a", "b", "c", "d", "e", "f", "g"]),
-        groups =>
-          all(
-            equals(groups[0], ["a", "b", "c"]),
-            equals(groups[1], ["d", "e"]),
-            equals(groups[2], ["f", "g"])
-          )
+      {pipe(splitIntoGroups(3, ["a", "b", "c", "d", "e", "f", "g"]), (groups) =>
+        all(
+          equals(groups[0], ["a", "b", "c"]),
+          equals(groups[1], ["d", "e"]),
+          equals(groups[2], ["f", "g"])
+        )
       )}
     </Test>
   </Div>

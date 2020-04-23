@@ -17,9 +17,6 @@ import Todos from "./Todos";
 import Tv from "./Tv";
 import What from "./What";
 
-import "../fonts/billy-argel_amsterdam/Amsterdam Personal Use.ttf";
-import "../fonts/impact/impact.ttf";
-
 const App = () => {
   return (
     <Router>

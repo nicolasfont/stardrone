@@ -1,0 +1,13 @@
+  #app {
+      min-height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+    @font-face {
+      font-family: "Amsterdam";
+      src: url("./fonts/billy-argel_amsterdam/Amsterdam.ttf");
+    }
+    button:focus {
+      outline: none;
+    }
+

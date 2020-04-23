@@ -6,7 +6,7 @@ import License from "./License";
 import Music from "./Music";
 import Stardrone from "./Stardrone";
 import Text from "./Text";
-import image from "../images/The Stardrones.jpg";
+import image from "../images/TheStardrones.jpg";
 import { useRotation } from "../hooks";
 
 const Link = ({ children, style, ...props }) => (
@@ -18,7 +18,7 @@ const Link = ({ children, style, ...props }) => (
       fontSize: "16px",
       padding: 0,
       margin: 0,
-      ...style
+      ...style,
     }}
     {...props}
   >
@@ -81,7 +81,7 @@ export default () => {
                     fontFamily: "Impact",
                     fontSize: 26,
                     paddingBottom: 12,
-                    margin: 4
+                    margin: 4,
                   }}
                 >
                   189624370189624370
@@ -90,7 +90,7 @@ export default () => {
               </Div>,
               <Div flex={1}>
                 <Text>the universe is not real and it`s ok</Text>
-              </Div>
+              </Div>,
             ][rotation]
           }
         </Div>

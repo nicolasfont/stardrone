@@ -44,7 +44,7 @@ const Div = ({ noBorder, children, style, ...otherProps }) => {
         borderColor: !noBorder && "black",
         color: colored ? "white" : "black",
         transition: "background-color 1000ms, color 1000ms",
-        ...style
+        ...style,
       }}
       {...otherProps}
     >
@@ -66,9 +66,9 @@ const ColoringTextarea = ({ children, ...otherProps }) => {
           border: "none",
           outline: "none",
           resize: "none",
-          width: "100%"
+          width: "100%",
         }}
-        onChange={e => {
+        onChange={(e) => {
           setBase(e.target.value);
         }}
         {...otherProps}
@@ -118,7 +118,7 @@ const Text = ({ children, uppercase, small, style }) => (
       fontWeight: 500,
       fontFamily: "Helvetica, helvetica, arial, sans-serif",
       textTransform: uppercase && "uppercase",
-      ...style
+      ...style,
     }}
   >
     {children}
