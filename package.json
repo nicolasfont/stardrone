@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "build": "parcel build src/index.html --public-url ./ -d dist",
-    "format": "prettier --write \"{,!(node_modules|dist|.cache)/**/}*.{js,json}\"",
+    "format": "prettier --write \"{,!(node_modules|dist|.cache)/**/}*.{js,json,css}\"",
     "publish": "npm run build && wrangler publish",
     "start": "parcel index.html"
   },
