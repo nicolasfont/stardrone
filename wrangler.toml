@@ -2,8 +2,8 @@ name = "online"
 type = "webpack"
 account_id = "5242b1d3f9481bfa53d2e69206c7ca32"
 workers_dev = true
-route = ""
-zone_id = ""
+route = "stardrone.online/*"
+zone_id = "2039a38694f1d15c19fc371bf001e159"
 
 [site]
 bucket = "./dist"
