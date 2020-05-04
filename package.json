@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "parcel build index.html --public-url ./ -d dist",
+    "build": "parcel build index.html --no-source-maps --public-url ./ -d dist",
     "format": "prettier --write \"{,!(node_modules|dist|.cache)/**/}*.{js,json,css}\"",
-    "publish": "npm run build --no-source-maps && wrangler publish",
+    "publish": "npm run build && wrangler publish",
     "start": "parcel index.html"
   },
   "keywords": [],
